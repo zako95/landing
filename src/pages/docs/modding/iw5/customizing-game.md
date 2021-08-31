@@ -1,19 +1,22 @@
 # Customising your game (Menu background, Music etc)
 
-Plutonium IW5 allows you to customize your game to your own personal liking, this can be anything from changing the main menu music to replacing camo textures and much much more. You do this by telling the game to load your new custom assets (images, sounds,..) instead of the base game ones by using the `storage/iw5` folder inside the plutonium folder located in your local app data folder. I will now explain the basics to enable you to do so:
+Plutonium IW5 allows you to customize your game to your own personal liking, this can be anything from changing the main menu music to replacing camo textures and much much more. You do this by telling the game to load your new custom assets (images, sounds,..) instead of the base game ones by using the `storage/iw5` folder inside the plutonium folder located in your local app data folder.
+I will now explain the basics to enable you to do so:
 
 ## Plutonium IW5 Assets Location
-The game assets are contained in archives called .iwd files, these are zip files and can be opened by programs such as WinRar or 7zip. The location of these files is in the `Main` folder located in the root MW3 game folder. Example: iw_00.iwd, iw_01.iwd, ... and so on. If you open any of these with a program such as WinRar or similar program you will see the games assets and folder structure they follow. The game pulls all the assets contained in each of these archives into one large pool of assets. Imagine they extract all the iwd files contents into one virtual folder and that's where the game pulls all its assets from.
+The game assets are contained in archives called .iwd files, these are zip files and can be opened by programs such as WinRar or 7zip. The location of these files is in the `Main` folder located in the root MW3 game folder. Example: iw_00.iwd, iw_01.iwd, ... and so on.
+If you open any of these with a program such as WinRar or similar program you will see the games assets and folder structure they follow. The game pulls all the assets contained in each of these archives into one large pool of assets. Imagine they extract all the iwd files contents into one virtual folder and that's where the game pulls all its assets from.
 ![img](https://i.imgur.com/NFmIbM8.png)
 
 ## Storage Folder
-The `%localappdata%\Plutonium\storage\iw5` folder is used to override any asset contained within the main .iwd files, on launching the game, the game will use assets found in the storage folder over what is in the main iwd files. So any textures/sounds/... you place in userraw will be used over the ones found in main. The importance of this is that it avoids you editing the basegames .iwd files, any edits to these would work fine but it is considered very bad practice to do so when a clean solution like this exists.
+The `%localappdata%\Plutonium\storage\iw5` folder is used to override any asset contained within the main .iwd files, on launching the game, the game will use assets found in the storage folder over what is in the main iwd files. So any textures/sounds/... you place in userraw will be used over the ones found in main.
+The importance of this is that it avoids you editing the basegames .iwd files, any edits to these would work fine but it is considered very bad practice to do so when a clean solution like this exists.
 
 Assets can either be placed as loose files/folders (replicating the folder structure inside of the iwd file they came from) in `storage/iw5` or can be packed into .iwd files like how they are in the main folder. The choice is yours however it may be cleaner to use .iwd files but may be easier for beginners to use loose files.
 
 **LooseFile Example:**
 ![img](https://i.imgur.com/Dxxh1Qh.png)
-**IWD File Example:** 
+**IWD File Example:**
 ![img](https://i.imgur.com/tkVjt5O.png)
 
 ## Using the storage Folder
