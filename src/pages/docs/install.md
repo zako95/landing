@@ -25,7 +25,7 @@ The launcher will now start the process of installing the client files.
 
 ### I just want to update / I already have BO2 installed?
 
-If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Plutonium Launcher](#setting-up-t6-with-the-plutonium-launcher)** section.
+If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Installing DLC](#installing-t6-dlc)** section.
 
 ### Installing the base game (BO2)
 
@@ -59,6 +59,30 @@ qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html
 Once it's done you will have your copy of the game downloaded, here is an example of a completed base game folder:
 
 ![Completed Game Folder](/images/install/B8g1bXI.png)
+
+### Installing T6 DLC
+
+<Alert variant="tip">
+
+Skip these steps if you installed the game via the torrent. This is for people who used Steam, but do not own any DLC.
+
+</Alert>
+
+1. Download/open your favourite torrent software.
+qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
+
+2. Download the [torrent file](https://dss0.cc/alterwarez/download/t6_dlcs.torrent).
+
+3. Open the torrent file `t6_dlcs.torrent` (from the previous step) it will open up your torrent client program and ask you where you'd like to save the DLCs.
+**SELECT YOUR STEAM BO2 FOLDER**
+
+![img](https://i.gyazo.com/9ff55628c526220795c0f23f3a6aa719.png)
+
+4. Select `"don't create subfolder"` from the `"content layout"` dropdown menu (in older versions of qbitorrent this will be a checkbox called `"create subfolder"` or `"keep top-level folder"` which you have to untick)
+
+![img](https://i.gyazo.com/f32c04d072946509231016a435e9c521.png)
+
+5. Start the download and wait till the download completes you will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
 
 ### Setting up T6 with the Plutonium Launcher
 
@@ -96,7 +120,7 @@ To launch BO2 simply open the Plutonium launcher and select PLAY.
 
 ### I just want to update / I already have MW3 installed
 
-If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the [Installing the DLC](#installing-the-dlc) section.
+If you already have the game installed from Steam or had a previous update of Plutonium then you can skip the below section and move onto the [Installing the DLC](#installing-the-dlc) section.
 
 ### Installing the base game (Modern Warfare 3)
 
@@ -104,17 +128,23 @@ Note: This section will cover downloading a FREE copy of MW3. Please skip this s
 
 Please note we highly recommend buying the game if you do not own it, if you enjoy a game you should support it's developers.
 
-1. Open Steam, if you do not have Steam installed you can download it [here](https://store.steampowered.com/about/).
+Open Steam, if you do not have Steam installed you can download it [here](https://store.steampowered.com/about/).
 
-2. Go to `LIBRARY` and from the dropdown menu select `TOOLS`.
+#### Method 1
+
+Click on this link to start the installation of Call of Duty: Modern Warfare 3 - Dedicated Server in Steam [steam://install/42750](steam://install/42750).
+
+#### Method 2 (If Method 1 does not work)
+
+1. Go to `LIBRARY` and from the dropdown menu select `TOOLS`.
 
 ![img](/images/install/fzKXqGs.png)
 
-3. Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`.
+2. Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`.
 
 ![img](/images/install/ln7ml3F.png)
 
-4. Navigate to the `LANGUAGE` tab and ensure the language is step to `English` this is very important as unfortunately the Steam MW3 Dedicated Server can not install all languages and would result in missing files / errors.
+3. Navigate to the `LANGUAGE` tab and ensure the language is step to `English` this is very important as unfortunately the Steam MW3 Dedicated Server can not install all languages and would result in missing files / errors.
 
 ![img](/images/install/NXLe3YD.png)
 
@@ -124,7 +154,7 @@ If you want the game in your native language we suggest purchasing the game and 
 
 </Alert>
 
-5. Select `INSTALL` then `Next` then `Finish`.
+4. Select `INSTALL` then `Next` then `Finish`.
 
 ![img](/images/install/LVhQAtW.png)
 

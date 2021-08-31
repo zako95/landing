@@ -1,4 +1,4 @@
-# Controller buttons not binded - Possible Fix
+# Controller buttons not bound - Possible Fix
 
 First of all - follow [our controller guide](/docs/controllers) to make sure you've setup your controller properly.
 

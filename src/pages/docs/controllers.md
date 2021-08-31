@@ -53,6 +53,20 @@ PS4 Controllers require a bit more setup.
 
 11\. Go in game and see if your controller works!
 
+## Switching Reload Action
+
+Controller users are used to the X / Square button being used to reload but also held down to do the 'use' action.
+On keyboard these are swapped to 2 separate keys, by default R for reload and F for use.
+
+To swap it do the following:
+
+1. [Open the console](/docs/opening-console)
+2. Enter the following:
+```cs
+bind r +usereload
+```
+R should now be swapped to +usereload instead of +reload. Ensure your controller is mapped to the R button and you should be fine.
+
 ## Switching Triggers/Bumpers
 
 You can switch the triggers and bumpers around by [opening the console](/docs/opening-console) and pasting this in:

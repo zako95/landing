@@ -1,8 +1,8 @@
-# How to play back demos (Theater Mode)
+# How to record & play demos (Theater Mode)
 
 <Alert variant="warning">
 
-This currently only work's for Private Matches. This is because servers have no way to transfer demos to everyone's PC. We are working on a cloud solution to this.
+This currently only works for Private Matches. This is because servers have no way to transfer demos to everyone's PC. We are working on a cloud solution to this.
 
 </Alert>
 

@@ -28,6 +28,7 @@ import { frontMatter as howToJoinDonatorProgram } from '../pages/docs/how-to-joi
 import { frontMatter as donatorTiersExplained } from '../pages/docs/donator-tiers-explained.md';
 import { frontMatter as unlockallMaxRank } from '../pages/docs/unlockall-max-rank.md';
 import { frontMatter as aimAssistExplanation } from '../pages/docs/aim-assist.md';
+import { frontMatter as changeYourName } from '../pages/docs/change-name.md';
 
 import { frontMatter as moddingIndex } from '../pages/docs/modding/index.md';
 import { frontMatter as moddingLoadingMods } from '../pages/docs/modding/loading-mods.md';
@@ -38,6 +39,7 @@ import { frontMatter as moddingGscIndex } from '../pages/docs/modding/gsc/index.
 import { frontMatter as moddingGscHowToGsc } from '../pages/docs/modding/gsc/how-to-gsc.md';
 import { frontMatter as moddingGscCompilerLimitations } from '../pages/docs/modding/gsc/compiler-limitations.md';
 import { frontMatter as moddingT4DisablingPerksGsc } from '../pages/docs/modding/t4/disabling-perks-gsc.md';
+import { frontMatter as moddingIW5Customizing } from '../pages/docs/modding/iw5/customizing-game.md';
 import { frontMatter as serverIndex } from '../pages/docs/server/index.md';
 import { frontMatter as serverPlatformWhatIsPlatform } from '../pages/docs/server/platform/what-is-platform.md';
 import { frontMatter as serverPlatformNavigatingAround } from '../pages/docs/server/platform/navigating-around.md';
@@ -65,6 +67,7 @@ import { frontMatter as clientT6TheaterMode } from '../pages/docs/client/t6/thea
 import { frontMatter as clientIw5LoadingGsc } from '../pages/docs/client/iw5/loading-gsc.md';
 import { frontMatter as clientIw5CustomWeapons } from '../pages/docs/client/iw5/custom-weapons.md';
 import { frontMatter as clientIw5CustomMaps } from '../pages/docs/client/iw5/custom-maps.md';
+import { frontMatter as clientIw5Stats } from '../pages/docs/client/iw5/stats.md';
 import { frontMatter as clientIw5InfectedCooldown } from '../pages/docs/client/iw5/infected-cooldown.md';
 import { frontMatter as clientT4LoadingMods } from '../pages/docs/client/t4/loading-mods.md';
 import { frontMatter as clientT4MigratingSteamT4Stats } from '../pages/docs/client/t4/migrating-steam-t4-stats.md';
@@ -93,7 +96,7 @@ export const sections = [
             },
             {
                 title: 'Support',
-                children: [customGames, controllers, openingConsole, unlockallMaxRank, repair, gameFiles, lowFps, recordingPlutoOBS, support],
+                children: [support, customGames, controllers, openingConsole, unlockallMaxRank, repair, gameFiles, lowFps, recordingPlutoOBS, changeYourName],
             },
             {
                 title: 'Features',
@@ -129,6 +132,10 @@ export const sections = [
             {
                 title: 'T4 modding',
                 children: [moddingT4DisablingPerksGsc],
+            },
+            {
+                title: 'IW5 modding',
+                children: [moddingIW5Customizing],
             },
         ],
     },
@@ -177,7 +184,7 @@ export const sections = [
             },
             {
                 title: 'Plutonium IW5 Client',
-                children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps],
+                children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps, clientIw5Stats],
                 //children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps, clientIw5InfectedCooldown],
             },
             {
