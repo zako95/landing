@@ -25,7 +25,7 @@ The launcher will now start the process of installing the client files.
 
 ### I just want to update / I already have BO2 installed?
 
-If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Plutonium Launcher](#setting-up-t6-with-the-plutonium-launcher)** section.
+If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Installing DLC](#installing-t6-dlc)** section.
 
 ### Installing the base game (BO2)
 
@@ -59,6 +59,30 @@ qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html
 Once it's done you will have your copy of the game downloaded, here is an example of a completed base game folder:
 
 ![Completed Game Folder](/images/install/B8g1bXI.png)
+
+### Installing T6 DLC
+
+<Alert variant="tip">
+
+Skip these steps if you installed the game via the torrent. This is for people who used Steam, but do not own any DLC.
+
+</Alert>
+
+1. Download/open your favourite torrent software.
+qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
+
+2. Download the [torrent file](https://dss0.cc/alterwarez/download/t6_dlcs.torrent).
+
+3. Open the torrent file `t6_dlcs.torrent` (from the previous step) it will open up your torrent client program and ask you where you'd like to save the DLCs.
+**SELECT YOUR STEAM BO2 FOLDER**
+
+![img](https://i.gyazo.com/9ff55628c526220795c0f23f3a6aa719.png)
+
+4. Select `"don't create subfolder"` from the `"content layout"` dropdown menu (in older versions of qbitorrent this will be a checkbox called `"create subfolder"` or `"keep top-level folder"` which you have to untick)
+
+![img](https://i.gyazo.com/f32c04d072946509231016a435e9c521.png)
+
+5. Start the download and wait till the download completes you will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
 
 ### Setting up T6 with the Plutonium Launcher
 
