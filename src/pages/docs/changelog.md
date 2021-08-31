@@ -4,14 +4,14 @@ This is a list of Plutonium updates, and the changes they introduced.
 
 ## r2107-r2109
 * T4:
- * No Changes
+  * No Changes.
 
 * IW5:
   * Fixed IW5 crashing for servers
   * Updated bots
   * Fixed hosting with Wine
 
-* T6
+* T6:
   * Force 'aim_lockon_enabled' to 1
 
 ## r2016 - r2107 - Aim Assist is here
