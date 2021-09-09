@@ -149,7 +149,8 @@ Start the server through the new .bat file.
 
 ### Why can't I find my server hosted at home while others can?
 
-Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect to your server, [open the console](/docs/opening-console) and type `connect 127.0.0.1:yourPort` (If you are hosting on the same machine you are playing on), If not, you will need to find your servers private IP address (same one you used for port forwarding) and connect using that. For example: `connect 192.168.1.5:yourPort`
+Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect to your server, [open the console](/docs/opening-console) and type `connect 127.0.0.1:yourPort`
+(If you are hosting on the same machine you are playing on), If not, you will need to find your servers private IP address (same one you used for port forwarding) and connect using that. For example: `connect 192.168.1.5:yourPort`
 
 ### I can't open my game while my server is running?
 
