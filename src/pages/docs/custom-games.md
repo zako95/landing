@@ -46,7 +46,7 @@ Once you and your friend are following each other, the person who wants to host 
 - Forward the following ports:  
 `28960-28961` (UDP) [T4]  
 `4976-4977` (UDP) [T6]  
-  - (You may need to google your router's guide on port forwarding, since every router is different, this [Lifewire article](https://www.lifewire.com/how-to-port-forward-4163829) might be helpful.
+  - Hosting a private match without UPnP requires you to port forward. Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
 - Whitelist the following ports inside Windows Firewall:  
 `28960-28961` (UDP) [T4]  
 `4976-4977` (UDP) [T6]  
@@ -74,8 +74,10 @@ Simply start a private match and have your friend join you from Friends > Double
 
 ### **If UPnP is disabled / is not working**
 
-- Forward the port `27016` (UDP) - (You may need to google your router's guide on port forwarding, since every router is different, this [Lifewire article](https://www.lifewire.com/how-to-port-forward-4163829) might be helpful.
-- Whitelist the port `27016` (UDP) in Windows Firewall, this [Tom's Hardware](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html) article might be helpful.
+- Forward the port `27016` (UDP)
+  - Hosting a private match without UPnP requires you to port forward. Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
+- Whitelist the port `27016` (UDP) in Windows Firewall.
+  - This [Tom's Hardware](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html) article might be helpful.
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
 - If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
 - Your friend should now be able to join by double-clicking your name in the Friends List

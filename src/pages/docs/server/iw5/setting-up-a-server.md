@@ -3,7 +3,7 @@
 ## Requirements
 
 * A PC/VPS, running either Windows 10 or Windows Server 2019.
-* The ability to port forward
+* [Knowledge on how to port forward](#port-forwarding)
 * A Plutonium forum account
 * Notepad++/Any other code editor
 * A Copy of the game installed in `C:\gameserver\IW5`.
@@ -36,11 +36,18 @@
 
 ## 2. Basic server configuration
 
-1\. Edit your `server.cfg` file with whatever changes you want (i.e. RCON Password/Map Rotation/etc/etc).  
-2\. Double click the bat file.  
-3\. Wait for the server to finish loading.  
+1\. Open the start.bat file for the server you want, make sure you note down the port it is using. If you are hosting a server on the same machine you are running the game from, please change the port number to something different (`27017` for example).
+2\. Edit your `server.cfg` file with whatever changes you want (i.e. RCON Password/Map Rotation/Round Limits/etc/etc).  
+3\. Double click the bat file.  
+4\. Wait for the server to finish loading.  
 
 ![img](https://i.imgur.com/0BaYCo6.png)
+
+## Port Forwarding
+
+Hosting a game server requires you to port forward to make your server accessible from outside of your network. Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google. **Port forward the port you specified in your start.bat file.**
+
+You will also need to add the port to your Windows Firewall, refer to this [Tom's Hardware article](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html).
 
 ## 3. (Optional) Advanced configuration
 
@@ -87,24 +94,19 @@ Edit the copy of the bat file to: use your new server key, use a new port, and u
 (You must forward the second port as well)  
 Start the server through the new .bat file.  
 
-## FAQ
+## Additional Notes / FAQ
 
-Q: Why can't I find my server hosted at home while others can?  
-A: Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect it use your internal IP or 127.0.0.1 if its hosted on the same machine.  
+### Why can't I find my server hosted at home while others can?
 
-Q: Why can't I see my server when I have my game open?  
-A: If you start your client first, and your server is running on `27016`, your server will automatically take the port `27017` as your client uses `27016`, so make sure to just change the port if you are going to be running it on the same machine.  
+Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect to your server, [open the console](/docs/opening-console) and type `connect 127.0.0.1:yourPort` (If you are hosting on the same machine you are playing on), If not, you will need to find your servers private IP address (same one you used for port forwarding) and connect using that. For example: `connect 192.168.1.5:yourPort`
 
-<!---
+### I can't open my game while my server is running?
 
-------------------------
-***Changelog:*** (8/16/2020)
--Fixed Updater.bat dir root.  (No need to edit anymore)
+This is due to the client having a check that only one copy is open at a time. Simply start the client first, then your server. **Note that if you do this, you will have to change your servers port to a different one as the client takes `4976` when it starts.**
 
-***Changelog:*** (4/26/2020)
--Reorganized and remove useless stuff
--Rename Downloader.bat to Updater.bat
--Added mp_rust
--Added bounces and double tap commands.
+### You said we can delete game files to save disk space, is it worth it?
 
--->
+We recommend it, the files to host MP and ZM servers from the same folder with all maps and modes require roughly 1.7GB instead of 22GB and HIGHLY speeds up loading times as unnecessary files are not loaded.
+
+### Why does everyone get an time out during a map change?
+We are not entirely sure but it seems to be related to certain dvars not being set to their default value. Only known dvar to cause this is `party_maxplayers`.
