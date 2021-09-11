@@ -130,8 +130,7 @@ Set `g_log` to your server name for example if you are hosting a TDM and a Searc
 
 </Alert>
 
-Verify `g_logSync` is set to `1`.  
-Verify `logfile` is set to `2`.  
+Verify `g_logSync` is set to `2`.  
 
 1. Download .NET Core 3.1.x Runtime or newer [[Windows](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-3.1.4-windows-hosting-bundle-installer)]/[[Linux](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)].
 2. Download [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin/releases).
