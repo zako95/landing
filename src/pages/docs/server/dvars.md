@@ -7,6 +7,7 @@ We have a few dvars that are specific to Plutonium.
 * `sv_allowAimAssist 1` - Allow Aim Assist on gamepads. (Setting this to 0 will lock the option on gamepad controls menu.) This is on by default, turn this off to disable aim assist when on your server.
 * `sv_allowDof 1` - Changes whether Depth-of-Field can be enabled or disabled. (Setting this to 0 will force depth of field to be disabled for everyone. Setting this to 1 will allow each user decide)
 * `demo_enabled 1` - Currently not functioning. Has no effect.
+* `demo_currentDemo` - Dvar to get the current match's demo file name.
 
 ## IW5
 
