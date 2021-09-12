@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://docs.plutonium.pw
+Host: https://plutonium.pw
 
 # Sitemaps
-Sitemap: https://docs.plutonium.pw/sitemap.xml
+Sitemap: https://plutonium.pw/sitemap.xml
