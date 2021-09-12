@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: 'https://docs.plutonium.pw',
+    siteUrl: 'https://plutonium.pw',
     generateRobotsTxt: true,
 };

@@ -29,3 +29,15 @@ If you are encountering Low FPS you can try these steps to increase it.
 4\. Select your high performance/dedicated gpu and hit save
 
 ![img](https://i.imgur.com/OWfru0K.png)
+
+## Method 3
+
+1. [Open the console](/docs/opening-console/)
+
+2. Type `com_maxfps 250` and press Enter (This command locks your framerate to 250, as higher values are known to cause instability.)
+
+## Method 4
+
+Some computers can't handle higher graphics, lowering your graphics settings in game may help on weaker computers.
+
+You can also try switching between windowed borderless mode, fullscreen, and normal windowed mode. Try switching between them to see if one gives you more FPS.
