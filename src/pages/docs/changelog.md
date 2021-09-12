@@ -2,6 +2,50 @@
 
 This is a list of Plutonium updates, and the changes they introduced.
 
+## r2109-r2152
+* T4:
+  * No Changes.
+
+* IW5:
+  * No Changes.
+
+* T6:
+  * Servers/Private Matches ZM
+    - Fixed more than 4 players to show their points.
+    - Having more than 2 player teams with players on them will no longer result in a LUI error(scoreboard issue). 
+    - Scoreboard now supports displaying a score if the server sets a scorelimit like MP. 
+    - Scoreboard now supports displaying round limit if the server sets a roundlimit like MP. 
+    - Turned will no longer attempt to set the team count lower than the `gts "teamCount"`. 
+    - Change Team option is available like MP. Requires `gts teamCount` to be greater than 1 and `gts allowInGameTeamChange 1`.
+  - Private Matches ZM
+    - Start match button always works regardless of gamemode or number of players in the lobby.
+    - Cutscenes restored but only play in private matches and if dvar `zombies_minplayers` is 1.
+  - Private Matches MP/ZM Only
+    - Party privacy popup now sets dvars `sv_maxclients`, `com_maxclients`, `party_maxplayers`, and `party_maxplayers_privatematch` to properly limit the max clients allowed.
+  - Servers/Private Matches MP
+    - Codcaster is now available in all FFA gametypes.
+  - Menus ZM
+    - Renamed "custom games" button to "Play".
+    - Removed "Solo Play" button. 
+    - Renamed Public Match to "Server Browser", which opens the server browser.
+    - Added dvar selector "Min Players" to set the minimum expected players. 
+    - Added dvar selector "Enable Cheats" that turns on "sv_cheats" dvar. 
+    - Added descriptions for actionslot buttons that better represent what they do in ZM.
+  - Menus MP/ZM
+    - Removed unused buttons from the menus.
+    - Added 200 fps option to max fps setting. 
+    - FOV can be set up to 120 with the slider. 
+    - Removed voice chat tab in its entirety, as a result of this, your microphone won't change it's volume when playing Plutonium anymore.
+    - Removed Singleplayer/Multiplayer/Zombies swap buttons from mainmenu.
+    - Added dvar selector for `cg_fov_scale`. Values can be anywhere from 0.5 to 2.0, increments in 0.05 intervals, and default is 1.0. 
+    - Normal FOV slider dynamically updates the fov when used in game. 
+  - Menus MP
+    - Added unlockall button. Has confirmation prompt.
+    - Added resetstats button. Has confirmation prompt.
+    - Renamed "Public Match" button to "Ranked".
+    - Added Server Browser button accessible from the main and party lobbies.
+    - Removed CODtv and livestream buttons.
+
 ## r2107-r2109
 * T4:
   * No Changes.
