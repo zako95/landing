@@ -2,6 +2,16 @@
 
 This is a list of Plutonium updates, and the changes they introduced.
 
+## r2155-r2158
+* T4:
+  * No Changes.
+
+* IW5:
+  * No Changes.
+
+* T6:
+  * Fixed an issue on ZM that caused door prices and easter egg steps to not be correct for solo games
+
 ## r2109-r2155
 * T4:
   * No Changes.
