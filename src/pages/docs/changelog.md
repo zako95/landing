@@ -3,21 +3,11 @@
 This is a list of Plutonium updates, and the changes they introduced.
 
 ## r2155-r2158
-* T4:
-  * No Changes.
-
-* IW5:
-  * No Changes.
 
 * T6:
   * Fixed an issue on ZM that caused door prices and easter egg steps to not be correct for solo games
 
 ## r2109-r2155
-* T4:
-  * No Changes.
-
-* IW5:
-  * No Changes.
 
 * T6:
   * Servers/Private Matches ZM
@@ -59,8 +49,6 @@ This is a list of Plutonium updates, and the changes they introduced.
     - Removed CODtv and livestream buttons.
 
 ## r2107-r2109
-* T4:
-  * No Changes.
 
 * IW5:
   * Fixed IW5 crashing for servers
@@ -71,8 +59,6 @@ This is a list of Plutonium updates, and the changes they introduced.
   * Force 'aim_lockon_enabled' to 1
 
 ## r2016 - r2107 - Aim Assist is here
-* T4:
-  * No Changes.
 
 * IW5:
   * General improvements to stability.
@@ -97,18 +83,12 @@ This is a list of Plutonium updates, and the changes they introduced.
 
 ## r1953-r2016
 
-* T4:
-  * No changes.
-
 * IW5:
   * Added `g_playerCollision` Dvar, this enables/disables Collision between players
   * Added `g_playerEjection` Dvar, this enables/disables "bouncing back" when colliding with other players
   * Added `replaceFunc` GSC Function, this allows "hooking" GSC Functions without recompiling the entire file
   * Added chat `say` and `tell` commands to dedicated servers
 
-* T6:
-  * No changes.
-  
 ## r1824-r1953
 
 * T4:
@@ -134,19 +114,10 @@ This is a list of Plutonium updates, and the changes they introduced.
   * Full GSC support is included! You can now load both custom scripts and replace any game script. Chaiscript is now REMOVED! Old Chaiscript scripts will no longer work, we suggest porting the script over to GSC. Check out the modding section of the documentation for a [guide on how to load GSC Mods in IW5](./modding/loading-mods.html#iw5).
     If you technical assistance with your mods post in the [MW3 Modding Support & Discussion section](https://forum.plutonium.pw/category/28/mw3-modding-support-discussion) on our forums.
 
-* T4:
-  * No changes.
-
 * T6:
   * You can now load completely custom scripts without having to replace _clientids.gsc but you still need to compile it.
 
-* Launcher:
-  * No changes.
-
 ## r1715 - r1790
-
-* IW5:
-  * No changes.
 
 * T4:
   * Structural fixes - Our developers have been working to reverse engineer the data structures that the game uses, we use this to reduce the chances of bugs or crashes.
@@ -158,9 +129,6 @@ This is a list of Plutonium updates, and the changes they introduced.
   * `iprintln()` fix - same as above, this now fixed.
   * GSC errors no longer kill the entire game and instead return you to the main menu, this should make things easier for the mod developers to debug their mods.
   * `sv_sayName` dvar introduced, server owners can use this in their config files to change the Console: name to a name of their choice. IE `Console: IW4MADMIN is now running!` could be changed to `CLANNAME: IW4MADMIN is now running!`
-
-* Launcher:
-  * No changes.
 
 ## r1715 - r1728 - Hotfix
 
@@ -181,12 +149,6 @@ UPnP is disabled on your router: Enable UPnP on your router to make this feature
 Your router does not support UPnP: Either port forward the game port manually or buy a better router.
 
 </Alert>
-
-* T6:
-  * No changes to T6 however here is a [guide on using the the demo feature](./client/t6/theater-mode.html).
-
-* Launcher:
-  * No changes.
 
 ## r1205 - r1715 - Plutonium T4 Release
 
@@ -230,9 +192,6 @@ Your router does not support UPnP: Either port forward the game port manually or
   * Implemented ultrawide patch, aspectratio is automatically adjusted based on screen resolution.
   * `cg_fovMin` / `cg_fovScale` unprotected.
 
-* Launcher:
-  * No changes.
-
 ## r1177 - r1205 - g_randomSeed
 
 * IW5 & T6:
@@ -258,9 +217,6 @@ We hope this shows we are listening and we obviously cannot discuss much in term
 
 </Alert>
 
-* Launcher:
-  * No changes.
-
 ## r1166 - r1177
 
 * IW5:
@@ -271,9 +227,6 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * Fixed multiple bugs that caused instability on zombie servers.
   * Fixed various client crashes.
 
-* Launcher:
-  * No changes.
-
 ## r1163 - r1166
 
 * IW5:
@@ -281,9 +234,6 @@ We hope this shows we are listening and we obviously cannot discuss much in term
 
 * T6:
   * Fixed a bug that caused the game to crash when searching for servers in the server browser.
-
-* Launcher:
-  * No changes.
 
 ## r1137 - r1163
 
@@ -298,9 +248,6 @@ We hope this shows we are listening and we obviously cannot discuss much in term
 
 * T6:
   * Fixed `fast_restart` command for Zombies - server owners can now send the `fast_restart` command via console to quickly restart the map.
-
-* Launcher:
-  * No changes.
 
 ## r1065 - r1137 - Christmas Update
 
@@ -346,13 +293,7 @@ Your router does not support UPnP: Either port forward the game port manually or
 
 </Alert>
 
-* Launcher:
-  * No changes.
-
 ## r877 - r920
-
-* IW5:
-  * No changes.
 
 * T6:
   * Added `zombies_minplayers`, this dvar allows server hosters to set a minimum amount of players before the game starts.
@@ -360,13 +301,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * Setting the max amount of players for dedicated servers now works again.
   * General stability fixes.
 
-* Launcher:
-  * No changes.
-
 ## r827 - r877
-
-* IW5:
-  * No changes.
 
 * T6:
   * Fixed ranked mode on dedicated servers, this now allows players actual ranks to display in-game. This also means that you get XP for scorestreaks, assists etc instead of just kills.
@@ -409,9 +344,6 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
 
 </Alert>
 
-* Launcher:
-  * No changes.
-
 ## r791 - r803
 
 * IW5:
@@ -424,9 +356,6 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
   * Added steam integration & steam overlay.
   * Fixed an issue where the game would not work on other languages than English.
   * Fixed a crash related to the in-game console.
-
-* Launcher:
-  * No changes.
 
 ## r742 - r791
 
@@ -465,12 +394,6 @@ We will attempt to get workarounds for these in future updates but cannot say th
 
 </Alert>
 
-* T6:
-  * No changes.
-
-* Launcher:
-  * No changes.
-
 ## r619 - r687
 
 * IW5:
@@ -479,12 +402,6 @@ We will attempt to get workarounds for these in future updates but cannot say th
   * Hardcore mode can now change killcam & spectator options in DSR.
   * Change team / change class is now blocked on game modes where it is not allowed (same applies for DSR settings).
   * rcon output buffer relocated to allow bigger responses (fixes status command being truncated).
-
-* T6:
-  * No changes.
-
-* Launcher:
-  * No changes.
 
 ## r600 - r619 - The Aiming Update
 
@@ -514,12 +431,6 @@ We've tested this system with our testers and a few known trickshotters and stre
 
 </Alert>
 
-* T6:
-  * No changes.
-
-* Launcher:
-  * No changes.
-
 ## r554 - r600
 
 * General:
@@ -534,9 +445,6 @@ We've tested this system with our testers and a few known trickshotters and stre
   * Dedicated Server Crash fix - More stability patches for dedicated servers.
   * `cg_fov` limits extended - The minimum is now 40 and the maximum is 200. This used to be 65 - 180. This is intended to be used with `cg_fovScale`. Good luck using 40 or 200 FOV without using `cg_fovScale` too.
   * mp_test - Basically a port of iw4_credits from MW2, used by the developers to test map porting. Only mentioned here to avoid people wondering what it is. Technically servers can include it in their map rotation too, but why would you want to do that?
-
-* T6:
-  * No changes.
 
 * Launcher:
   * Launcher Protocol handler - The Plutonium launcher now supports the `plutonium://` protocol. `plutonium://play/iw5mp` for example.
@@ -557,9 +465,6 @@ We've tested this system with our testers and a few known trickshotters and stre
   * Discord Rich Presence. Discord will now show what game you are playing, which server you are in and some info about that server.
   * `waypointIconWidth` / `waypointIconHeight` now saves to config. These are used to determine how big the objective markers are. Some people like them way smaller.
   * Scoreboard now shows the correct hostname, this is now taken from the hostname that is set when registering a server key.
-
-* T6:
-  * No changes.
 
 * Launcher:
   * Some slight Launcher UI changes.
@@ -587,9 +492,6 @@ We've tested this system with our testers and a few known trickshotters and stre
   * If you attempt to join a server with a DLC map you don't have, rather than a hard crash you will now be booted to the main menu and given an error message.
   * Hovering your mouse over a map name will show a preview of the map.
 
-* T6:
-  * No changes.
-
 * Launcher:
   * Launcher now lets you change game directory again..
 
@@ -605,12 +507,6 @@ If you get the "checking for saved credentials" bug then please browse to `%loca
 
 </Alert>
 
-* T6:
-  * No changes.
-
-* Launcher:
-  * No changes.
-
 ## r356 - r363
 
 * IW5:
@@ -619,9 +515,3 @@ If you get the "checking for saved credentials" bug then please browse to `%loca
   * Process no longer runs in high priority. if you want it to run in high priority, you can add -high-priority to the command line. This caused mouse problems for some players so this has been swapped, this was a MW3 base game problem. If you still have problems, ensure your polling rate is under 125Hz.
   * The game no longer touches input devices (microphones). this might fix the issue where people with microphone-related software on their machine cannot launch the game. Some people reported static noises, this is caused by the MW3 base game, it would max their input volume when launched and some people had the option "listen to this device" enabled.
   * Rcon bug found that caused server instability, this has been patched and confirmed as working by various server owners.
-
-* T6:
-  * No changes.
-
-* Launcher:
-  * No changes.
