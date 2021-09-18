@@ -41,7 +41,7 @@ Click the triangle next to the play button to disable anticheat.
 
 Please note, as stated above this is for private use or in LAN mode. You will not be able to use our service to connect to servers while you have anti-cheat disabled.
 
-![img](https://i.imgur.com/s82KygR.gif)
+![img](/images/docs/anticheat/s82KygR.gif)
 
 ## What will not get me banned
 

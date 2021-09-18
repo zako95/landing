@@ -14,17 +14,17 @@ Or in case you did change the patch where Plutonium is installed to it might bec
 
 2. Add it as a Task in the Task Shedular like on the screenshots and let it run daily.
 
-![img](/images/server/t6/cleaning-demos/hVHbxdp.png)
+![img](/images/docs/server/t6/cleaning-demos/hVHbxdp.png)
 
 On the Triggers tab add a new trigger:
 
-![img](/images/server/t6/cleaning-demos/EEq4rpp.png)
+![img](/images/docs/server/t6/cleaning-demos/EEq4rpp.png)
 
 On the Actions tab add a new action:
 
 Everything after forfiles from step 1 is a argument, so paste them all in.
 
-![img](/images/server/t6/cleaning-demos/aeE3kA8.png)
+![img](/images/docs/server/t6/cleaning-demos/aeE3kA8.png)
 
  Add a second action with the same arguments as above but change `*.demo` to `*.data`
 

@@ -10,11 +10,11 @@ Our current custom maps are as follows:
 ## Screenshots
 
 ### Rust
-![Rust in IW5](/images/client/mp_rust.png)
+![Rust in IW5](/images/docs/client/iw5/custom-maps/mp_rust.png)
 
 ### Highrise (beta)
 <Alert variant="warning">
 Please note, Highrise is still in beta! Some things may not look "right".
 </Alert>
 
-![Highrise in IW5](/images/client/mp_highrise.png)
+![Highrise in IW5](/images/docs/client/iw5/custom-maps/mp_highrise.png)

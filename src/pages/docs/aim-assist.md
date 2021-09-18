@@ -18,20 +18,20 @@ This Aim Assist was in the game however was disabled by Treyarch, we have simply
 The Aim Assist is meant to be barely noticeable to keep the hardcore PC players happy, they did help start the Plutonium Community after all.
 
 * Be sure to enable your gamepad and Target Assist in your Gamepad controls menu in game.
-![AAOn]( https://i.imgur.com/fPukr0z.png)
+![AAOn]( /images/docs/aim-assist/fPukr0z.png)
 
 * If the server you are on has Aim Assist forced off, you will see a padlock next to Target Assist.
-![AAOff]( https://i.imgur.com/6s3wmCK.png )
+![AAOff]( /images/docs/aim-assist/6s3wmCK.png )
 
 
 ## IW5 Aim Assist
 This Aim Assist is custom made by Plutonium, this should feel similar to the Black Ops 1 Aim Assist on console.
 
 * Be sure to enable your gamepad and Target Assist in your Gamepad controls menu in game.
-![AAOn](https://i.imgur.com/pZftiiI.png)
+![AAOn](/images/docs/aim-assist/pZftiiI.png)
 
 * If the server you are on has Aim Assist forced off, you will see that in your Gamepad controls menu.
-![AAOff](https://i.imgur.com/GlA9QGH.png)
+![AAOff](/images/docs/aim-assist/GlA9QGH.png)
 
 ## T4 Aim Assist
 This Aim Assist will be custom made by Plutonium and will likely be similar to Plutonium IW5 Aim Assist.

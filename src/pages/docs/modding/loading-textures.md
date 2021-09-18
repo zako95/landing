@@ -26,7 +26,7 @@ If the `images` folder does not exist in one or more of the directories mentione
 
 3\. Put the desired .iwi file into the `images` folder. This is an example image of what an iw5 images folder with a bunch of custom camos/textures looks like:
 
-![ImagesFolder](https://i.imgur.com/mc8ekrR.png)
+![ImagesFolder](/images/docs/modding/loading-textures/mc8ekrR.png)
 
 ## Important Notes on Camos/Textures
 

@@ -17,7 +17,7 @@
 
 3\. Next comes the most important step: **Select "don't create subfolder" from the "content layout" dropdown menu (in older versions of QBitorrent this will be a checkbox called "create subfolder" or "keep top-level folder" which you have to untick)**.
 
-![qbittorrentoverview](https://i.imgur.com/cad1CXU.png)
+![qbittorrentoverview](/images/docs/repair/cad1CXU.png)
 
 4\. Hit OK to start the verification/download process, QBittorrent will now check the files in your game folder against the ones in the torrent and download missing or mismatching ones.
 
@@ -40,11 +40,11 @@ Any 3rd party repacks of MW3 are not supported by us.
 
 3\. Right click the entry in your Steam library and click `Properties`.
 
-![steamlibrary](https://i.imgur.com/7PASWFp.png)
+![steamlibrary](/images/docs/repair/7PASWFp.png)
 
 4\. Click `Local Files` and hit `Verify integrity of tool files...` (this will be called `Verify integrity of game files...` if you own the game on Steam).
 
-![steamproperties](https://i.imgur.com/qyfKXnz.png)
+![steamproperties](/images/docs/repair/qyfKXnz.png)
 
 5\. Steam will now check your local files and download any missing or outdated ones, as soon as it's done your game files should be repaired.
 

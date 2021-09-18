@@ -18,7 +18,7 @@ If you have mods on Steam T4, please move them also. Follow the same process as 
 
 4. Open a **Command Prompt** as **Administrator**. You can do this by searching for `cmd` in Windows Search, and right clicking `Command Prompt` and pressing `Run as Administrator`
 
-![img](https://i.imgur.com/e9aMqpv.png)
+![img](/images/docs/modding/moving-to-another-drive/e9aMqpv.png)
 
 5. Copy this command to your clipboard:
 

@@ -18,7 +18,7 @@ You need to tell Plutonium where these files are located on your computer, once 
 4\. Select "Manage" then "Browse local files"  
 5\. A new explorer window opens with the game files.  
 
-![img](https://i.imgur.com/ETEnASg.gif)
+![img](/images/docs/game-files/ETEnASg.gif)
 
 ## How to find your game folder location through Plutonium
 

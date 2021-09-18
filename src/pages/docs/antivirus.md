@@ -26,7 +26,7 @@ The fastest way to fix this is to right click your start button and press `Windo
 
 Note: right click to paste.
 
-![GIF showing how to do this](https://i.imgur.com/Ecyyy6Q.gif)
+![GIF showing how to do this](/images/docs/antivirus/Ecyyy6Q.gif)
 
 (Please note that this only tells **Windows Defender** to not flag Plutonium, if you have any other antivirus, you must refer to their documentation.)
 </Details>
@@ -53,4 +53,4 @@ Note: the folder you want to exclude is: `C:\Users\YOUR-USERNAME-HERE\AppData\Lo
 
 * If you cannot find the "AppData" folder when you go to add an exclusion, you will have to enable hidden folders. To do this, open a new file explorer window, click the "View" tab and check "Hidden items".
 
-![Hidden Items](https://i.imgur.com/EUnBnHg.png)
+![Hidden Items](/images/docs/antivirus/EUnBnHg.png)

@@ -8,7 +8,7 @@
 * Notepad++/Any other code editor
 * A Copy of the game installed in `C:\gameserver\T4`.
 
-![img](https://i.imgur.com/9gBLKYe.png)
+![img](/images/docs/server/t4/setting-up-a-server/9gBLKYe.png)
 
 ## 1. Preparation
 
@@ -20,7 +20,7 @@
 
 3. Save/Extract the configs to `C:\gameserver\T4`
 
-![img](https://i.imgur.com/rHwzjTo.png)
+![img](/images/docs/server/t4/setting-up-a-server/rHwzjTo.png)
 
 ### 1.2 Creating a server key
 
@@ -32,7 +32,7 @@
 
 4. Paste the key into the start bat under `set key=xxxx`, replace `xxxx` with your key.
 
-![img](https://i.imgur.com/CA9Ryjp.png)
+![img](/images/docs/server/t4/setting-up-a-server/CA9Ryjp.png)
 
 ## 2. Basic server configuration
 
@@ -41,7 +41,7 @@
 3\. Double click the bat file.  
 4\. Wait for the server to finish loading.  
 
-![img](https://i.imgur.com/0BaYCo6.png)
+![img](/images/docs/server/t4/setting-up-a-server/0BaYCo6.png)
 
 ## Port Forwarding
 
@@ -75,7 +75,7 @@ To setup FastDL, read our guide [here](fastdl).
 * You can remove `images` and `sound` from localized_english_iw04.
 * You can delete localized_english_iw05 and localized_english_iw06.
 
-![Final Image](https://i.imgur.com/Na25CV0.png)
+![Final Image](/images/docs/server/t4/setting-up-a-server/Na25CV0.png)
 
 ## 5. (Optional) Install a server management tool (IW4MAdmin)
 

@@ -4,4 +4,4 @@ Donating to us allows you to enjoy various donator only channels, and even acces
 
 Learn more about donating [here](/docs/how-can-i-contribute).
 
-![img](https://i.imgur.com/2ckNYyG.png)
+![img](/images/docs/discord-donator-perks/2ckNYyG.png)

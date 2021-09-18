@@ -4,4 +4,4 @@ Plutonium allows you to download mods straight from the server running them! No 
 
 ## Demonstration
 
-![gif](https://i.imgur.com/EJsyKbp.gif)
+![gif](/images/docs/mod-downloading/EJsyKbp.gif)

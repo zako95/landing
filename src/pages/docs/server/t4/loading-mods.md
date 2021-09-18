@@ -6,7 +6,7 @@
 
 2. Create a folder called `mods`
 
-![img](https://i.imgur.com/Zzpf3O5.png)
+![img](/images/docs/server/t4/loading-mods/Zzpf3O5.png)
 
 3. Place any mods in that folder.
 
@@ -28,7 +28,7 @@ You can place your mod in either of these places:
 
 Next, open your server's start.bat file and edit the line that says `set mod=""` to add your mod. For example, if your mod is called `mp_mymod` that line should say: `set mod="mods/mp_mymod"`
 
-![Screenie](https://i.imgur.com/O3nMhCZ.png)
+![Screenie](/images/docs/server/t4/loading-mods/O3nMhCZ.png)
 
 ---
 
@@ -38,7 +38,7 @@ Next, open your server's start.bat file and edit the line that says `set mod=""`
 
 2. Create a folder called `mods`
 
-![img](https://i.imgur.com/Zzpf3O5.png)
+![img](/images/docs/server/t4/loading-mods/Zzpf3O5.png)
 
 3. Place any custom maps in that folder.
 
