@@ -17,6 +17,7 @@ We have a few dvars that are specific to Plutonium.
 * `sv_enableDoubleTaps 1` - Allow double tap on weapon switching.
 * `sv_wwwBaseURL` - URL for downloading mods from. [Learn more about FastDL for IW5 here](/docs/server/iw5/fastdl).
 * `fs_game` - What mod are we loading. [Learn more about FastDL for IW5 here](/docs/server/iw5/fastdl).
+* `sv_allowThirdPersonSpectator` - Allows clients to spectate players in thirdperson.
 
 ## T4
 

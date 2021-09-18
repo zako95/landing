@@ -7,6 +7,7 @@ This is a list of Plutonium updates, and the changes they introduced.
 * IW5:
   * [Aim Assist](aim-assist) added.
   * Made improvements to Highrise, note that the map is still in beta.
+  * `sv_allowThirdPersonSpectator` added, which allows clients to spectate players in thirdperson.
   * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`)
   * Fixes controlling killstreaks like predator missile with a mouse while a controller is plugged in.
   * Errors now print to log file.
