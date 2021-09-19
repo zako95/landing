@@ -8,7 +8,7 @@
 * Notepad++/Any other code editor
 * A Copy of the game installed in `C:\gameserver\T6`.
 
-![img](https://i.imgur.com/DK0c5MD.png)
+![img](/images/docs/server/t6/setting-up-a-server/DK0c5MD.png)
 
 <Alert variant="tip">
 
@@ -26,7 +26,7 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 
 3. Save/Extract the configs to `C:\gameserver\T6`
 
-![img](https://i.imgur.com/yAzrEKR.png)
+![img](/images/docs/server/t6/setting-up-a-server/yAzrEKR.png)
 
 ### 1.2 Creating a server key
 
@@ -38,7 +38,7 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 
 4. Paste the key into the start bat under `set key=xxxx`, replace `xxxx` with your key.
 
-![img](https://i.imgur.com/H1ko3Gl.png)
+![img](/images/docs/server/t6/setting-up-a-server/H1ko3Gl.png)
 
 ## 2. Basic server configuration
 
@@ -47,7 +47,7 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 3\. Double click the bat file.  
 4\. Wait for the server to finish loading.  
 
-![img](https://i.imgur.com/0BaYCo6.png)
+![img](/images/docs/server/t6/setting-up-a-server/0BaYCo6.png)
 
 ## Port Forwarding
 
@@ -89,19 +89,19 @@ For example `sv_maprotation "exec dom.cfg map mp_la map mp_dockside exec sas.cfg
 
 3\. Delete any language besides `all`, and `english`.
 
-![img](https://i.imgur.com/MAiRHhx.png)
+![img](/images/docs/server/t6/setting-up-a-server/MAiRHhx.png)
 
 4\. Now go into the `all` folder.  
 There are plenty of large files that we don't need.  
 All `.ipak` files and all sp files can be deleted safely.  
 Only files with `mp` and `zm` should be left in this folder.  
 
-![img](https://i.imgur.com/R1XhPI9.png)
+![img](/images/docs/server/t6/setting-up-a-server/R1XhPI9.png)
 
 5\. Now go back and into the `english` folder.  
 We do the same thing as above.
 
-![img](https://i.imgur.com/2mmlW9n.png)
+![img](/images/docs/server/t6/setting-up-a-server/2mmlW9n.png)
 
 ### 4.2 Enabling transparent compression
 
@@ -115,7 +115,7 @@ This step is useful if you choose to enable game logs as it will save up to a GB
 * Choose `Apply changes to this folder, subfolders and files`
 * Press OK
 
-![img](https://i.imgur.com/FClNlwR.png)
+![img](/images/docs/server/t6/setting-up-a-server/FClNlwR.png)
 
 ## 5. (Optional) Install a server management tool (IW4MAdmin)
 

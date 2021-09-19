@@ -8,7 +8,7 @@
 * Notepad++/Any other code editor
 * A Copy of the game installed in `C:\gameserver\IW5`.
 
-![img](https://i.imgur.com/PdotY2c.png)
+![img](/images/docs/server/iw5/setting-up-a-server/PdotY2c.png)
 
 ## 1. Preparation
 
@@ -20,7 +20,7 @@
 
 3. Save/Extract the configs to `C:\gameserver\IW5`
 
-![img](https://i.imgur.com/wCu3KiR.png)
+![img](/images/docs/server/iw5/setting-up-a-server/wCu3KiR.png)
 
 ### 1.2 Creating a server key
 
@@ -32,7 +32,7 @@
 
 4. Paste the key into the start bat under `set key=xxxx`, replace `xxxx` with your key.
 
-![img](https://i.imgur.com/Z63M36I.png)
+![img](/images/docs/server/iw5/setting-up-a-server/Z63M36I.png)
 
 ## 2. Basic server configuration
 
@@ -41,7 +41,7 @@
 3\. Double click the bat file.  
 4\. Wait for the server to finish loading.  
 
-![img](https://i.imgur.com/0BaYCo6.png)
+![img](/images/docs/server/iw5/setting-up-a-server/0BaYCo6.png)
 
 ## Port Forwarding
 
@@ -60,11 +60,11 @@ You can open your game and make a gametype under Private Match, and save it to y
 
 </Alert>
 
-![gif](https://i.imgur.com/rIomHuu.gif)
+![gif](/images/docs/server/iw5/setting-up-a-server/rIomHuu.gif)
 
 3\. Modify your map rotation to include your new gametype.
 
-![img](https://i.imgur.com/l6Y1g1B.png)
+![img](/images/docs/server/iw5/setting-up-a-server/l6Y1g1B.png)
 
 ## 4. (Optional) Install a server management tool (IW4MAdmin)
 

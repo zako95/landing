@@ -2,6 +2,21 @@
 
 This is a list of Plutonium updates, and the changes they introduced.
 
+## r2158-r2190
+
+* IW5:
+  * [Aim Assist](aim-assist) added.
+  * Made improvements to Highrise, note that the map is still in beta.
+  * `sv_allowThirdPersonSpectator` added, which allows clients to spectate players in thirdperson.
+  * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`)
+  * Fixes controlling killstreaks like predator missile with a mouse while a controller is plugged in.
+  * Errors now print to log file.
+
+* T6:
+  * When in CODCaster free look (not spectating a specific player) the overhead names use team colors rather than everyone showing up as an enemy.
+  * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`)
+  * Typing dvars in console and hitting enter will now output their value like other cods.
+
 ## r2155-r2158
 
 * T6:

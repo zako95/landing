@@ -56,28 +56,28 @@ onplayerspawned()
 
 3\. Using the GSC Compiler (from GSC Toolkit), simply drag and drop your raw GSC script ontop of `Compiler.exe` and it should spit out a compiled version.
 
-![compiling process](https://i.imgur.com/OWtguHd.gif)
+![compiling process](/images/docs/modding/loading-mods/OWtguHd.gif)
 
 3a\. If you get an error, make sure your script isn't already precompiled (open it, and if it looks like gibberish, it is already compiled)  
 
-![Error from Compiler](https://i.imgur.com/JgwqeCy.png)
+![Error from Compiler](/images/docs/modding/loading-mods/JgwqeCy.png)
 
 4\. Navigate to the T6 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t6` into it, and hitting Ok.
 
 5\. Create a folder called `scripts`, then inside that folder, create two new folders called `mp`, and `zm`.
 
-![img](https://i.imgur.com/RWrHJt5.png)
+![img](/images/docs/modding/loading-mods/RWrHJt5.png)
 
 6\. Take your compiled script and put it in `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.
 If your script should always be loaded no matter the game mode copy it to `%localappdata%\Plutonium\storage\t6\scripts`
 
 7\. When launching your server or a custom game, you will know if all has gone well or not if the console prints `Custom script 'scripts/mp/yourScriptName' loaded`.
 
-![Success](https://i.imgur.com/oVlCBnI.png)
+![Success](/images/docs/modding/loading-mods/oVlCBnI.png)
 
 8\. Enjoy your new GSC script!
 
-![In Game](https://i.imgur.com/bun6iFx.png)
+![In Game](/images/docs/modding/loading-mods/bun6iFx.png)
 
 ## IW5
 
@@ -87,7 +87,7 @@ If your script should always be loaded no matter the game mode copy it to `%loca
 
 2\. Create a new folder here called `scripts`.
 
-![img](https://i.imgur.com/d3AnJ4R.png)
+![img](/images/docs/modding/loading-mods/d3AnJ4R.png)
 
 3\. Put any amount of GSC files in here, I will be using the following code as an example.
 
@@ -125,11 +125,11 @@ onplayerspawned()
 
 4\. Verify your GSC looks like mine, and is in the correct location.
 
-![img](https://i.imgur.com/LSrZkI0.png)
+![img](/images/docs/modding/loading-mods/LSrZkI0.png)
 
 5\. Open MW3, and start a new Private Match or Dedicated Server, your GSC script should load.
 
-![success](https://i.imgur.com/X2qZtj5.png)
+![success](/images/docs/modding/loading-mods/X2qZtj5.png)
 
 ## T4
 
@@ -149,7 +149,7 @@ Currently, loading mods from the `%localappdata%\Activision\CoDWaW\mods` folder 
 
 2. Create a folder called `mods`
 
-![img](https://i.imgur.com/Zzpf3O5.png)
+![img](/images/docs/modding/loading-mods/Zzpf3O5.png)
 
 3. Place any mods in that folder.
 
@@ -167,7 +167,7 @@ If you are installing a custom mod that comes in an `.exe`, run the exe, then mo
 
 **Note:** Mods for multiplayer must have `mp_` at the front of their folder.
 
-![Mods showing up](https://i.imgur.com/6qchlaS.png)
+![Mods showing up](/images/docs/modding/loading-mods/6qchlaS.png)
 
 ---
 
@@ -186,7 +186,7 @@ You can place your mod in either of these places:
 
 2. Create a folder called `mods`
 
-![img](https://i.imgur.com/Zzpf3O5.png)
+![img](/images/docs/modding/loading-mods/Zzpf3O5.png)
 
 3. Place any custom maps in that folder.
 

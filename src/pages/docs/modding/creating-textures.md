@@ -18,7 +18,7 @@ Photoshop can be used as an alternative to Paint.NET but since it's not free we'
 
 2\. Download and extract the Texture Toolkit into the folder you created, your folder should now look like this:
 
-![CustomCamosFolder](https://i.imgur.com/wPdsCNN.png)
+![CustomCamosFolder](/images/docs/modding/creating-textures/wPdsCNN.png)
 
 3\. Install Paint.NET or install Photoshop and the Intel Texture Works Plugin.
 
@@ -80,13 +80,13 @@ In Paint.NET simply click `File -> save as` and save the file in the folder you 
 
 1\. In Photoshop check if the texture contains an alpha channel, you can check in the menu on the right, switch to the `Channels` tab.
 
-![PhotoshopChannels](https://i.imgur.com/XLu1OXu.png)
+![PhotoshopChannels](/images/docs/modding/creating-textures/XLu1OXu.png)
 
 2\. Go to `file -> save as` and select `Intel Texture Works (*.DDS, *,DDS)" Format` (below `File Name`), select the previously created folder as your destination and hit save (you can overwrite the original .dds file).
 
 3\. A dialogue should pop up that lets you define different compression settings, depending on if your texture contains an alpha channel, no alpha channel or is a normal map select the texture type and compression like so:
 
-![PhotoshopIntelTextureWorks](https://i.imgur.com/pl2Yl5A.png)
+![PhotoshopIntelTextureWorks](/images/docs/modding/creating-textures/pl2Yl5A.png)
 
 4\. Hit `Ok` to save the file.
 
@@ -96,7 +96,7 @@ In Paint.NET simply click `File -> save as` and save the file in the folder you 
 
 2\. Type in the number that corresponds to the game you're creating a texture for and hit enter.
 
-![IwiDDSConverter](https://i.imgur.com/lbpMNSK.png)
+![IwiDDSConverter](/images/docs/modding/creating-textures/lbpMNSK.png)
 
 3\. The converter will create an .iwi file next to your .dds file, now you can [learn how load your modified texture in-game](/docs/modding/loading-textures).
 

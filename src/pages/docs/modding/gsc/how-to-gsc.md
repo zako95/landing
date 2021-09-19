@@ -66,7 +66,7 @@ myFunction()
 }
 ```
 
-![img](https://i.imgur.com/htukqdt.png)
+![img](/images/docs/modding/gsc/how-to-gsc/htukqdt.png)
 
 ## Using Variables
 
@@ -402,7 +402,7 @@ self.someText setPoint( "CENTER", "CENTER", "CENTER", "CENTER" );
 self.someText setText( "^1forum.plutonium.pw" ); 
 ```
 
-![img](https://i.imgur.com/5IBKF2F.png)
+![img](/images/docs/modding/gsc/how-to-gsc/5IBKF2F.png)
 
 ---
 

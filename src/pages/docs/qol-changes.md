@@ -28,7 +28,7 @@
 * AK-74u
 * Added GSC Support
 * Added rocket jump support
-* Custom card text ![img](https://i.imgur.com/tX5tNqX.png)
+* Custom card text ![img](/images/docs/qol-changes/tX5tNqX.png)
 * Forum Avatars as in game icon
 * Higher FPS than Steam (Can get 333 on Windows 10 now!)
 * Intervention

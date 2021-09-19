@@ -31,11 +31,11 @@ Once you and your friend are following each other, the person who wants to host 
 
 - Go to Windows Settings -> Network & Internet, then hit Properties under your network name.
 
-![img](https://i.imgur.com/PnaSif4.png)
+![img](/images/docs/custom-games/PnaSif4.png)
 
 - Set the Network Profile to Private
 
-![img](https://i.imgur.com/hC6G8QN.png)
+![img](/images/docs/custom-games/hC6G8QN.png)
 
 - Restart the game
 
@@ -90,7 +90,7 @@ If you and some / all of your friends are on the same LAN they connect through t
 
 If you want to find your internal IP open a Command Prompt and type `ipconfig`.
 
-![img](https://i.imgur.com/gUXeTOE.png)
+![img](/images/docs/custom-games/gUXeTOE.png)
 
 Your local IP will be under `IPv4 Address`.
 

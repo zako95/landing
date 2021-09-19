@@ -10,7 +10,7 @@
 
 <Details title="Spoiler">
 
-![Img](https://i.imgur.com/ykDtpPU.png)
+![Img](/images/docs/client/t4/migrating-steam-t4-stats/ykDtpPU.png)
 
 </Details>
 
@@ -20,19 +20,19 @@
 
 6. Rename `playerstats.txt` *(from your EAM folder)* to `unlockstats` and move that file to `%localappdata%\Plutonium\storage\t4\players\` *(You should delete the original `unlockstats` ***AFTER*** your game is booted up)*
 
-![Img](https://i.imgur.com/MnRqIRN.png)
+![Img](/images/docs/client/t4/migrating-steam-t4-stats/MnRqIRN.png)
 
 Note: If you do not see the `.txt` at the end of `playerstats.txt`, enable file extensions in Windows Explorer.
 
 <Details title="Spoiler">
 
-![Windows Explorer Img](https://i.imgur.com/J57gKrs.png)
+![Windows Explorer Img](/images/docs/client/t4/migrating-steam-t4-stats/J57gKrs.png)
 
 </Details>
 
 7. Once the file is in place, re-run `/unlockall` on Plutonium T4.
 
-![Done](https://i.imgur.com/Nx2JKmT.png)
+![Done](/images/docs/client/t4/migrating-steam-t4-stats/Nx2JKmT.png)
 
 ---
 
