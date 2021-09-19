@@ -5,7 +5,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 ## r2158-r2190
 
 * IW5:
-  * [Aim Assist](/docs/aim-assist) added. Click this link to learn how to make sure it's enabled for you in game. Server owners can disable this for their servers if they want to. It is on by default.
+  * [Aim Assist](aim-assist) added. Click this link to learn how to make sure it's enabled for you in game. Server owners can disable this for their servers if they want to. It is on by default.
   * Made improvements to Highrise, note that the map is still in beta. Red explosive barrels do not work and shadows look pixelated, turn off shadows in game options if this bothers you.
   This map was previously restricted to certain server hosts as killstreaks would crash the map, this is now lifted and anyone can host the map.
   This map will auto download as part of the update when you start Plutonium.exe - it is also playable in private match.
@@ -90,7 +90,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Scripts can now notify when you change to spectator.
 
 * T6:
-  * [Aim Assist](/docs/aim-assist) added for Zombies and Multiplayer.
+  * [Aim Assist](aim-assist) added for Zombies and Multiplayer.
   * General improvements to stability.
   * The Zombies HUD will now work correctly for 4+ players.
   * Various low risk exploit's we spotted have been patched.
