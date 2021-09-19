@@ -1,12 +1,13 @@
 # Changelog
 
-This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start plutonium.exe
+This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
 ## r2158-r2190
 
 * IW5:
   * [Aim Assist](aim-assist) added. Click this link to learn how to make sure it's enabled for you in game. Server owners can disable this for their servers if they want to. It is on by default.
-  * Made improvements to Highrise, note that the map is still in beta. Red explosive barrels do not work and shadows look pixelated, turn off shadows in game options if this bothers you. This map was previously restricted to certain server hosts as killstreaks would crash the map, this is now lifted and anyone can host the map.
+  * Made improvements to Highrise, note that the map is still in beta. Red explosive barrels do not work and shadows look pixelated, turn off shadows in game options if this bothers you.
+  This map was previously restricted to certain server hosts as killstreaks would crash the map, this is now lifted and anyone can host the map.
   This map will auto download as part of the update when you start Plutonium.exe - it is also playable in private match.
   * `sv_allowThirdPersonSpectator` added, which allows clients to spectate players in thirdperson.
   * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`) - use this to help with stick drift.
