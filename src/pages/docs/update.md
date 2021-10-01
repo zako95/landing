@@ -16,7 +16,7 @@ If you don't get the updates automatically this probably means that you pinned t
 
 1. Open your launcher and click on your profile picture in the top right
 2. Open the [changelog page](https://plutonium.pw/docs/changelog/)
-3. Compare the Core version in your launcher and the latest changelog. 
+3. Compare the Core version in your launcher and the latest changelog.
 If your Core version is inferior to the one on the changelog then you aren't up-to-date. (Note that the latest version is the one on the right.
 For example `r2158-r2190` means that the previous version was `r2158` and that the latest version is `r2190`.
 **This is an example!** `r2190` might not be the latest version anymore when you read this.)
