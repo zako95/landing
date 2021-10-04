@@ -54,6 +54,7 @@ const MyApp = ({ Component, pageProps }) => (
                 rel="stylesheet"
             />
             <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet" />
+            <script async defer data-website-id="d13f179e-cd1d-4206-98ac-439041dc1097" src="https://tracking.plutonium.pw/umami.js"></script>
         </Head>
 
         <div className="text-white bg-gray-900 min-h-screen font-serif">
