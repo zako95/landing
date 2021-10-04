@@ -13,7 +13,7 @@ This is happening because your scaling setting in Windows is set to something hi
 
 ### Method 1 (reset setting to 100%)
 
-The easiest method is to simply set your Windows scaling setting back to 100%. 
+The easiest method is to simply set your Windows scaling setting back to 100%.
 </br> Note that this will change the setting for every application on Windows so if that's not what you want read Method 2.
 
 ### Method 2 (force Plutonium to not use scaling)
@@ -24,7 +24,7 @@ The second method will only change the setting for Plutonium games while keeping
 
 2. Press Win + R, paste `%localappdata%\Plutonium\bin` and press Enter
 
-3. Right click on `plutonium-bootstrapper-win32` and click on `Properties` 
+3. Right click on `plutonium-bootstrapper-win32` and click on `Properties`
 
 4. Go to the `Compatibility tab` and click on `Change high DPI settings`
 
