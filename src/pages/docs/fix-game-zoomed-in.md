@@ -11,14 +11,7 @@ This is happening because your scaling setting in Windows is set to something hi
 
 ## How to fix it
 
-### Method 1 (reset setting to 100%)
-
-The easiest method is to simply set your Windows scaling setting back to 100%.
-</br> Note that this will change the setting for every application on Windows so if that's not what you want read Method 2.
-
-### Method 2 (force Plutonium to not use scaling)
-
-The second method will only change the setting for Plutonium games while keeping your Windows scalign setting intact for every other applications.
+This will only change the setting for Plutonium games while keeping your Windows scaling setting intact for every other applications.
 
 1. Make sure that the Plutonium launcher and any Plutonium game is closed.
 
