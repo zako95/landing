@@ -141,7 +141,7 @@ We support both the vanilla game folder and the Plutonium folder for mod loading
 
 <Alert variant="danger">
 
-Currently, loading mods from the `%localappdata%\Activision\CoDWaW\mods` folder is buggy, please move your mods to the `%localappdata%\Plutonium\storage\t4\mods` folder to avoid things like menu corruption, or GSC errors.
+Currently, loading mods from the `%localappdata%\Activision\CoDWaW\mods` folder is buggy, please move your mods to the `%localappdata%\Plutonium\storage\t4\mods` folder to avoid things like menu corruption, or GSC errors. [Solids Pluto T4 Easy Mod Installer](https://forum.plutonium.pw/topic/14223/solids-pluto-t4-easy-mod-installer) can do that for you.
 
 </Alert>
 
