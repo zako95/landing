@@ -25,4 +25,6 @@ This will only change the setting for Plutonium games while keeping your Windows
 
 6. In `Scaling performed by` select `Application`. If this was already set to `Application` try the other option(s).
 
+![img](/images/docs/fix-game-zoomed-in/app-setting.png)
+
 7. Open the launcher again and boot up your game to see if the issue is fixed.
