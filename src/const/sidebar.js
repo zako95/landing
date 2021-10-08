@@ -38,9 +38,11 @@ import { frontMatter as moddingCreatingTextures } from '../pages/docs/modding/cr
 import { frontMatter as moddingMovingDrive } from '../pages/docs/modding/moving-to-another-drive.md';
 import { frontMatter as moddingGscIndex } from '../pages/docs/modding/gsc/index.md';
 import { frontMatter as moddingGscHowToGsc } from '../pages/docs/modding/gsc/how-to-gsc.md';
+import { frontMatter as moddingGscNewScriptingFeatures } from '../pages/docs/modding/gsc/new-scripting-features.md';
 import { frontMatter as moddingGscCompilerLimitations } from '../pages/docs/modding/gsc/compiler-limitations.md';
 import { frontMatter as moddingT4DisablingPerksGsc } from '../pages/docs/modding/t4/disabling-perks-gsc.md';
 import { frontMatter as moddingIW5Customizing } from '../pages/docs/modding/iw5/customizing-game.md';
+
 import { frontMatter as serverIndex } from '../pages/docs/server/index.md';
 import { frontMatter as serverPlatformWhatIsPlatform } from '../pages/docs/server/platform/what-is-platform.md';
 import { frontMatter as serverPlatformNavigatingAround } from '../pages/docs/server/platform/navigating-around.md';
@@ -129,7 +131,7 @@ export const sections = [
             },
             {
                 title: 'GSC modding',
-                children: [moddingGscIndex, moddingGscHowToGsc, moddingGscCompilerLimitations],
+                children: [moddingGscIndex, moddingGscHowToGsc, moddingGscNewScriptingFeatures, moddingGscCompilerLimitations],
             },
             {
                 title: 'T4 modding',
