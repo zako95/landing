@@ -30,6 +30,7 @@ import { frontMatter as donatorTiersExplained } from '../pages/docs/donator-tier
 import { frontMatter as unlockallMaxRank } from '../pages/docs/unlockall-max-rank.md';
 import { frontMatter as aimAssistExplanation } from '../pages/docs/aim-assist.md';
 import { frontMatter as changeYourName } from '../pages/docs/change-name.md';
+import { frontMatter as fixGameZoomedIn } from '../pages/docs/fix-game-zoomed-in.md';
 
 import { frontMatter as moddingIndex } from '../pages/docs/modding/index.md';
 import { frontMatter as moddingLoadingMods } from '../pages/docs/modding/loading-mods.md';
@@ -100,7 +101,7 @@ export const sections = [
             },
             {
                 title: 'Support',
-                children: [support, customGames, controllers, openingConsole, unlockallMaxRank, repair, gameFiles, lowFps, recordingPlutoOBS, changeYourName],
+                children: [support, customGames, controllers, openingConsole, unlockallMaxRank, repair, gameFiles, lowFps, recordingPlutoOBS, changeYourName, fixGameZoomedIn],
             },
             {
                 title: 'Features',
