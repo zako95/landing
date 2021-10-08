@@ -1,6 +1,6 @@
 # New Scripting Features
 
-<Alert 
+<Alert
   variant="info"
 >
 
@@ -31,19 +31,19 @@ It can also be a function in the same script.
 *The second argument* is the function you want the game to call instead of the stock function.  
 It will likely depend on the type of function you want to replace that you will need to base the new function on the one you are replacing to minimize the likelihood that there will be issues.  
 
-When used in a script it would look like this: 
+When used in a script it would look like this:
 ```c++
 main()
 {
-	replaceFunc( common_scripts/utility::flag_set, ::flag_set_with_print );
+    replaceFunc( common_scripts/utility::flag_set, ::flag_set_with_print );
 }
 
 flag_set_with_print( flagname )
 {
-	print( "Flag set: " + flagname );
-	level.flag[ flagname ] = 1;
-	level notify( flagname );
-	common_scripts/utility::set_trigger_flag_permissions( flagname );
+    print( "Flag set: " + flagname );
+    level.flag[ flagname ] = 1;
+    level notify( flagname );
+    common_scripts/utility::set_trigger_flag_permissions( flagname );
 }
 ```
 
@@ -55,7 +55,7 @@ This is of course only an example of replacing a simple utility function to have
 So you may be wondering: "Why is that example code using a main() instead of an init()?"
 
 In conjunction with ReplaceFunc() it is now possible to create fully custom scripts independent of stock scripts.  
-It is no longer necessary to override scripts such as _clientids or _development_dvars.  
+It is no longer necessary to override scripts such as `_clientids` or `_development_dvars`.  
 Additionally, `ReplaceFunc()` needs to be executed before a function is executed otherwise the changes you would want to be made would never happen.  
 Therefore, custom scripts have a main() for this purpose.  
 You can `ReplaceFunc()` any function in the `main()` of a custom script because custom script main(s) are always executed before any stock scripts.  
@@ -97,7 +97,7 @@ A user can also place scripts in `scripts/zm/mapname` for scripts to only be cal
 Only root level scripts are called by the engine in these subfolders.  
 
 The specific load order for those curious works like this:
-```
+```cs
 - custom_scripts::main()
 - gametype::main()
 - mapname::main()
