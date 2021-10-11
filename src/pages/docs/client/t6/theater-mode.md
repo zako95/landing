@@ -16,12 +16,14 @@ This currently only works for Private Matches. This is because servers have no w
 
 ## Playing Demos
 
-* Simply select theater mode, then pick your demo.
+1. Select `Theater` from the menu.
 
-![img](/images/docs/client/t6/theater-mode/ibHQS4R.png)
+2. Find the demo you wish to watch/modify, and select it.
 
----
+3. Either pick `Start Film`, or `Delete`.
 
-Congratulations, you should now be in theater mode!
+![theater menu](/images/docs/client/t6/theater-mode/ibHQS4R.png)
 
-![Done](/images/docs/client/t6/theater-mode/JyKefNT.jpg)
+![theater options](/images/docs/client/t6/theater-mode/options.png)
+
+![inside theater](/images/docs/client/t6/theater-mode/JyKefNT.jpg)

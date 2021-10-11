@@ -2,6 +2,21 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2190-r22XX
+
+* IW5:
+  * Update to Highrise to fix shadows.
+  * Fixed a crash when attempting to join a server that is running a mod.
+  * Fixed an issue where the server will respectate clients who are freelooking.
+
+* T6:
+  * New [Theater Mode](/docs/client/t6/theater-mode) menu which allows you to play demos with ease. Note that demos recorded on any version prior to this will not have any information to go along with the demo, but will still be playable.
+  * Remove color codes from windows console output (mainly for Dedicated Servers).
+  * Added the ability to change the team names with `g_customTeamNames` (Example: `set g_customTeamNames "allies,plutonium.pw|axis,forum.plutonium.pw"`).
+  * Added the ability to bind custom commands to keys. (`bind k ufo`)
+  * Added level "say" notify for when a player says something in chat. (`level waittill( "say", message, player );`)
+  * Hide chat message if it starts with a slash (useful for hiding commands with third-party administration tools).
+
 ## r2158-r2190
 
 * IW5:
