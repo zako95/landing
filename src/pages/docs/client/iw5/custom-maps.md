@@ -14,7 +14,9 @@ Our current custom maps are as follows:
 
 ### Highrise (beta)
 <Alert variant="warning">
+
 Please note, Highrise is still in beta! Some things may not look "right".
+
 </Alert>
 
 ![Highrise in IW5](/images/docs/client/iw5/custom-maps/mp_highrise.png)
