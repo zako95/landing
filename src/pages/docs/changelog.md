@@ -210,7 +210,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * We've incorporated many features from the T4M mod which many players liked to use, let us know if anything is missing and we can see if we can add it.
   * Game controller binds automatically execute when the game starts, saving you having to manually enter the console command.
   * `unlockall` command can be used to skip the grind and be max rank and max prestige with everything unlocked.
-  * The game will now check AppData\Local\Plutonium\storage\t4\mods for any game mods, it will also check the normal location too for backwards compatability with auto installing mods.
+  * The game will now check `AppData\Local\Plutonium\storage\t4\mods` for any game mods, it will also check the normal location too for backwards compatability with auto installing mods.
   * Added menu option to allow 16x AA, the default max is 4x.
   * Added zombies workaround - players who connect later than other players will not spawn until the start of the next round, this avoids them spawning into a wall or other objects.
   * Implemented ultrawide patch, aspectratio is automatically adjusted based on screen resolution

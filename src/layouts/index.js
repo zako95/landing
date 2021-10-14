@@ -59,6 +59,10 @@ const DocsLayout = ({ frontMatter, children }) => {
                     height: 110px;
                     margin: -110px 0 0;
                 }
+
+                .prose code {
+                    word-break: break-word;
+                }
             `}</style>
         </main>
     );
