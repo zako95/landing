@@ -5,7 +5,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 ## r2190-r22XX
 
 * IW5:
-  * Update to Highrise to fix shadows.
+  * Update to Highrise to fix shadows and explosive barrels.
   * Fixed a crash when attempting to join a server that is running a mod.
   * Fixed an issue where the server will respectate clients who are freelooking.
 
