@@ -1,4 +1,4 @@
-# How to record & play demos (Theater Mode)
+# How to use Theater Mode
 
 <Alert variant="warning">
 
@@ -8,24 +8,22 @@ This currently only works for Private Matches. This is because servers have no w
 
 ## Recording Demos
 
-* When you start your game up, verify that `demo_recordPrivateMatch` is set to 1. You can set it by opening the console using the tilde key ```~```  and then typing ```demo_recordPrivateMatch 1```.
+* Before starting private match, ensure `Game Recording` is turned on.
 
-![demo_recordprivatematch](/images/docs/client/t6/theater-mode/e1RBQ2X.png)
-
----
-
-## Playing Demos (Theater Mode)
-
-* Find the demo you wish to play, you can find the demo file name by pressing `Windows Key + R` and pasting `%localappdata%\Plutonium\storage\t6\demos`
-
-![folder](/images/docs/client/t6/theater-mode/drWwNIT.png)
-
-* To load a demo simply enter `demo_play <demo_file_name>`
-
-![loading demo command](/images/docs/client/t6/theater-mode/rzgnaZR.png)
+![img](/images/docs/client/t6/theater-mode/wGZXoKo.png)
 
 ---
 
-Congratulations, you should now be in theater mode!
+## Playing Demos
 
-![Done](/images/docs/client/t6/theater-mode/JyKefNT.jpg)
+1. Select `Theater` from the menu.
+
+2. Find the demo you wish to watch/modify, and select it.
+
+3. Either pick `Start Film`, or `Delete`.
+
+![theater menu](/images/docs/client/t6/theater-mode/ibHQS4R.png)
+
+![theater options](/images/docs/client/t6/theater-mode/options.png)
+
+![inside theater](/images/docs/client/t6/theater-mode/JyKefNT.jpg)

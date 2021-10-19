@@ -46,7 +46,9 @@ const Nav = () => {
                                     href={item.uri}
                                     key={item.uri}
                                 >
-                                    <a className={`py-4 md:py-5 border-b-4 border-transparent transition-colors duration-200 text-gray-300 hover:text-white umami--click--menu-${item.title.toLowerCase()}`}>
+                                    <a
+                                        className={`py-4 md:py-5 border-b-4 border-transparent transition-colors duration-200 text-gray-300 hover:text-white umami--click--menu-${item.title.toLowerCase()}`}
+                                    >
                                         {item.title}
                                     </a>
                                 </NavLink>
@@ -64,7 +66,7 @@ const Nav = () => {
                             )
                         )}
                         <Link href="/docs/install">
-                            <a className="text-xs md:text-sm font-semibold text-black py-2 px-2 md:px-4 rounded-lg hover:text-gray-800 dl-button-anim umami--click--menu-download">
+                            <a className="text-xs md:text-sm font-semibold text-black py-2 px-2 md:px-4 rounded-lg hover:text-gray-800 dl-button-anim umami--click--menu-download hidden md:block">
                                 Download
                             </a>
                         </Link>

@@ -42,8 +42,10 @@ This section will cover downloading a copy of BO2. Please skip this section if y
 ![Explorer step 4](/images/docs/install/cRa2jC2.png)
 
 <Alert variant="warning">
+
 Torrenting copyright protected files might not be legal in your country even if you already own a valid license!
 We are not responsible for any legal issues and recommend you to use a <a href="steam://install/202990">fresh install from Steam</a> or a VPN.
+
 </Alert>
 
 2. Download/open your favourite torrent software.
@@ -241,8 +243,10 @@ Please note we highly recommend buying the game if you do not own it, it is the 
 ![Games Folder Completed](/images/docs/install/cRa2jC2.png)
 
 <Alert variant="warning">
+
 Torrenting copyright protected files might not be legal in your country even if you already own a valid license!
 We are not responsible for any legal issues and recommend you to use a <a href="steam://install/10090">fresh install from Steam</a> or a VPN.
+
 </Alert>
 
 3. Download/open your favorite torrent software.

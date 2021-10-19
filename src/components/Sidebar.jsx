@@ -56,7 +56,7 @@ const Sidebar = () => {
 
                         <ul className="space-y-4">
                             {sections.map((section, i) => (
-                                <SidebarSection section={section} />
+                                <SidebarSection section={section} key={i} />
                             ))}
                         </ul>
                     </nav>
@@ -110,7 +110,10 @@ const SidebarSectionChild = ({ child, index }) => {
     );
     const [isOpen, setIsOpen] = useState(hasActiveItems);
     return (
-        <li className={`${index > 0 ? 'mt-4' : ''} bg-gray-700 mx-2 rounded-lg bg-opacity-30 ${isOpen ? 'pb-4' : ''}`}>
+        <li
+            className={`${index > 0 ? 'mt-4' : ''} bg-gray-700 mx-2 rounded-lg bg-opacity-30 ${isOpen ? 'pb-4' : ''}`}
+            key={index}
+        >
             <div
                 className="flex justify-between px-4 py-4 cursor-pointer cursor-pointer items-center"
                 onClick={() => setIsOpen((isOpen) => !isOpen)}

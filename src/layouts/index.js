@@ -21,7 +21,7 @@ const DocsLayout = ({ frontMatter, children }) => {
 
             <div className="flex">
                 <Sidebar />
-                <div className="flex-grow px-4 py-2">
+                <div className="flex-grow px-4 py-2 max-w-full">
                     <div className="prose lg:prose-xl font-serif">{children}</div>
 
                     <div className="pt-10 pb-8">
@@ -58,6 +58,10 @@ const DocsLayout = ({ frontMatter, children }) => {
                     display: block;
                     height: 110px;
                     margin: -110px 0 0;
+                }
+
+                .prose code {
+                    word-break: break-word;
                 }
             `}</style>
         </main>

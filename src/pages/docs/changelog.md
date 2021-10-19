@@ -2,6 +2,21 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2190-r2234
+
+* IW5:
+  * Update to Highrise to fix shadows and explosive barrels.
+  * Fixed a crash when attempting to join a server that is running a mod.
+  * Fixed an issue where the server will respectate clients who are freelooking.
+
+* T6:
+  * New [Theater Mode](/docs/client/t6/theater-mode) menu which allows you to play demos with ease. Note that demos recorded on any version prior to this will not have any information to go along with the demo, but will still be playable.
+  * Remove color codes from windows console output (mainly for Dedicated Servers).
+  * Added the ability to change the team names with `g_customTeamNames` (Example: `set g_customTeamNames "allies,plutonium.pw|axis,forum.plutonium.pw"`).
+  * Added the ability to bind custom commands to keys. (`bind k ufo`)
+  * Added level "say" notify for when a player says something in chat. (`level waittill( "say", message, player );`)
+  * Hide chat message if it starts with a slash (useful for hiding commands with third-party administration tools).
+
 ## r2158-r2190
 
 * IW5:
@@ -195,7 +210,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * We've incorporated many features from the T4M mod which many players liked to use, let us know if anything is missing and we can see if we can add it.
   * Game controller binds automatically execute when the game starts, saving you having to manually enter the console command.
   * `unlockall` command can be used to skip the grind and be max rank and max prestige with everything unlocked.
-  * The game will now check AppData\Local\Plutonium\storage\t4\mods for any game mods, it will also check the normal location too for backwards compatability with auto installing mods.
+  * The game will now check `AppData\Local\Plutonium\storage\t4\mods` for any game mods, it will also check the normal location too for backwards compatability with auto installing mods.
   * Added menu option to allow 16x AA, the default max is 4x.
   * Added zombies workaround - players who connect later than other players will not spawn until the start of the next round, this avoids them spawning into a wall or other objects.
   * Implemented ultrawide patch, aspectratio is automatically adjusted based on screen resolution
