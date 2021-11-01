@@ -6,6 +6,19 @@ While GSC is very limited, it does offer features that any basic C++ developer s
 
 You should have knowledge of loading GSC scripts before attempting to write them, please check [our guide about this](/docs/modding/loading-mods)
 
+## Comments
+
+Comments exist in two ways, one-line, or multi-line block comments.
+
+```cs
+// This is a one-line comment.
+
+/*
+This is a comment across
+multiple lines!
+*/
+```
+
 ## Declaring Functions
 
 You can declare functions in GSC by giving it a name, followed by a `(){` and a closing `}` at the end of your function.
@@ -364,6 +377,13 @@ Callback_PlayerKilled(attacker, some other arguments)
   self endon("spawned"); // This makes callback_playerkilled() terminate when "spawned" is triggered in spawnplayer().
 }
 ```
+
+## Including other GSC.
+
+By using the format `#include path\filename;` you can include a GSC file into your existing GSC file.  
+Filenames can either have or not have the file extension, folders are separated by a backslash.  
+All of the path must be in one word, may have spaces/tabs/newlines before and after filename until semicolon.  
+Includes must be done before any sort of function is defined inside the file.  
 
 ## HUD Elements
 
