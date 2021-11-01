@@ -36,7 +36,7 @@
 
 ## 2. Basic server configuration
 
-1\. Open the start.bat file for the server you want, make sure you note down the port it is using. If you are hosting a server on the same machine you are running the game from, please change the port number to something different (`28963` for example).
+1\. Open the start.bat file for the server you want, make sure you note down the port it is using. If you are hosting a server on the same machine you are running the game from, please change the port number to something different (`28963` for example).  
 2\. Edit your `server.cfg` file with whatever changes you want (i.e. RCON Password/Map Rotation/Round Limits/etc/etc).  
 3\. Double click the bat file.  
 4\. Wait for the server to finish loading.  
