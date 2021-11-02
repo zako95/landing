@@ -19,6 +19,9 @@ You should always use parenthesis when comparing values that use conditions and 
 
 If you still do not understand, just use parenthesis when operators are involved.
 
+Ternary Operators compiles but doesn't work as expected.  
+Instead of returning one of the two values specified the compiler will compile it to return bools instead.  
+
 ## If Statements
 
 - You cannot use more than 2 conditions in an ``if`` statement connected by OR (``||``) operators enclosed in parenthesis.
