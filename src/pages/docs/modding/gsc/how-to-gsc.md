@@ -6,6 +6,19 @@ While GSC is very limited, it does offer features that any basic C++ developer s
 
 You should have knowledge of loading GSC scripts before attempting to write them, please check [our guide about this](/docs/modding/loading-mods)
 
+## Comments
+
+Comments exist in two ways, one-line, or multi-line block comments.
+
+```cs
+// This is a one-line comment.
+
+/*
+This is a comment across
+multiple lines!
+*/
+```
+
 ## Declaring Functions
 
 You can declare functions in GSC by giving it a name, followed by a `(){` and a closing `}` at the end of your function.
@@ -365,6 +378,13 @@ Callback_PlayerKilled(attacker, some other arguments)
 }
 ```
 
+## Including other GSC
+
+By using the format `#include path\filename;` you can include a GSC file into your existing GSC file.  
+Filenames can either have or not have the file extension, folders are separated by a backslash.  
+All of the path must be in one word, may have spaces/tabs/newlines before and after filename until semicolon.  
+Includes must be done before any sort of function is defined inside the file.  
+
 ## HUD Elements
 
 **Note** For certain things (HUD Elements in mind) you are **required** to use a `include`, simply wack `#include maps\mp\gametypes\_hud_util;` at the very top of your script and the following will work.
@@ -417,5 +437,7 @@ This guide has parts from Zeroy's CoD 4 GSC guide, but nothing was changed about
 [Download the script](https://cdn.discordapp.com/attachments/710609237805498500/842246918586761216/myFirstGSC.gsc) I used which demonstrates some of the topics discussed here.
 
 [Zeroy's CoD4 GSC Introduction](https://wiki.zeroy.com/index.php?title=Call_of_Duty_4:_Introduction)
+
+[Ingramz's CoDScript Example](https://gist.github.com/ChxseH/aa1a67e9b1254620b4909aa42ef60184)
 
 [iAegle's "Creating a HUD Element Guide"](https://www.itsmods.com/forum/Thread-Tutorial-Creating-a-HUD-Element-Text-Basics.html)
