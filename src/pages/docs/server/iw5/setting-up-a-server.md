@@ -106,7 +106,7 @@ This is due to the client having a check that only one copy is open at a time. S
 
 ### You said we can delete game files to save disk space, is it worth it?
 
-We recommend it, the files to host MP and ZM servers from the same folder with all maps and modes require roughly 1.7GB instead of 22GB and HIGHLY speeds up loading times as unnecessary files are not loaded.
+We recommend it, you can delete everything besides `iw_00.iwd` and `0.sdm` in your `main` folder.
 
 ### Why does everyone get an time out during a map change?
 We are not entirely sure but it seems to be related to certain dvars not being set to their default value. Only known dvar to cause this is `party_maxplayers`.
