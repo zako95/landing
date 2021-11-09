@@ -58,7 +58,7 @@ Several components exist outside of the normal markdown syntax for situations wh
 
 ```jsx
 <Alert 
-  variant="warning" // ... or info, danger.
+  variant="warning" // ... or info, tip, danger.
 >
 
 The docs are a work in progress. Feel free to contribute on [GitHub](https://github.com/plutoniumpw/site/).
