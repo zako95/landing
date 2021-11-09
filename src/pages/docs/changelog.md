@@ -2,6 +2,20 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2385-r2461
+
+* IW5:
+  * Even more performance fixes!
+  * Mouse input is fixed! mouse input should no longer stutter or hitch.
+  * Added the devmap command back.
+  * Map/devmap commands can now be executed from any menu.
+
+* T6:
+  * Fixed high FOV issues where the screen would turn around
+  * Ability to make ADS sensitivity the same as regular sensitivity!
+  * Fixed rank mode! You can now unlock everything by playing without having to use the unlockall command!
+  * Fixed unlockall! Unlockall now truly unlocks everything in the game.
+
 ## r2234-r2385
 
 * IW5:
