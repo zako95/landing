@@ -12,8 +12,8 @@ If you torrented the game, follow these steps. If you used Steam, follow [the St
 
 * [qBittorrent](https://www.fosshub.com/qBittorrent.html) (or any other torrent client)
 * The .torrent file of the game you want to repair:
-  * [For T4](http://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent)
-  * [For T6](http://dss0.cc/alterwarez/download/pluto_t6_full_game.torrent)
+  * [For T4](https://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent)
+  * [For T6](https://dss0.cc/alterwarez/download/pluto_t6_full_game.torrent)
 
 1\. Open the .torrent file for the game you wish to repair in QBittorrent, if QBittorrent is the only torrent client you have installed simply double clicking the torrent file should open it right away.
 
