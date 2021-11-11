@@ -51,7 +51,7 @@ We are not responsible for any legal issues and recommend you to use a <a href="
 2. Download/open your favourite torrent software.
 qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
 
-3. Download the [torrent file](https://drive.google.com/file/d/1loejoTfKYZhYJOaorI8XaWgtPB7zocdi/view?usp=sharing).
+3. Download the [torrent file](https://plutonium.pw/pluto_t6_full_game.torrent).
 
 4. Open the torrent file `pluto_t6_full_game.torrent` (from the previous step) it will open up your torrent client program and ask you where you'd like to save the game.
 **SELECT THE GAMES FOLDER AS THE SAVE LOCATION, YOU CREATED IT IN STEP 1**
@@ -73,7 +73,7 @@ Skip these steps if you installed the game via the torrent. This is for people w
 1. Download/open your favourite torrent software.
 qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
 
-2. Download the [torrent file](https://dss0.cc/alterwarez/download/t6_dlcs.torrent).
+2. Download the [torrent file](https://plutonium.pw/t6_dlcs.torrent).
 
 3. Open the torrent file `t6_dlcs.torrent` (from the previous step) it will open up your torrent client program and ask you where you'd like to save the DLCs.
 **SELECT YOUR STEAM BO2 FOLDER**
@@ -172,7 +172,7 @@ The section will cover how to download and install the English DLC to get the co
 
 <Alert variant="tip">
 
-If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://dss0.cc/alterwarez/download/iw5m_dlcs.torrent).
+If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://plutonium.pw/iw5m_dlcs.torrent).
 
 </Alert>
 
@@ -252,7 +252,7 @@ We are not responsible for any legal issues and recommend you to use a <a href="
 3. Download/open your favorite torrent software.
 [qBittorent Windows x64](https://www.fosshub.com/qBittorrent.html) is recommended.
 
-4. Download the [torrent file](https://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent).
+4. Download the [torrent file](https://plutonium.pw/pluto_t4_full_game.torrent).
 
 5. Open the torrent file, it will open up your torrent client program and ask you where you'd like to save the game.
 
