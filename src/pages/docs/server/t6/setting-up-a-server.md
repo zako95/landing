@@ -24,9 +24,13 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 
 2. Download the [T6 Config Files](https://github.com/xerxes-at/T6ServerConfigs/archive/master.zip)
 
-3. Save/Extract the configs to `C:\gameserver\T6`
+3. Move everything **but** the `localappdata` folder into the server folder.
 
-![img](/images/docs/server/t6/setting-up-a-server/yAzrEKR.png)
+![img](/images/docs/server/t6/setting-up-a-server/bats.png)
+
+4. Next, Press `Windows+R` and type `%localappdata%\Plutonium` and move everything from inside the ZIP's `localappdata` > `Plutonium` folder into here.
+
+![img](/images/docs/server/t6/setting-up-a-server/localappdata.png)
 
 ### 1.2 Creating a server key
 
