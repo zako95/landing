@@ -5,9 +5,9 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 ## r2462-r2485
 
 * IW5:
-  * Improve curses console improve curses console
+  * Improve curses console
   * Various bug fixes
-  * Improved preformace
+  * Improved performance
 
 ## r2385-r2462
 
