@@ -51,7 +51,7 @@ We are not responsible for any legal issues and recommend you to use a <a href="
 2. Download/open your favourite torrent software.
 qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
 
-3. Download the [torrent file](https://drive.google.com/file/d/1loejoTfKYZhYJOaorI8XaWgtPB7zocdi/view?usp=sharing).
+3. Download the [torrent file](/pluto_t6_full_game.torrent).
 
 4. Open the torrent file `pluto_t6_full_game.torrent` (from the previous step) it will open up your torrent client program and ask you where you'd like to save the game.
 **SELECT THE GAMES FOLDER AS THE SAVE LOCATION, YOU CREATED IT IN STEP 1**
@@ -73,7 +73,7 @@ Skip these steps if you installed the game via the torrent. This is for people w
 1. Download/open your favourite torrent software.
 qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
 
-2. Download the [torrent file](https://dss0.cc/alterwarez/download/t6_dlcs.torrent).
+2. Download the [torrent file](/t6_dlcs.torrent).
 
 3. Open the torrent file `t6_dlcs.torrent` (from the previous step) it will open up your torrent client program and ask you where you'd like to save the DLCs.
 **SELECT YOUR STEAM BO2 FOLDER**
@@ -84,7 +84,8 @@ qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html
 
 ![img](/images/docs/install/f32c04d072946509231016a435e9c521.png)
 
-5. Start the download and wait till the download completes you will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
+5. Start the download and wait till the download completes.
+You will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
 
 ### Setting up T6 with the Plutonium Launcher
 
@@ -167,14 +168,11 @@ Now simply wait for the download to complete, you can monitor progress by clicki
 ### Installing the DLC
 
 The section will cover how to download and install the English DLC to get the complete MW3 experience. Note: this DLC will only work on an English copy of the game.
+You can either download them using the MEGA link or the torrent file. **You do not need to download both, pick whichever option works best for you.**
+
+#### MEGA
 
 1. Download the DLC zip archive via the following [link](https://mega.nz/folder/CYUkGSrJ#HVa6Cik59Bgi9pp5NBW4fg).
-
-<Alert variant="tip">
-
-If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://dss0.cc/alterwarez/download/iw5m_dlcs.torrent).
-
-</Alert>
 
 ![img](/images/docs/install/Zqx80uj.png)
 
@@ -184,16 +182,48 @@ If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://ds
 
 ![img](/images/docs/install/9wYQgJ3.png)
 
-3. Locate your MW3 game folder in file explorer, by default steam will have installed it into the following location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3` You can use steam to easily locate your folder:
+3. Locate your MW3 game folder in file explorer.
+By default Steam will have installed it into the following location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3`
+You can also find your folder through Steam if needed
 
 ![img](/images/docs/install/K7dj3mP.png)
 
 
-4. Now go back to the `MW3 DLC [EN].zip` file and drag and drop the `main` & `zone` folders into your MW3 game folder. If prompted select `Replace files in the destination`.
+4. Now go back to the `MW3 DLC [EN].zip` file and drag and drop the `main` & `zone` folders into your MW3 game folder.
+If prompted select `Replace files in the destination`.
 
 ![img](/images/docs/install/3m5tWAj.png)
 
 ![img](/images/docs/install/yKw8Rl2.png)
+
+#### Torrent
+
+1. Download/open your favourite torrent software.
+qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
+
+2. Download the [torrent file](/iw5m_dlcs.torrent).
+
+3. Open the torrent file `iw5m_dlcs.torrent` (from the previous step).
+It will open up your torrent client program and ask you where you'd like to save the DLCs.
+**SELECT THE MODERN WARFARE 3 FOLDER**
+
+By default Steam will have installed it into the following location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3`
+You can also find your folder through Steam if needed
+
+![img](/images/docs/install/K7dj3mP.png)
+
+![img](/images/docs/install/mw3_torrent_folder.png)
+
+4. Select `"don't create subfolder"` from the `"content layout"` dropdown menu (in older versions of qbitorrent this will be a checkbox called `"create subfolder"` or `"keep top-level folder"` which you have to untick)
+
+![img](/images/docs/install/f32c04d072946509231016a435e9c521.png)
+
+5. Untick `iw5m_dlcs` and tick `main` and `zone`.
+
+![img](/images/docs/install/mw3_torrent_settings.png)
+
+6. Start the download and wait till the download completes.
+You will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
 
 Congratulations the DLC is now installed!
 
@@ -252,7 +282,7 @@ We are not responsible for any legal issues and recommend you to use a <a href="
 3. Download/open your favorite torrent software.
 [qBittorent Windows x64](https://www.fosshub.com/qBittorrent.html) is recommended.
 
-4. Download the [torrent file](https://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent).
+4. Download the [torrent file](/pluto_t4_full_game.torrent).
 
 5. Open the torrent file, it will open up your torrent client program and ask you where you'd like to save the game.
 
