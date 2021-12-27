@@ -75,7 +75,7 @@ Your friend will appear in the Plutonium overlay's Friend list tab if you both f
 
 There is no party system in Plutonium so your friend(s) can only join you while you're in-game (or finished loading in the loading screen).
 To be able to play with your friends on round 1 you can force the game to wait in the loading screen until a certain amount of players connect with the commands below.
-(These commands need to be entered in the [console](https://plutonium.pw/docs/opening-console/). Replace `2` by the number of players you want to wait for before starting the game).
+(These commands need to be entered in the [console](/docs/opening-console/). Replace `2` by the number of players you want to wait for before starting the game).
 
 `sp_minplayers 2` [T4]  
 `zombies_minplayers 2` [T6]

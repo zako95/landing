@@ -7,7 +7,7 @@ You can find support in various places:
 
 ## Before asking for support
 
-Before asking for support make sure you tried searching in [the documentation](https://plutonium.pw/docs/) and on [the forum](https://forum.plutonium.pw/)
+Before asking for support make sure you tried searching in [the documentation](/docs/) and on [the forum](https://forum.plutonium.pw/)
 The most frequently asked questions are already answered there like how to install the game or how to play with a friend, how to unlock all and so on.
 
 ## How to ask for support?
@@ -26,6 +26,6 @@ In most cases a detailed support request should contain the following informatio
 
 * The problem you're having (Make it as descriptive as possible)
 * A screenshot of the error/issue you're having if any. A video is even better
-* A screenshot of your game files [including the path to those files](https://plutonium.pw/docs/game-files/)
+* A screenshot of your game files [including the path to those files](/docs/game-files/)
 * What you tried already?
 * When you started having the problem?

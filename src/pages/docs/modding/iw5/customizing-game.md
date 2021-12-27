@@ -31,7 +31,7 @@ Is located in "iw_03.iwd" under "images\navbar_tick.iwi"
 2. Now we know the file location we simply replicate the folder structure in `storage/iw5/`
 Recreate the folders:
 `%localappdata%\Plutonium\storage\iw5\images\navbar_tick.iwi`
-You can replace the iwi file with another just ensure the folder structure and name remains the same as the original. If you want a guide on how to edit iwi textures please [read this](https://plutonium.pw/docs/modding/creating-textures/).
+You can replace the iwi file with another just ensure the folder structure and name remains the same as the original. If you want a guide on how to edit iwi textures please [read this](/docs/modding/creating-textures/).
 
 Loading up the game now will result in your image in storage being rendered instead of the normal texture.
 
