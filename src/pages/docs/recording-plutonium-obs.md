@@ -10,3 +10,5 @@
 
 ![img](/images/docs/recording-plutonium-obs/TRRTqji.png)
 ![img](/images/docs/recording-plutonium-obs/mNYfZtx.png)
+
+If either of those methods do not work, you can choose `Display Capture` for a source, but keep in mind it will record everything on the display and not just Plutonium.
