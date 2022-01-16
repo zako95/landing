@@ -2,6 +2,56 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2485-r2673 - T4 SP refactor (WIP)
+
+* General:
+  * Bootstrapper now registers as high performance app in Windows 10. (No more manually setting up Pluto to run on your dGPU on notebooks! Works for AMD and Nvidia)
+  * Added improvements to the profiler.
+
+* T4:
+  * Added dvar `bullet_penetration_affected_by_team` (default true) to control whether a teammate's bodies can affect your bullet penetration.
+  * Added dvar `g_fixBulletDamageDupe` (default false) fixes an Issue where players that are clipped inside each other receive duplicate bullet damage.
+  * Added dvar `cg_hudGrenadeIconShowFriendly` (default true).
+  * Added command `g_fix_resets` to SP makes reset timers for ZM 21 days.
+  * Made regular reset time consistent with console version.
+  * Added dvar `perk_weapRateEnhanced` (default false) switches between Double Tap 1.0 (false) and 2.0 (true).
+  * Added dvar `sv_allowFriendlyThrowback` (default true) to SP to allow friendly grenades to be thrown again.
+  * Added commands `uptime`, `time` and `servertime` to get the current uptime of the game, local time and server time.
+  * Fixed joining games in progress.
+  * Clients on SP can now reconnect to server after loadmod on it.
+  * Changes default video mode to windowed.
+  * Fixed SEH table (prevents com_error messages from crashing the game).
+  * Fixed a crash with loading usermaps.
+  * Fixed loading ffs from legacy localappdata folder.
+  * Fixed `missionfailed` and `savegame` for ZM dedicated servers.
+  * Fixed Coop game mode.
+  * Fixed water height on dedicated servers
+  * Improved ZM scoreboard by showing more information at once.
+  * Limit FPS on menus as it broke vid_restart
+  * Added dvar `scr_kill_infinite_loops` (default true).
+  * Added `getguid` and `logprint` to the GSC functions
+  * Added T4 SP (Coop + ZM) rcon support.
+
+* T6:
+  * Added dvar `cg_weaponCycleDelay` to control the delay in milliseconds after cycling to a new weapon to prevent holding down the cycle weapon button from cycling too fast.
+  * Added dvar `sv_patch_dsr50` (default false) to set the pre-patch DSR 50 stats per server.
+  * Added dvar `sv_patch_zm_weapons` (default true) to restore pre DLC1 patch recoil behavior of the following ZM weapons:
+    * MTAR (tar21_zm)
+    * Type 25 (type95_zm)
+    * M8A1 (xm8_zm)
+    * AN-94 (an94_zm)
+    * HAMR (hamr_zm)
+    * RPD (rpd_zm)
+    * PDW-57 (pdw57_zm)
+    * KAP-40 (kard_zm)
+  * Added dvar `sv_fix_zm_weapons` (default false) to fix the SMR's ADS spread, 870 MCS's penetration damage and allow sprinting with Galvaknuckles (weapon)
+    * The SMR has the same spread when ADS as hip firing
+    * The Remington 870 MCS has no penetration damage so it almost always just hits 1 zombie
+  * Fixed multiple issues with the sound system on dedicated servers, this applies to both MP + ZM and should fix the callouts in MP and voice lines in ZM.
+    * Whitelisted the 'sl' command from being rate limited.
+    * Have `soundexists` (GSC function) use the new prebuilt sound alias table solution instead.
+
+
 ## r2462-r2485
 
 * IW5:
