@@ -36,6 +36,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 
 * T6:
   * Added dvar `cg_weaponCycleDelay` to control the delay in milliseconds after cycling to a new weapon to prevent holding down the cycle weapon button from cycling too fast.
+  * Added dvar `perk_weapRateEnhanced` (default true) switches between Double Tap 1.0 (false) and 2.0 (true).
   * Added dvar `sv_patch_dsr50` (default false) to set the pre-patch DSR 50 stats per server.
   * Added dvar `sv_patch_zm_weapons` (default true) to restore pre DLC1 patch recoil behavior of the following ZM weapons:
     * MTAR (tar21_zm)
