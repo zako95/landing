@@ -2,11 +2,12 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
-## r2485-r2679 - T4 SP refactor (WIP)
+## r2485-r2691 - T4 SP refactor
 
 * General:
   * Bootstrapper now registers as high performance app in Windows 10. (No more manually setting up Pluto to run on your dGPU on notebooks! Works for AMD and Nvidia)
   * Added improvements to the profiler.
+  * Fixed mod downloading, large mods do work now. (max. 400MB per file)
 
 * T4:
   * Added dvar `bullet_penetration_affected_by_team` (default true) to control whether a teammate's bodies can affect your bullet penetration.
@@ -31,7 +32,6 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Added dvar `scr_kill_infinite_loops` (default true).
   * Added `getguid` and `logprint` to the GSC functions
   * Added T4 SP (Coop + ZM) rcon support.
-  * Fixed mod downloading, large mods do work now. (max. 400MB per file)
   * Mod downloading progress now also shows progress per file.
 
 * T6:
