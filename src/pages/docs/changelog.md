@@ -17,7 +17,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Mod downloading progress now also shows progress per file.
   * Made regular reset time consistent with console version.
   * Fixed joining games in progress.
-  * Clients on SP can now reconnect to server after loadmod on it.
+  * Singleplayer users can now reconnect to server after a mod is loaded on it.
   * Changes default video mode to windowed.
   * Added dvar `bullet_penetration_affected_by_team` (default true) to control whether a teammate's bodies can affect your bullet penetration.
   * Added dvar `g_fixBulletDamageDupe` (default false) fixes an Issue where players that are clipped inside each other receive duplicate bullet damage.
