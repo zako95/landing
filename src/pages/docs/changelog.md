@@ -82,7 +82,6 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Fix overlapping sounds that play with playsoundwithnotify on zm dedis
   * Fix paralyzer floating, zombie slowdown and ice staff zombe slowdown on zm dedis
   * Fix zm bots on dedi (no external plugin required to get the bots to aim at stuff via gsc)
-  * Add perk_weapRateEnhanced feature request
   * Fix voiceovers on zm dedis
   * Ranked on dedis ZM, perma perks, bank, stats, etc all now save for clients.
   * Added isdedicated gsc func
