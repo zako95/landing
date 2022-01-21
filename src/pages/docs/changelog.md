@@ -2,25 +2,31 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
-## r2485-r2691 - T4 SP refactor
+## r2485-r2693 - T4 SP refactor
 
 * General:
   * Bootstrapper now registers as high performance app in Windows 10. (No more manually setting up Pluto to run on your dGPU on notebooks! Works for AMD and Nvidia)
   * Added improvements to the profiler.
   * Fixed mod downloading, large mods do work now. (max. 400MB per file)
 
+* IW5:
+  * Console.log is fixed.
+
 * T4:
+  * Added T4 SP (Coop + ZM) rcon support.
+  * Mod downloading progress now also shows progress per file.
+  * Made regular reset time consistent with console version.
+  * Fixed joining games in progress.
+  * Clients on SP can now reconnect to server after loadmod on it.
+  * Changes default video mode to windowed.
   * Added dvar `bullet_penetration_affected_by_team` (default true) to control whether a teammate's bodies can affect your bullet penetration.
   * Added dvar `g_fixBulletDamageDupe` (default false) fixes an Issue where players that are clipped inside each other receive duplicate bullet damage.
   * Added dvar `cg_hudGrenadeIconShowFriendly` (default true).
   * Added command `g_fix_resets` to SP makes reset timers for ZM 21 days.
-  * Made regular reset time consistent with console version.
   * Added dvar `perk_weapRateEnhanced` (default false) switches between Double Tap 1.0 (false) and 2.0 (true).
   * Added dvar `sv_allowFriendlyThrowback` (default true) to SP to allow friendly grenades to be thrown again.
   * Added commands `uptime`, `time` and `servertime` to get the current uptime of the game, local time and server time.
-  * Fixed joining games in progress.
-  * Clients on SP can now reconnect to server after loadmod on it.
-  * Changes default video mode to windowed.
+  * Added `replacefunc`, `disabledetour` (disables a replacefunc), `enabledetour`, `disabledetouronce`, `isdedicated`.
   * Fixed SEH table (prevents com_error messages from crashing the game).
   * Fixed a crash with loading usermaps.
   * Fixed loading ffs from legacy localappdata folder.
@@ -31,10 +37,30 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Limit FPS on menus as it broke vid_restart
   * Added dvar `scr_kill_infinite_loops` (default true).
   * Added `getguid` and `logprint` to the GSC functions
-  * Added T4 SP (Coop + ZM) rcon support.
-  * Mod downloading progress now also shows progress per file.
+  * `init` and `main` GSC Loading
+  * Added Loading GSC from folders: `scripts/<mp|sp>`/`<mapname>` and `<gametype>`.
+  * `notifyonplayercommand`
+  * `logstring` restored
+  * script preprocessor
+    * #define <key> <value>, #undefine <key>
+      * #define keys will replace all token instances of <key> with <value>
+    * #if, #else, #endif
+      * check if a <key> exists from a #define
+      * also there is `#if isSyscallDefined <builtin name>`
+      * all #if's can be negated with '!', for example `#if !isSyscallDefined foo`
+  * gsc notify for "say", "sayall" and "sayteam" when someone text chats (`level waittill("say", message, player, was_hidden);`)
+  * a player can send a hidden text chat message with a '/'
+  * `ishost` GSC Method
+  * improved `scriptusage` command to show number of variables and threads
+  * Fixed `cg_drawscriptusage` for MP
+  * `getfunction` and `getfunctionname`
+  * `printConsole` GSC call
+  * Fixed a crash when custom GSC has compiler error
+  * `statset` works with `developer_script`
+  * Fixed crash when `newscorehudelem` can't create a new HUD element
 
 * T6:
+  * Show actual player counts on LUI menu
   * Added dvar `cg_weaponCycleDelay` to control the delay in milliseconds after cycling to a new weapon to prevent holding down the cycle weapon button from cycling too fast.
   * Added dvar `perk_weapRateEnhanced` (default true) switches between Double Tap 1.0 (false) and 2.0 (true).
   * Added dvar `sv_patch_dsr50` (default false) to set the pre-patch DSR 50 stats per server.
@@ -53,7 +79,16 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Fixed multiple issues with the sound system on dedicated servers, this applies to both MP + ZM and should fix the callouts in MP and voice lines in ZM.
     * Whitelisted the 'sl' command from being rate limited.
     * Have `soundexists` (GSC function) use the new prebuilt sound alias table solution instead.
-
+  * Fix overlapping sounds that play with playsoundwithnotify on zm dedis
+  * Fix paralyzer floating, zombie slowdown and ice staff zombe slowdown on zm dedis
+  * Fix zm bots on dedi (no external plugin required to get the bots to aim at stuff via gsc)
+  * Add perk_weapRateEnhanced feature request
+  * Fix voiceovers on zm dedis
+  * Ranked on dedis ZM, perma perks, bank, stats, etc all now save for clients.
+  * Added isdedicated gsc func
+  * Fixed crossbow and killstreak challange tracking on mp dedis
+  * Disabled possible host migration on private matches
+  * Zombies dedicated server tick rate increased from 10hz to 20hz to be in line with Steam custom games.
 
 ## r2462-r2485
 
