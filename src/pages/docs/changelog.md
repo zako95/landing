@@ -2,7 +2,7 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
-## r2485-r2673 - T4 SP refactor (WIP)
+## r2485-r2679 - T4 SP refactor (WIP)
 
 * General:
   * Bootstrapper now registers as high performance app in Windows 10. (No more manually setting up Pluto to run on your dGPU on notebooks! Works for AMD and Nvidia)
@@ -31,6 +31,8 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Added dvar `scr_kill_infinite_loops` (default true).
   * Added `getguid` and `logprint` to the GSC functions
   * Added T4 SP (Coop + ZM) rcon support.
+  * Fixed mod downloading, large mods do work now. (max. 400MB per file)
+  * Mod downloading progress now also shows progress per file.
 
 * T6:
   * Added dvar `cg_weaponCycleDelay` to control the delay in milliseconds after cycling to a new weapon to prevent holding down the cycle weapon button from cycling too fast.
