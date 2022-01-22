@@ -2,6 +2,16 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+
+## r2693-r2702
+
+* T4
+  * Increased file size limited
+
+* IW5
+  * Fixes mod downloading
+  * Allows users to host custom maps
+
 ## r2485-r2693 - T4 SP refactor
 
 * General:
