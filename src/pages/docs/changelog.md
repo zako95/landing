@@ -52,12 +52,12 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * `notifyonplayercommand`
   * `logstring` restored
   * script preprocessor
-    * #define <key> <value>, #undefine <key>
-      * #define keys will replace all token instances of <key> with <value>
-    * #if, #else, #endif
-      * check if a <key> exists from a #define
+    * `#define <key> <value>`, `#undefine <key>`
+      * `#define` keys will replace all token instances of `<key>` with `<value>`
+    * `#if`, `#else`, `#endif`
+      * check if a `<key>` exists from a `#define`
       * also there is `#if isSyscallDefined <builtin name>`
-      * all #if's can be negated with '!', for example `#if !isSyscallDefined foo`
+      * all `#if`'s can be negated with '!', for example `#if !isSyscallDefined foo`
   * gsc notify for "say", "sayall" and "sayteam" when someone text chats (`level waittill("say", message, player, was_hidden);`)
   * a player can send a hidden text chat message with a '/'
   * `ishost` GSC Method
