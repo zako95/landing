@@ -21,7 +21,7 @@ The launcher will now start the process of installing the client files.
 
 4. Setup the game you want to play.
 
-## T6
+## T6 (Black Ops 2)
 
 ### I just want to update / I already have BO2 installed?
 
@@ -62,9 +62,9 @@ Once it's done you will have your copy of the game downloaded, here is an exampl
 
 ![Completed Game Folder](/images/docs/install/B8g1bXI.png)
 
-### Installing T6 DLC
+### Installing the DLCs (BO2)
 
-<Alert variant="tip">
+<Alert variant="warning">
 
 Skip these steps if you installed the game via the torrent. This is for people who used Steam, but do not own any DLC.
 
@@ -119,13 +119,13 @@ To launch BO2 simply open the Plutonium launcher and select PLAY.
 
 ---
 
-## IW5
+## IW5 (Modern Warfare 3)
 
 ### I just want to update / I already have MW3 installed
 
 If you already have the game installed from Steam or had a previous update of Plutonium then you can skip the below section and move onto the [Installing the DLC](#installing-the-dlc) section.
 
-### Installing the base game (Modern Warfare 3)
+### Installing the base game (MW3)
 
 Note: This section will cover downloading a FREE copy of MW3. Please skip this section if you already have a copy of the game.
 
@@ -165,7 +165,7 @@ If you want the game in your native language we suggest purchasing the game and 
 
 Now simply wait for the download to complete, you can monitor progress by clicking the `DOWNLOADS` text at the bottom of Steam. Once the download completes you will have a copy of MW3.
 
-### Installing the DLC
+### Installing the DLCs (MW3)
 
 The section will cover how to download and install the English DLC to get the complete MW3 experience. Note: this DLC will only work on an English copy of the game.
 You can either download them using the MEGA link or the torrent file. **You do not need to download both, pick whichever option works best for you.**
@@ -253,7 +253,7 @@ It will crash the first time you start the game as it needs to delete a file, th
 
 ---
 
-## T4
+## T4 (World at War)
 
 ### ***I just want to update / I already have WaW installed?***
 
