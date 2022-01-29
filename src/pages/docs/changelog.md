@@ -17,7 +17,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * The close button of the mod downloading popup will now cancel mod downloading
 
 * T6
-  * Added the option to load demos in codcaster mode 
+  * Added the option to load demos in codcaster mode
 
 ## r2693-r2702
 
