@@ -2,6 +2,22 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2702-r2748
+
+* General
+  * Mod downloading now adds file checksums, missing files / mismatching files will now be redownloaded.
+  * The download speed label update time has been adjusted to 1 second.
+
+* IW5
+  * Added support for usermaps, makes downloading maps easier!
+  * Added "reconnect" command, this command will reconnect you to the current server.
+  * Fixed the cancel button for mod downloading
+
+* T4
+  * The close button of the mod downloading popup will now cancel mod downloading
+
+* T6
+  * Added the option to load demos in codcaster mode 
 
 ## r2693-r2702
 
