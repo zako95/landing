@@ -22,7 +22,7 @@ const options = [
     },
 ];
 
-const GRAFANA_BASE_URL = 'https://grafana.erebus.group';
+const GRAFANA_BASE_URL = 'https://grafana.plutonium.pw';
 
 const Stats = () => {
     const [selected, setSelected] = useState(options[1]);
