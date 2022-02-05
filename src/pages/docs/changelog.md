@@ -11,7 +11,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
     * Server Dvars
       * `sv_voice 1` - Global Voice Chat (Everyone can hear everyone) \[Default]
       * `sv_voice 2` - Team Voice Chat Only
-      * `sv_voicequality` - Voice Quality (0-9) \[Default is `3` which is original console quality]
+      * `sv_voicequality` - Voice Quality (0-9) \[Default is 3, which is the original console quality. 9 is the best quality and 0 is the worst.]
     * Note: In order to mute players, open the pause menu and select Mute Players
   * Fixed bug where sounds wouldn't load from usermaps.
 
@@ -22,7 +22,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
     * Server Dvars
       * `sv_voice 1` - Global Voice Chat (Everyone can hear everyone) \[Default]
       * `sv_voice 2` - Team Voice Chat Only
-      * `sv_voicequality` - Voice Quality (0-9) \[Default is `3` which is original console quality]
+      * `sv_voicequality` - Voice Quality (0-9) \[Default is 3, which is the original console quality. 9 is the best quality and 0 is the worst.]
     * Note: In order to mute players, open the scoreboard, use your mouse wheel/dpad to highlight their name and press Enter/A.
 
 ## r2702-r2748
