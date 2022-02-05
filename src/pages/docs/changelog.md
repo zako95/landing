@@ -7,19 +7,23 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 * IW5
   * Voice Chat Added!
     * Client Dvars
-      * `cl_voice` - Enable/Disable Voice Chat
+      * `cl_voice` - Enable/Disable Voice Chat (You can also change this in the options)
     * Server Dvars
       * `sv_voice 1` - Global Voice Chat (You can hear everyone) [Default]
       * `sv_voice 2` - Team Voice Chat Only
+      * `sv_voicequality` - Voice Quality (Default: 3)
+    * Note: In order to mute players, open the pause menu and select Mute Players
   * Fixed bug where sounds wouldn't load from usermaps.
 
 * T6
   * Voice Chat Added!
     * Client Dvars
-      * `cl_voice` - Enable/Disable Voice Chat
+      * `cl_voice` - Enable/Disable Voice Chat (You can also change this in the options)
     * Server Dvars
       * `sv_voice 1` - Global Voice Chat (You can hear everyone) [Default]
       * `sv_voice 2` - Team Voice Chat Only
+      * `sv_voicequality` - Voice Quality (Default: 3)
+    * Note: In order to mute players, open the scoreboard, use your mouse wheel/dpad to highlight their name and press Enter/A.
 
 ## r2702-r2748
 
