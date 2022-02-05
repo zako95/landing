@@ -2,6 +2,25 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2748-r2794
+
+* IW5
+  * Voice Chat Added!
+    * Client Dvars
+      * `cl_voice` - Enable/Disable Voice Chat
+    * Server Dvars
+      * `sv_voice 1` - Global Voice Chat (You can hear everyone) [Default]
+      * `sv_voice 2` - Team Voice Chat Only
+  * Fixed bug where sounds wouldn't load from usermaps.
+
+* T6
+  * Voice Chat Added!
+    * Client Dvars
+      * `cl_voice` - Enable/Disable Voice Chat
+    * Server Dvars
+      * `sv_voice 1` - Global Voice Chat (You can hear everyone) [Default]
+      * `sv_voice 2` - Team Voice Chat Only
+
 ## r2702-r2748
 
 * General
