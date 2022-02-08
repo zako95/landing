@@ -99,11 +99,13 @@ For example `sv_maprotation "exec dom.cfg map mp_la map mp_dockside exec sas.cfg
 There are plenty of large files that we don't need.  
 All `.ipak` files and all sp files can be deleted safely.  
 Only files with `mp` and `zm` should be left in this folder.  
+In the end your `all` folder should look like this:
 
 ![img](/images/docs/server/t6/setting-up-a-server/R1XhPI9.png)
 
 5\. Now go back and into the `english` folder.  
-We do the same thing as above.
+We do the same thing as above.  
+Your `english` folder should now look like this:
 
 ![img](/images/docs/server/t6/setting-up-a-server/2mmlW9n.png)
 
