@@ -1,10 +1,10 @@
-import { frontMatter as customGames } from '../pages/docs/custom-games.md';
-import { frontMatter as controllers } from '../pages/docs/controllers.md';
-import { frontMatter as openingConsole } from '../pages/docs/opening-console.md';
-import { frontMatter as repair } from '../pages/docs/repair.md';
-import { frontMatter as gameFiles } from '../pages/docs/game-files.md';
-import { frontMatter as lowFps } from '../pages/docs/low-fps.md';
-import { frontMatter as support } from '../pages/docs/support.md';
+// import { frontMatter as customGames } from '../pages/docs/custom-games.md';
+// import { frontMatter as controllers } from '../pages/docs/controllers.md';
+// import { frontMatter as openingConsole } from '../pages/docs/opening-console.md';
+// import { frontMatter as repair } from '../pages/docs/repair.md';
+// import { frontMatter as gameFiles } from '../pages/docs/game-files.md';
+// import { frontMatter as lowFps } from '../pages/docs/low-fps.md';
+// import { frontMatter as support } from '../pages/docs/support.md';
 
 export const sections = [
     {
@@ -30,7 +30,29 @@ export const sections = [
     },
     {
         title: 'Support',
-        children: [customGames, controllers, openingConsole, repair, gameFiles, lowFps, support],
+        children: [
+            {
+                uri: '/docs/custom-games',
+            },
+            {
+                uri: '/docs/controllers',
+            },
+            {
+                uri: '/docs/opening-console',
+            },
+            {
+                uri: '/docs/repair',
+            },
+            {
+                uri: '/docs/game-files',
+            },
+            {
+                uri: '/docs/low-fps',
+            },
+            {
+                uri: '/docs/support',
+            },
+        ],
     },
     {
         title: 'Top Forum Categories',

@@ -14,7 +14,7 @@ Build with:
 ### Prerequisites
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/)
+- [Node.js v16+](https://nodejs.org/)
 
 ### Setting up a dev environment
 
