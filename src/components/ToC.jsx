@@ -13,8 +13,9 @@ const ToC = ({ anchors }) => {
                         On this page
                     </h5>
                     <ul className="overflow-x-hidden font-medium table-of-contents">
-                        {anchors.map(({ text, url, depth }) => (
+                        {anchors.map(({ text, url, depth }, i) => (
                             <li
+                                key={i}
                                 className={classNames({
                                     'ml-2': depth === 3,
                                     'ml-4': depth === 4,
@@ -33,12 +34,6 @@ const ToC = ({ anchors }) => {
                     </ul>
                 </div>
             </div>
-
-            <style jsx>{`
-                .table-of-contents :global(.md-autolink) {
-                    display: none;
-                }
-            `}</style>
         </div>
     );
 };

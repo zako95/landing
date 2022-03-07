@@ -135,9 +135,9 @@ onplayerspawned()
 
 ### Loading Mods / Custom Zombies Maps
 
-<!--
+{/*
 We support both the vanilla game folder and the Plutonium folder for mod loading.
--->
+*/}
 
 <Alert variant="danger">
 
@@ -153,7 +153,7 @@ Currently, loading mods from the `%localappdata%\Activision\CoDWaW\mods` folder 
 
 3. Place any mods in that folder.
 
-<!--
+{/*
 
 You can place your mod in either of these places:
 - `%localappdata%\Plutonium\storage\t4\mods`   **(Recommended)**
@@ -161,7 +161,7 @@ You can place your mod in either of these places:
 
 **We suggest using the Plutonium folder where possible though, if you crash due to a mod, try moving it to the Plutonium Mods folder instead.**
 
--->
+*/}
 
 If you are installing a custom mod that comes in an `.exe`, run the exe, then move the mod folder from `%localappdata%\Activision\CoDWaW\mods` to `%localappdata%\Plutonium\storage\t4\mods`.
 
@@ -173,14 +173,14 @@ If you are installing a custom mod that comes in an `.exe`, run the exe, then mo
 
 ### Loading Custom Maps (MP)
 
-<!--
+{/*
 We support both the vanilla game folder and the Plutonium folder for loading client-side custom multiplayer maps.
 
 You can place your mod in either of these places:
 - `%localappdata%\Activision\CoDWaW\usermaps`
 - `%localappdata%\Plutonium\storage\t4\usermaps`   **(Recommended)**
 
--->
+*/}
 
 1. Navigate to the T4 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t4` into it, and hitting Ok.
 

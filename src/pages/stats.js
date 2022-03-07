@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Listbox, Transition } from '@headlessui/react';
 import { CheckIcon, ClockIcon, SelectorIcon } from '@heroicons/react/solid';
 import { Fragment, useState } from 'react';
+import { getPageTitles } from '../utils/pages';
 
 const options = [
     {
@@ -110,5 +111,9 @@ const PeriodSelector = ({ selected, setSelected }) => (
         </div>
     </Listbox>
 );
+
+export const getStaticProps = async () => {
+    return { props: { titles: await getPageTitles() } };
+};
 
 export default Stats;

@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import ArrowRight from '../icons/arrow-right.svg';
-import CodeBlock from './CodeBlock.mdx';
 
-const ModdingSupportSection = () => (
+const ModdingSupportSection = ({ codeBlock }) => (
     <div className="px-4 py-16 lg:py-24">
         <div className="container mx-auto flex flex-col xl:flex-row xl:items-center space-y-4 xl:space-y-0">
             <div className="w-full xl:w-auto xl:max-w-2xl">
@@ -24,9 +23,7 @@ const ModdingSupportSection = () => (
 
             <div className="flex-1" />
 
-            <div className="prose">
-                <CodeBlock />
-            </div>
+            <div className="prose">{codeBlock}</div>
         </div>
     </div>
 );
