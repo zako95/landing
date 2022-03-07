@@ -156,16 +156,17 @@ Currently, loading mods from the `%localappdata%\Activision\CoDWaW\mods` folder 
 {/*
 
 You can place your mod in either of these places:
-- `%localappdata%\Plutonium\storage\t4\mods`   **(Recommended)**
-- `%localappdata%\Activision\CoDWaW\mods`    **[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY ABOVE.]**
 
-**We suggest using the Plutonium folder where possible though, if you crash due to a mod, try moving it to the Plutonium Mods folder instead.**
+- `%localappdata%\Plutonium\storage\t4\mods`   __(Recommended)__
+- `%localappdata%\Activision\CoDWaW\mods`    __[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY ABOVE.]__
+
+__We suggest using the Plutonium folder where possible though, if you crash due to a mod, try moving it to the Plutonium Mods folder instead.__
 
 */}
 
 If you are installing a custom mod that comes in an `.exe`, run the exe, then move the mod folder from `%localappdata%\Activision\CoDWaW\mods` to `%localappdata%\Plutonium\storage\t4\mods`.
 
-**Note:** Mods for multiplayer must have `mp_` at the front of their folder.
+__Note:__ Mods for multiplayer must have `mp_` at the front of their folder.
 
 ![Mods showing up](/images/docs/modding/loading-mods/6qchlaS.png)
 
@@ -177,8 +178,9 @@ If you are installing a custom mod that comes in an `.exe`, run the exe, then mo
 We support both the vanilla game folder and the Plutonium folder for loading client-side custom multiplayer maps.
 
 You can place your mod in either of these places:
+
 - `%localappdata%\Activision\CoDWaW\usermaps`
-- `%localappdata%\Plutonium\storage\t4\usermaps`   **(Recommended)**
+- `%localappdata%\Plutonium\storage\t4\usermaps`   __(Recommended)__
 
 */}
 
