@@ -7,24 +7,40 @@ import { getTitleFromHtml } from '../utils/getTitleFromHtml';
 import remarked from 'remarked';
 import { parseAnchorsFromHtml } from '../utils/parseAnchorsFromHtml';
 import { mdxOptions } from '../const/mdxOptions';
-import { getPageByParams, getPagePaths, getPageTitles, pathToURI } from '../utils/pages';
+import { getPageByParams, getPagePaths, getPageTitles, isPageLocalized, pathToURI } from '../utils/pages';
+import locales from '../const/locales';
+import translate from '../rehype/translate';
 
-export async function getStaticProps({ params }) {
-    const path = await getPageByParams(params);
-    const source = await readFile(path, { encoding: 'utf-8' });
-    const mdxSource = await serialize(source, { mdxOptions });
+export async function getStaticProps({ params, locale }) {
+    const path = await getPageByParams(params, locale);
+    let source = await readFile(path, { encoding: 'utf-8' });
+    const autoTranslated = locale !== 'en' && !isPageLocalized(path);
+    const mdxSource = await serialize(source, {
+        mdxOptions: {
+            ...mdxOptions,
+            rehypePlugins: autoTranslated
+                ? [
+                      [translate, { from: 'en', to: locale, subscriptionKey: process.env.NEXT_TRANSLATION_API_KEY }],
+                      ...mdxOptions.rehypePlugins,
+                  ]
+                : mdxOptions.rehypePlugins,
+        },
+    });
     const html = remarked(source);
     const title = getTitleFromHtml(html);
     const anchors = parseAnchorsFromHtml(html);
-    return { props: { source: mdxSource, title, path, anchors, titles: await getPageTitles() } };
+
+    return { props: { source: mdxSource, title, path, anchors, titles: await getPageTitles(locale), autoTranslated } };
 }
 
 export async function getStaticPaths() {
     let paths = await getPagePaths();
-    paths = paths.map((path) => {
-        const uri = pathToURI(path).split('/');
-        return { params: { uri } };
-    });
+    paths = locales.flatMap((locale) =>
+        paths.map((path) => {
+            const uri = pathToURI(path).split('/');
+            return { params: { uri }, locale };
+        })
+    );
 
     return {
         paths,

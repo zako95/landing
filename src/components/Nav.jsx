@@ -7,6 +7,7 @@ import Link from 'next/link';
 import NavLink from './NavLink';
 import ExternalLinkIcon from '@heroicons/react/solid/ExternalLinkIcon';
 import { menuItems } from '../const/menu';
+import { LangSwitch } from './LangSwitch';
 
 const Nav = () => {
     const hasScrolled = useHasScrolled();
@@ -65,6 +66,9 @@ const Nav = () => {
                                 </a>
                             )
                         )}
+
+                        <LangSwitch />
+
                         <Link href="/docs/install">
                             <a className="text-xs md:text-sm font-semibold text-black py-2 px-2 md:px-4 rounded-lg hover:text-gray-800 dl-button-anim umami--click--menu-download hidden md:block">
                                 Download

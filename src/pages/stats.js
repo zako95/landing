@@ -112,8 +112,8 @@ const PeriodSelector = ({ selected, setSelected }) => (
     </Listbox>
 );
 
-export const getStaticProps = async () => {
-    return { props: { titles: await getPageTitles() } };
+export const getStaticProps = async ({ locale }) => {
+    return { props: { titles: await getPageTitles(locale) } };
 };
 
 export default Stats;

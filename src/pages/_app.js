@@ -7,9 +7,10 @@ import { TitlesProvider } from '../hooks/useTitles';
 
 const MyApp = ({ Component, pageProps }) => (
     <TitlesProvider value={pageProps.titles}>
-        <div className="text-white bg-gray-900 min-h-screen font-serif">
+        <div className="text-white bg-gray-900 min-h-screen flex flex-col font-serif">
             <Nav />
             <Component {...pageProps} />
+            <div className="flex-grow" />
             <Footer />
         </div>
     </TitlesProvider>

@@ -28,10 +28,10 @@ export default function Home({ stats, codeBlockSource }) {
     );
 }
 
-export const getStaticProps = async () => {
+export const getStaticProps = async ({ locale }) => {
     return {
         props: {
-            titles: await getPageTitles(),
+            titles: await getPageTitles(locale),
             stats: await getStats(),
             codeBlockSource: await serialize(
                 await readFile('./src/components/home/CodeBlock.mdx', { encoding: 'utf-8' }),
