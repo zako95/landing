@@ -2,7 +2,7 @@ name: GitHub Pages deploy
 
 on:
   push:
-    branches: [master, feature/multilang]
+    branches: [master, develop]
 
 env:
   REGISTRY: ghcr.io
