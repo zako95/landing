@@ -27,6 +27,8 @@ jobs:
 
       - name: Build
         run: npm run build && npm run export && touch ./out/.nojekyll
+        env:
+          NEXT_TRANSLATION_API_KEY: ${{ secrets.NEXT_TRANSLATION_API_KEY }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
