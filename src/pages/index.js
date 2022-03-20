@@ -11,12 +11,17 @@ import { MDXRemote } from 'next-mdx-remote';
 import { mdxComponents } from '../const/mdxComponents';
 import { mdxOptions } from '../const/mdxOptions';
 import { readFile } from 'fs/promises';
+import { loadI18nMessages } from '../utils/loadIntlMessages';
+import { useIntl } from 'react-intl';
 
 export default function Home({ stats, codeBlockSource }) {
+    const intl = useIntl();
     return (
         <>
             <Head>
-                <title>BO2, MW3, WaW redefined. - Plutonium Project</title>
+                <title>{`${intl.formatMessage({
+                    defaultMessage: 'BO2, MW3, WaW redefined.',
+                })} - Plutonium Project`}</title>
             </Head>
 
             <Hero stats={stats} />
@@ -28,10 +33,11 @@ export default function Home({ stats, codeBlockSource }) {
     );
 }
 
-export const getStaticProps = async ({ locale }) => {
+export const getStaticProps = async ({ locale, defaultLocale }) => {
     return {
         props: {
-            titles: await getPageTitles(locale),
+            titles: await getPageTitles(locale, defaultLocale),
+            intlMessages: await loadI18nMessages({ locale, defaultLocale }),
             stats: await getStats(),
             codeBlockSource: await serialize(
                 await readFile('./src/components/home/CodeBlock.mdx', { encoding: 'utf-8' }),

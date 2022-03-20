@@ -3,6 +3,7 @@ import { sections } from '../const/footer';
 import { SocialIcon } from 'react-social-icons';
 import LogoIcon from './icons/logo-icon.svg';
 import { useTitles } from '../hooks/useTitles';
+import { FormattedMessage } from 'react-intl';
 
 const socialIconProps = {
     bgColor: '#000',
@@ -72,10 +73,12 @@ const Footer = () => {
                     </div>
                     <div className="flex-1" />
                     <div className="flex items-center lg:text-right mt-4 lg:mt-0">
-                        Trademarks used are owned by their respective owners.
+                        <FormattedMessage defaultMessage="Trademarks used are owned by their respective owners." />
                         <br />
-                        This mod is not endorsed by or affiliated with the copyright holders of the base game in any
-                        form.
+                        <FormattedMessage
+                            defaultMessage="This mod is not endorsed by or affiliated with the copyright holders of the base game in any
+                        form."
+                        />
                     </div>
                 </div>
             </div>

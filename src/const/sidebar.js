@@ -1,9 +1,11 @@
+import { FormattedMessage } from 'react-intl';
+
 export const sections = [
     {
         title: 'Plutonium',
         children: [
             {
-                title: 'General',
+                title: <FormattedMessage defaultMessage="General" />,
                 children: [
                     '/docs/intro',
                     '/docs/system-requirements',
@@ -19,7 +21,7 @@ export const sections = [
                 ],
             },
             {
-                title: 'Support',
+                title: <FormattedMessage defaultMessage="Support" />,
                 children: [
                     '/docs/support',
                     '/docs/custom-games',
@@ -35,7 +37,7 @@ export const sections = [
                 ],
             },
             {
-                title: 'Features',
+                title: <FormattedMessage defaultMessage="Features" />,
                 children: [
                     '/docs/qol-changes',
                     '/docs/anticheat',
@@ -48,7 +50,7 @@ export const sections = [
                 ],
             },
             {
-                title: 'Donator Program',
+                title: <FormattedMessage defaultMessage="Donator Program" />,
                 children: [
                     '/docs/discord-donator-perks',
                     '/docs/how-to-join-donator-program',
@@ -58,7 +60,7 @@ export const sections = [
         ],
     },
     {
-        title: 'Modding',
+        title: <FormattedMessage defaultMessage="Modding" />,
         children: [
             {
                 title: 'General',
@@ -71,7 +73,7 @@ export const sections = [
                 ],
             },
             {
-                title: 'GSC modding',
+                title: <FormattedMessage defaultMessage="GSC modding" />,
                 children: [
                     '/docs/modding/gsc',
                     '/docs/modding/gsc/how-to-gsc',
@@ -80,20 +82,20 @@ export const sections = [
                 ],
             },
             {
-                title: 'T4 modding',
+                title: <FormattedMessage defaultMessage="T4 modding" />,
                 children: ['/docs/modding/t4/disabling-perks-gsc'],
             },
             {
-                title: 'IW5 modding',
+                title: <FormattedMessage defaultMessage="IW5 modding" />,
                 children: ['/docs/modding/iw5/customizing-game'],
             },
         ],
     },
     {
-        title: 'Server',
+        title: <FormattedMessage defaultMessage="Server" />,
         children: [
             {
-                title: 'Intro',
+                title: <FormattedMessage defaultMessage="Intro" />,
                 children: ['/docs/server', '/docs/server/dvars'],
             },
             {
@@ -110,7 +112,7 @@ export const sections = [
                 ],
             },
             {
-                title: 'Plutonium T6 server',
+                title: <FormattedMessage defaultMessage="Plutonium T6 server" />,
                 children: [
                     '/docs/server/t6/setting-up-a-server',
                     '/docs/server/t6/loading-mods',
@@ -118,7 +120,7 @@ export const sections = [
                 ],
             },
             {
-                title: 'Plutonium IW5 server',
+                title: <FormattedMessage defaultMessage="Plutonium IW5 server" />,
                 children: [
                     '/docs/server/iw5/setting-up-a-server',
                     '/docs/server/iw5/loading-mods',
@@ -126,7 +128,7 @@ export const sections = [
                 ],
             },
             {
-                title: 'Plutonium T4 server',
+                title: <FormattedMessage defaultMessage="Plutonium T4 server" />,
                 children: [
                     '/docs/server/t4/setting-up-a-server',
                     '/docs/server/t4/loading-mods',
@@ -136,7 +138,7 @@ export const sections = [
         ],
     },
     {
-        title: 'Client',
+        title: <FormattedMessage defaultMessage="Client" />,
         children: [
             /*{
                 title: 'Plutonium Menu / Overlay (Game-UI)',
@@ -149,11 +151,11 @@ export const sections = [
                 ],
             },*/
             {
-                title: 'Plutonium T6 Client',
+                title: <FormattedMessage defaultMessage="Plutonium T6 Client" />,
                 children: ['/docs/client/t6/loading-and-compiling-gsc', '/docs/client/t6/theater-mode'],
             },
             {
-                title: 'Plutonium IW5 Client',
+                title: <FormattedMessage defaultMessage="Plutonium IW5 Client" />,
                 children: [
                     '/docs/client/iw5/loading-gsc',
                     '/docs/client/iw5/custom-weapons',
@@ -162,7 +164,7 @@ export const sections = [
                 ],
             },
             {
-                title: 'Plutonium T4 Client',
+                title: <FormattedMessage defaultMessage="Plutonium T4 Client" />,
                 children: [
                     '/docs/client/t4/loading-mods',
                     '/docs/client/t4/migrating-steam-t4-stats',

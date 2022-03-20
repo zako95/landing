@@ -5,13 +5,19 @@ import React, { useMemo } from 'react';
 import ExternalLinkIcon from '@heroicons/react/solid/ExternalLinkIcon';
 import TranslateIcon from '@heroicons/react/solid/TranslateIcon';
 import { useRouter } from 'next/router';
+import { basename, dirname, extname } from 'path-browserify';
+import { FormattedMessage } from 'react-intl';
 import Link from 'next/link';
-import { dirname, extname, basename } from 'path-browserify';
+import { useTitles } from '../hooks/useTitles';
 
 const GITHUB_PREFIX = 'https://github.com/plutoniumpw/landing/';
 
-const DocsLayout = ({ children, title, path, anchors, autoTranslated }) => {
-    const { asPath, locale } = useRouter();
+const DocsLayout = ({ children, path, anchors, autoTranslated }) => {
+    const { asPath, locale, ...rest } = useRouter();
+    const titles = useTitles();
+    const url = asPath.split('#')[0].replace(/\/$/, '');
+    const title = titles[url];
+
     const newTranslationUrl = useMemo(
         () =>
             GITHUB_PREFIX +
@@ -20,7 +26,8 @@ const DocsLayout = ({ children, title, path, anchors, autoTranslated }) => {
             '?filename=' +
             basename(path, extname(path)) +
             `.${locale}` +
-            extname(path)
+            extname(path),
+        [path]
     );
     return (
         <>
@@ -30,16 +37,26 @@ const DocsLayout = ({ children, title, path, anchors, autoTranslated }) => {
                         <TranslateIcon className="h-5 w-5 md:h-6 md:w-6  min-w-max inline mr-3 text-gray-900" />
                         <div>
                             <p className="text-sm font-serif m-0">
-                                This page was machine translated, it may contain some inaccuracies. You can help by{' '}
-                                <a className="underline font-semibold" href={newTranslationUrl} target="_blank">
-                                    contributing a translation
-                                    <ExternalLinkIcon className="h-4 w-4 inline ml-1" />
-                                </a>
-                                , or you can alternatively switch to{' '}
-                                <Link href={asPath} locale="en">
-                                    <a className="underline font-semibold">the English version</a>
-                                </Link>
-                                .
+                                <FormattedMessage
+                                    defaultMessage="This page was machine translated, it may contain some inaccuracies. You can help by <link1>contributing a translation</link1>, or you can alternatively switch to <link2>the English version</link2>."
+                                    values={{
+                                        link1: (children) => (
+                                            <a
+                                                className="underline font-semibold"
+                                                href={newTranslationUrl}
+                                                target="_blank"
+                                            >
+                                                {children}
+                                                <ExternalLinkIcon className="h-4 w-4 inline ml-1" />
+                                            </a>
+                                        ),
+                                        link2: (children) => (
+                                            <Link href={asPath} locale="en">
+                                                <a className="underline font-semibold">{children}</a>
+                                            </Link>
+                                        ),
+                                    }}
+                                />
                             </p>
                         </div>
                     </div>
@@ -61,7 +78,7 @@ const DocsLayout = ({ children, title, path, anchors, autoTranslated }) => {
                                 href={GITHUB_PREFIX + 'edit/develop/' + path}
                                 target="_blank"
                             >
-                                Edit this page
+                                <FormattedMessage defaultMessage="Edit this page" />
                                 <ExternalLinkIcon className="h-4 w-4 inline ml-2 text-gray-400" />
                             </a>
                         </div>

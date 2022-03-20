@@ -2,7 +2,7 @@ name: GitHub Pages deploy
 
 on:
   push:
-    branches: [master]
+    branches: [master, feature/multilang]
 
 jobs:
   build:
@@ -15,7 +15,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "16.x"
-
+          
+      - name: Cache translations
+        uses: actions/cache@v2
+        with:
+          path: ./.cache
+          key: translation-cache-${{ hashFiles('**/.cache') }}
+          
       - name: Install
         run: npm ci
 

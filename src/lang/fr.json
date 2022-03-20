@@ -1,0 +1,269 @@
+{
+    "efbpqI": {
+        "defaultMessage": "Cette page a été traduite par machine, elle peut contenir quelques inexactitudes. Tu peux aider en <link1>contribuant à une traduction</link1>, ou tu peux aussi passer à <link2>la version anglaise</link2>."
+    },
+    "+GgeKe": {
+        "defaultMessage": "Exécutez votre propre serveur, sur votre propre matériel. Même pour les jeux qui n’avaient auparavant aucun support pour cela."
+    },
+    "+vxAfu": {
+        "defaultMessage": "Sécurité améliorée."
+    },
+    "/l0DrF": {
+        "defaultMessage": "Joueurs"
+    },
+    "/tG5fS": {
+        "defaultMessage": "Obtenez un aperçu rapide des serveurs sur lesquels vos amis jouent - et rejoignez-les!"
+    },
+    "49vo8t": {
+        "defaultMessage": "Recherche rapide"
+    },
+    "4ILY5M": {
+        "defaultMessage": "Tous les jeux que nous prenons en charge incluent un navigateur de serveur dédié."
+    },
+    "4qnBUE": {
+        "defaultMessage": "redéfini"
+    },
+    "5q3qC0": {
+        "defaultMessage": "Télécharger"
+    },
+    "6UeL2/": {
+        "defaultMessage": "Les scripts GSC sont pris en charge dans tous les jeux pour lesquels nous avons des clients. {br} Même si la version vapeur ne l’a pas fait."
+    },
+    "6iQXUX": {
+        "defaultMessage": "Serveurs dédiés"
+    },
+    "6qtRs6": {
+        "defaultMessage": "Clients améliorés"
+    },
+    "77mpfV": {
+        "defaultMessage": "Jouez-y comme vous le souhaitez."
+    },
+    "7MDoOM": {
+        "defaultMessage": "Les vulnérabilités de sécurité que nous avons trouvées dans les jeux de base nous-mêmes (!), ont été corrigées."
+    },
+    "9RDE2w": {
+        "defaultMessage": "Modifier cette page"
+    },
+    "DczuC8": {
+        "defaultMessage": "Notre anti-triche est - à la consternation de nombreux tricheurs - vraiment, vraiment bon pour les attraper."
+    },
+    "F/Qz9Q": {
+        "defaultMessage": "Ce mod n’est pas approuvé ou affilié aux détenteurs des droits d’auteur du jeu de base sous quelque forme que ce soit."
+    },
+    "Hi9LY8": {
+        "defaultMessage": "Peu importe votre style de jeu, votre mode ou votre clan préféré, il y a probablement un serveur pour cela!"
+    },
+    "IDX/v+": {
+        "defaultMessage": "Rejoignez les joueurs {playerCount} sur les serveurs {serverCount} {popupIcon} en jouant aux jeux que vous connaissez et aimez, dès maintenant !"
+    },
+    "LwtywQ": {
+        "defaultMessage": "Nous avons ajouté plusieurs armes et cartes supplémentaires aux jeux."
+    },
+    "N73iH5": {
+        "defaultMessage": "Des serveurs vraiment dédiés."
+    },
+    "NDDVfU": {
+        "defaultMessage": "Une expérience redéfinie."
+    },
+    "PCkbFU": {
+        "defaultMessage": "dernières 48 heures"
+    },
+    "QOxktD": {
+        "defaultMessage": "Serveurs"
+    },
+    "U86B6w": {
+        "defaultMessage": "Stats"
+    },
+    "UQSrcT": {
+        "defaultMessage": "dernières 24 heures"
+    },
+    "VGDUVr": {
+        "defaultMessage": "Plutonium Anti-Triche."
+    },
+    "WusMvg": {
+        "defaultMessage": "Découvrez comment créer votre propre mod"
+    },
+    "ZB/xew": {
+        "defaultMessage": "La prise en charge de la manette a été ajoutée à chaque jeu."
+    },
+    "ahC+Dp": {
+        "defaultMessage": "Lire la liste complète des fonctionnalités"
+    },
+    "biSGAG": {
+        "defaultMessage": "BO2, MW3, WaW redéfinis."
+    },
+    "eo+q6r": {
+        "defaultMessage": "12 dernières heures"
+    },
+    "g10cYq": {
+        "defaultMessage": "Liste d’amis intégrée."
+    },
+    "hNtztD": {
+        "defaultMessage": "Prise en charge du modding"
+    },
+    "isGKnz": {
+        "defaultMessage": "Documentation"
+    },
+    "kBDgI4": {
+        "defaultMessage": "Les jeux que vous connaissez et aimez, redéfinis. {br} Avec plus de contenu, de correctifs et d’améliorations."
+    },
+    "lyMBin": {
+        "defaultMessage": "Contenu supplémentaire."
+    },
+    "pIgpHy": {
+        "defaultMessage": "Prise en charge du contrôleur."
+    },
+    "pKZEOC": {
+        "defaultMessage": "La semaine dernière"
+    },
+    "rWe5nM": {
+        "defaultMessage": "Découvrez comment héberger votre propre serveur"
+    },
+    "uDrH0Q": {
+        "defaultMessage": "Les marques de commerce utilisées sont la propriété de leurs propriétaires respectifs."
+    },
+    "v79FgD": {
+        "defaultMessage": "Voir la liste complète des améliorations"
+    },
+    "xOzQVm": {
+        "defaultMessage": "Et beaucoup, beaucoup plus..."
+    },
+    "/6/sPX": {
+        "defaultMessage": "Docs"
+    },
+    "1iEPTM": {
+        "defaultMessage": "Généralités"
+    },
+    "2IFGap": {
+        "defaultMessage": "Donner"
+    },
+    "3ROQOj": {
+        "defaultMessage": "Intro"
+    },
+    "4gZKTP": {
+        "defaultMessage": "Serveur Plutonium T4"
+    },
+    "4rLYNK": {
+        "defaultMessage": "Plutonium T4 Client"
+    },
+    "6slkqp": {
+        "defaultMessage": "Forum"
+    },
+    "984c5R": {
+        "defaultMessage": "Programme de dons"
+    },
+    "9ySmaS": {
+        "defaultMessage": "Plutonium IW5 Client"
+    },
+    "E35wET": {
+        "defaultMessage": "Serveur Plutonium IW5"
+    },
+    "F/6VqP": {
+        "defaultMessage": "Serveur"
+    },
+    "G9paIn": {
+        "defaultMessage": "Prise en charge des clients MW3"
+    },
+    "HqRNN8": {
+        "defaultMessage": "Soutien"
+    },
+    "JX0502": {
+        "defaultMessage": "Client"
+    },
+    "LMrYR6": {
+        "defaultMessage": "Clés de serveur"
+    },
+    "Ltxh3c": {
+        "defaultMessage": "Voir les statistiques historiques complètes"
+    },
+    "MMJHZw": {
+        "defaultMessage": "Modding T4"
+    },
+    "N+77UG": {
+        "defaultMessage": "Modding IW5"
+    },
+    "SjMJeG": {
+        "defaultMessage": "Modding GSC"
+    },
+    "UPIP2S": {
+        "defaultMessage": "Prise en charge du lanceur de plutonium"
+    },
+    "ZXp0z1": {
+        "defaultMessage": "Fonctionnalités"
+    },
+    "bwW4UI": {
+        "defaultMessage": "Modding"
+    },
+    "ciFFgG": {
+        "defaultMessage": "Serveur Plutonium T6"
+    },
+    "d3+wCM": {
+        "defaultMessage": "Serveurs en ligne"
+    },
+    "dOVsWt": {
+        "defaultMessage": "Mods MW3"
+    },
+    "i/myT6": {
+        "defaultMessage": "Joueurs en ligne"
+    },
+    "jtsrnp": {
+        "defaultMessage": "Prise en charge des clients WaW"
+    },
+    "kd/dH5": {
+        "defaultMessage": "Plutonium T6 Client"
+    },
+    "lsB3uV": {
+        "defaultMessage": "Mods BO2"
+    },
+    "rbrahO": {
+        "defaultMessage": "Fermer"
+    },
+    "vTasx9": {
+        "defaultMessage": "Prise en charge du client BO2"
+    },
+    "wUaVhC": {
+        "defaultMessage": "Principales catégories de forum"
+    },
+    "zmxq+z": {
+        "defaultMessage": "Mods WaW"
+    },
+    "20Sj6n": {
+        "defaultMessage": "Visez vers le bas Sensibilité visuelle"
+    },
+    "J5Q1SJ": {
+        "defaultMessage": "Présence riche en discorde"
+    },
+    "QlWCgp": {
+        "defaultMessage": "Texte de carte personnalisé"
+    },
+    "WpO2ZA": {
+        "defaultMessage": "Système de théâtre/démo"
+    },
+    "aAKhqY": {
+        "defaultMessage": "Rotation des cartes pour les serveurs ZM"
+    },
+    "dAzgDD": {
+        "defaultMessage": "Aide à la visée"
+    },
+    "jVND4I": {
+        "defaultMessage": "Téléchargement de mods"
+    },
+    "jW1VqX": {
+        "defaultMessage": "Avatars de forum en tant qu’icône dans le jeu"
+    },
+    "qRrHmM": {
+        "defaultMessage": "FPS plus élevé que Steam"
+    },
+    "ufm/ag": {
+        "defaultMessage": "Déverrouillé"
+    },
+    "v5sW67": {
+        "defaultMessage": "Tous les DLC débloqués"
+    },
+    "zCmaA6": {
+        "defaultMessage": "UPNP pour les jeux personnalisés"
+    },
+    "zPLbMW": {
+        "defaultMessage": "Prise en charge des moniteurs ultra larges"
+    }
+}

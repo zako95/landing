@@ -8,6 +8,7 @@ import NavLink from './NavLink';
 import ExternalLinkIcon from '@heroicons/react/solid/ExternalLinkIcon';
 import { menuItems } from '../const/menu';
 import { LangSwitch } from './LangSwitch';
+import { FormattedMessage } from 'react-intl';
 
 const Nav = () => {
     const hasScrolled = useHasScrolled();
@@ -48,14 +49,14 @@ const Nav = () => {
                                     key={item.uri}
                                 >
                                     <a
-                                        className={`py-4 md:py-5 border-b-4 border-transparent transition-colors duration-200 text-gray-300 hover:text-white umami--click--menu-${item.title.toLowerCase()}`}
+                                        className={`py-4 md:py-5 border-b-4 border-transparent transition-colors duration-200 text-gray-300 hover:text-white umami--click--menu-${item.key}`}
                                     >
                                         {item.title}
                                     </a>
                                 </NavLink>
                             ) : (
                                 <a
-                                    className={`py-4 md:py-5 border-b-4 border-transparent transition-colors duration-200 text-gray-300 hover:text-white umami--click--menu-${item.title.toLowerCase()}`}
+                                    className={`py-4 md:py-5 border-b-4 border-transparent transition-colors duration-200 text-gray-300 hover:text-white umami--click--menu-${item.key}`}
                                     href={item.href}
                                     key={item.href}
                                     target="_blank"
@@ -71,7 +72,7 @@ const Nav = () => {
 
                         <Link href="/docs/install">
                             <a className="text-xs md:text-sm font-semibold text-black py-2 px-2 md:px-4 rounded-lg hover:text-gray-800 dl-button-anim umami--click--menu-download hidden md:block">
-                                Download
+                                <FormattedMessage defaultMessage="Download" />
                             </a>
                         </Link>
                     </div>

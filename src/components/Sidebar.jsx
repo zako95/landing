@@ -10,6 +10,7 @@ import theme from 'tailwindcss/defaultTheme';
 import { useLockBodyScroll } from 'react-use';
 import Search from './Search';
 import { useTitles } from '../hooks/useTitles';
+import { FormattedMessage } from 'react-intl';
 
 const Sidebar = () => {
     const [visible, setVisible] = useState(false);
@@ -41,14 +42,16 @@ const Sidebar = () => {
                 <div className="h-full sticky overflow-y-auto scrolling-touch lg:w-full lg:h-auto lg:block overflow-hidden lg:top-24 bg-gray-900 lg:bg-transparent">
                     <nav className="px-4 lg:px-0 pt-6 overflow-y-auto font-medium text-base xl:pr-5 lg:text-sm pb-10 lg:pt-1 lg:pb-14">
                         <div className="flex justify-between lg:hidden mb-6">
-                            <h1 className="font-display font-bold text-md">Plutonium Docs</h1>
+                            <h1 className="font-display font-bold text-md">
+                                Plutonium <FormattedMessage defaultMessage="Docs" />
+                            </h1>
 
                             <button
                                 className="inline-flex text-sm uppercase items-center hover:text-gray-200 sm:leading-snug font-semibold tracking-wide"
                                 onClick={() => setVisible(false)}
                             >
                                 <XIcon className="w-4 h-4 mr-2" />
-                                Close
+                                <FormattedMessage defaultMessage="Close" />
                             </button>
                         </div>
 

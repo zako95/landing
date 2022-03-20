@@ -2,13 +2,12 @@ import fetch from 'node-fetch';
 import { visit } from 'unist-util-visit';
 import { v4 as uuid } from 'uuid';
 import keyFileStorage from 'key-file-storage';
-
 // plugin that collects all text nodes in a rehype AST tree, and translates them through MS cognitive services
 // TODO: open source this? feature complete but still needs more configurable options:
 //  - cache enable/disable
 //  - cache folder option
 
-const kfs = keyFileStorage('./.cache/rehype-translate/', false);
+const kfs = keyFileStorage.default('./.cache/rehype-translate/', false);
 const endpoint = 'https://api.cognitive.microsofttranslator.com';
 
 export const fetchTranslations = async (body, { from = 'en', to = 'de', subscriptionKey, location = 'eastus' }) => {
@@ -98,7 +97,6 @@ const translate =
         let nodesToTranslate = [];
 
         const transform = (node, i, parent) => {
-            console.log({ node, parent });
             // skip if parent is meant to be taken literally, typically code/pre statements
             if (parent.type === 'element' && IGNORED_TAGS.includes(parent.tagName)) {
                 return;

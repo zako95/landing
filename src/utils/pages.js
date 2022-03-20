@@ -4,7 +4,7 @@ import { getTitleFromHtml } from './getTitleFromHtml';
 import { readFile } from 'fs/promises';
 import remarked from 'remarked';
 import keyFileStorage from 'key-file-storage';
-import { ensureCache, fetchTranslations } from '../rehype/translate';
+import { ensureCache, fetchTranslations } from '../rehype/translate.mjs';
 
 const kfs = keyFileStorage('./.cache/rehype-translate/', false);
 
@@ -19,7 +19,7 @@ export const pathToURI = (path) => {
     return base === 'index' ? dir : join(dir, base);
 };
 
-export const getPageByParams = async (params, locale) => {
+export const getPageByParams = async (params, locale, defaultLocale) => {
     const { uri } = params;
     const base = join(PAGES_PREFIX, uri.join('/'));
     let patterns = [base + EXTENSION_PATTERN, join(base, '/index' + EXTENSION_PATTERN)];
@@ -45,8 +45,8 @@ export const getPagePaths = (locale) =>
 
 export const isPageLocalized = (path) => /\.[a-z]{2}.mdx?$/.test(path);
 
-export const getPageTitles = async (locale) => {
-    const shouldTranslate = locale && locale !== 'en';
+export const getPageTitles = async (locale, defaultLocale) => {
+    const shouldTranslate = locale && locale !== defaultLocale;
     if (shouldTranslate) {
         ensureCache(locale);
     }

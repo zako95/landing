@@ -1,10 +1,4 @@
-// import { frontMatter as customGames } from '../pages/docs/custom-games.md';
-// import { frontMatter as controllers } from '../pages/docs/controllers.md';
-// import { frontMatter as openingConsole } from '../pages/docs/opening-console.md';
-// import { frontMatter as repair } from '../pages/docs/repair.md';
-// import { frontMatter as gameFiles } from '../pages/docs/game-files.md';
-// import { frontMatter as lowFps } from '../pages/docs/low-fps.md';
-// import { frontMatter as support } from '../pages/docs/support.md';
+import { FormattedMessage } from 'react-intl';
 
 export const sections = [
     {
@@ -19,17 +13,17 @@ export const sections = [
                 url: 'https://discord.gg/plutonium',
             },
             {
-                title: 'Server Keys',
+                title: <FormattedMessage defaultMessage="Server Keys" />,
                 url: 'https://platform.plutonium.pw/serverkeys/',
             },
             {
-                title: 'Donate',
+                title: <FormattedMessage defaultMessage="Donate" />,
                 url: 'https://forum.plutonium.pw/donate',
             },
         ],
     },
     {
-        title: 'Support',
+        title: <FormattedMessage defaultMessage="Support" />,
         children: [
             {
                 uri: '/docs/custom-games',
@@ -55,35 +49,35 @@ export const sections = [
         ],
     },
     {
-        title: 'Top Forum Categories',
+        title: <FormattedMessage defaultMessage="Top Forum Categories" />,
         children: [
             {
-                title: 'MW3 client support',
+                title: <FormattedMessage defaultMessage="MW3 client support" />,
                 url: 'https://forum.plutonium.pw/category/15/mw3-client-support',
             },
             {
-                title: 'MW3 mods',
+                title: <FormattedMessage defaultMessage="MW3 mods" />,
                 url: 'https://forum.plutonium.pw/category/27/mw3-modding-releases-resources',
             },
             {
-                title: 'BO2 client support',
+                title: <FormattedMessage defaultMessage="BO2 client support" />,
                 url: 'https://forum.plutonium.pw/category/9/bo2-client-support',
             },
             {
-                title: 'BO2 mods',
+                title: <FormattedMessage defaultMessage="BO2 mods" />,
                 url: 'https://forum.plutonium.pw/category/23/bo2-modding-releases-resources',
             },
             {
-                title: 'WaW client support',
+                title: <FormattedMessage defaultMessage="WaW client support" />,
                 url: 'https://forum.plutonium.pw/category/37/waw-client-support',
             },
             {
-                title: 'WaW mods',
+                title: <FormattedMessage defaultMessage="WaW mods" />,
                 url: 'https://forum.plutonium.pw/category/40/waw-modding-releases-resources',
             },
 
             {
-                title: 'Plutonium Launcher Support',
+                title: <FormattedMessage defaultMessage="Plutonium Launcher Support" />,
                 url: 'https://forum.plutonium.pw/category/34/plutonium-launcher-support',
             },
         ],
