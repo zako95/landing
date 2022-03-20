@@ -1,1 +1,1 @@
-export default ['en', 'fr', 'de', 'es'];
+export default ['en' /*, 'fr', 'de', 'es'*/];

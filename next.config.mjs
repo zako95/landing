@@ -9,6 +9,10 @@ export const nextConfig = {
         locales,
         defaultLocale: 'en',
     },
+    experimental: {
+        outputStandalone: true,
+    },
 };
+console.log(process.env.NEXT_TRANSLATION_API_KEY);
 
 export default withPlugins([svgr, [images, { fileExtensions: ['jpg', 'jpeg', 'png', 'gif'] }]], nextConfig);
