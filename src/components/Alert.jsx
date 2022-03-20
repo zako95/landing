@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import { FormattedMessage } from 'react-intl';
 
 const Alert = ({ variant, title, children }) => (
     <div
@@ -9,13 +10,19 @@ const Alert = ({ variant, title, children }) => (
         })}
     >
         {variant === 'warning' && (
-            <div className="uppercase tracking-wide text-sm text-yellow-500 font-semibold">{title ?? 'Warning'}</div>
+            <div className="uppercase tracking-wide text-sm text-yellow-500 font-semibold">
+                {title ?? <FormattedMessage defaultMessage="Warning" />}
+            </div>
         )}
         {variant === 'tip' && (
-            <div className="uppercase tracking-wide text-sm text-blue-500 font-semibold">{title ?? 'Tip'}</div>
+            <div className="uppercase tracking-wide text-sm text-blue-500 font-semibold">
+                {title ?? <FormattedMessage defaultMessage="Tip" />}
+            </div>
         )}
         {variant === 'danger' && (
-            <div className="uppercase tracking-wide text-sm text-red-500 font-semibold">{title ?? 'Caution'}</div>
+            <div className="uppercase tracking-wide text-sm text-red-500 font-semibold">
+                {title ?? <FormattedMessage defaultMessage="Caution" />}
+            </div>
         )}
 
         <div

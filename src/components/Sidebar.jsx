@@ -1,6 +1,5 @@
 import { sections } from '../const/sidebar';
 import NavLink from './NavLink';
-import { formatResourcePath } from '../utils/formatResourcePath';
 import ChevronUpIcon from '@heroicons/react/solid/ChevronUpIcon';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
@@ -10,6 +9,8 @@ import classNames from 'classnames';
 import theme from 'tailwindcss/defaultTheme';
 import { useLockBodyScroll } from 'react-use';
 import Search from './Search';
+import { useTitles } from '../hooks/useTitles';
+import { FormattedMessage } from 'react-intl';
 
 const Sidebar = () => {
     const [visible, setVisible] = useState(false);
@@ -41,14 +42,16 @@ const Sidebar = () => {
                 <div className="h-full sticky overflow-y-auto scrolling-touch lg:w-full lg:h-auto lg:block overflow-hidden lg:top-24 bg-gray-900 lg:bg-transparent">
                     <nav className="px-4 lg:px-0 pt-6 overflow-y-auto font-medium text-base xl:pr-5 lg:text-sm pb-10 lg:pt-1 lg:pb-14">
                         <div className="flex justify-between lg:hidden mb-6">
-                            <h1 className="font-display font-bold text-md">Plutonium Docs</h1>
+                            <h1 className="font-display font-bold text-md">
+                                Plutonium <FormattedMessage defaultMessage="Docs" />
+                            </h1>
 
                             <button
                                 className="inline-flex text-sm uppercase items-center hover:text-gray-200 sm:leading-snug font-semibold tracking-wide"
                                 onClick={() => setVisible(false)}
                             >
                                 <XIcon className="w-4 h-4 mr-2" />
-                                Close
+                                <FormattedMessage defaultMessage="Close" />
                             </button>
                         </div>
 
@@ -86,7 +89,7 @@ const Sidebar = () => {
 const SidebarSection = ({ section }) => {
     const { asPath } = useRouter();
     const hasActiveChildren = section.children.some((child) =>
-        child.children.some((child) => isPathActive(asPath, `/${formatResourcePath(child.__resourcePath)}/`, true))
+        child.children.some((child) => isPathActive(asPath, `${child}/`, true))
     );
     const [isOpen, setIsOpen] = useState(hasActiveChildren);
     return (
@@ -105,10 +108,9 @@ const SidebarSection = ({ section }) => {
 
 const SidebarSectionChild = ({ child, index }) => {
     const { asPath } = useRouter();
-    const hasActiveItems = child.children.some((child) =>
-        isPathActive(asPath, `/${formatResourcePath(child.__resourcePath)}/`, true)
-    );
+    const hasActiveItems = child.children.some((child) => isPathActive(asPath, `${child}/`, true));
     const [isOpen, setIsOpen] = useState(hasActiveItems);
+    const titles = useTitles();
     return (
         <li
             className={`${index > 0 ? 'mt-4' : ''} bg-gray-700 mx-2 rounded-lg bg-opacity-30 ${isOpen ? 'pb-4' : ''}`}
@@ -125,22 +127,26 @@ const SidebarSectionChild = ({ child, index }) => {
             </div>
             {isOpen && (
                 <ul>
-                    {child.children.map(({ __resourcePath, title }, childIndex) => (
-                        <li key={childIndex}>
-                            <NavLink
-                                href={`/${formatResourcePath(__resourcePath)}`}
-                                activeClassName="child-active"
-                                exact
-                            >
-                                <a className="px-4 mx-2 py-2 transition-colors duration-200 relative block hover:text-gray-100 text-gray-300">
-                                    <span
-                                        className={`rounded-md absolute inset-0 bg-gray-700 opacity-0 transition duration-200`}
-                                    />
-                                    <span className="relative">{title}</span>
-                                </a>
-                            </NavLink>
-                        </li>
-                    ))}
+                    {child.children.map((uri, childIndex) => {
+                        if (!titles[uri]) {
+                            console.error(
+                                `Unable to get title for URI '${uri}', falling back to displaying uri instead.`
+                            );
+                        }
+
+                        return (
+                            <li key={childIndex}>
+                                <NavLink href={uri} activeClassName="child-active" exact>
+                                    <a className="px-4 mx-2 py-2 transition-colors duration-200 relative block hover:text-gray-100 text-gray-300">
+                                        <span
+                                            className={`rounded-md absolute inset-0 bg-gray-700 opacity-0 transition duration-200`}
+                                        />
+                                        <span className="relative">{titles[uri] ?? uri}</span>
+                                    </a>
+                                </NavLink>
+                            </li>
+                        );
+                    })}
                 </ul>
             )}
 

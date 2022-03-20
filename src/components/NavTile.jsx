@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import InternalLink from './InternalLink';
 
-const NavTile = ({ to, className, title, children, invert = false, background, bgPosition = 'center' }) => (
+const NavTile = ({ to, className, title, children, background, bgPosition = 'center' }) => (
     <div className="w-58">
         <InternalLink
             href={to}
@@ -19,14 +19,17 @@ const NavTile = ({ to, className, title, children, invert = false, background, b
                 />
             )}
             <div className="z-1 relative">
-                <h3 className={classNames('text-xl m-0', { ['text-black']: invert })}>{title}</h3>
-                <div className="flex-grow-1" />
-                <div className={classNames('text-sm text-gray-100 mt-4', { ['text-gray-900']: invert })}>
-                    {children}
-                </div>
+                <div className={classNames('text-sm text-gray-100')}>{children}</div>
             </div>
         </InternalLink>
+        <style jsx>{`
+            div > :global(p) {
+                margin: 0;
+            }
+        `}</style>
     </div>
 );
+
+NavTile.Title = ({ children }) => <h3 className={classNames('text-xl m-0 mb-4')}>{children}</h3>;
 
 export default NavTile;

@@ -4,6 +4,7 @@ import '@docsearch/css/dist/style.css';
 import { createPortal } from 'react-dom';
 import { SearchIcon } from '@heroicons/react/solid';
 import useSearchHotkey from '../hooks/useSearchHotkey';
+import { FormattedMessage } from 'react-intl';
 
 const Search = () => {
     const [element, setElement] = useState(null);
@@ -23,7 +24,9 @@ const Search = () => {
             <div className="relative mb-6 h-12">
                 <div className="absolute text-white flex space-x-2 h-full w-full items-center pointer-events-none">
                     <SearchIcon className="w-5 h-5 " />
-                    <span className="text-md text-gray-400">Quick search</span>
+                    <span className="text-md text-gray-400">
+                        <FormattedMessage defaultMessage="Quick search" />
+                    </span>
                     <div style={{ flex: 1 }} />
                     <div className="rounded border border-white p-1 border-gray-400 text-xs text-gray-400">
                         {hotkeyLabel}

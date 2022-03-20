@@ -2,22 +2,25 @@ import Head from 'next/head';
 import { Listbox, Transition } from '@headlessui/react';
 import { CheckIcon, ClockIcon, SelectorIcon } from '@heroicons/react/solid';
 import { Fragment, useState } from 'react';
+import { getPageTitles } from '../utils/pages';
+import { loadI18nMessages } from '../utils/loadIntlMessages';
+import { FormattedMessage } from 'react-intl';
 
 const options = [
     {
-        name: 'last week',
+        name: <FormattedMessage defaultMessage="last week" />,
         value: 'now-7d',
     },
     {
-        name: 'last 48 hours',
+        name: <FormattedMessage defaultMessage="last 48 hours" />,
         value: 'now-2d',
     },
     {
+        name: <FormattedMessage defaultMessage="last 24 hours" />,
         value: 'now-1d',
-        name: 'last 24 hours',
     },
     {
-        name: 'last 12 hours',
+        name: <FormattedMessage defaultMessage="last 12 hours" />,
         value: 'now-12h',
     },
 ];
@@ -35,16 +38,22 @@ const Stats = () => {
 
             <div className="px-4 xl:px-8 pt-8 pb-4">
                 <div className="flex justify-between items-center mb-6">
-                    <h1 className="font-display font-bold text-5xl">Stats</h1>
+                    <h1 className="font-display font-bold text-5xl">
+                        <FormattedMessage defaultMessage="Stats" />{' '}
+                    </h1>
                     <PeriodSelector selected={selected} setSelected={setSelected} />
                 </div>
 
                 <div className="grid grid-cols-2 block hidden md:grid gap-4">
                     <div>
-                        <h2 className="font-display font-bold text-3xl text-gray-300 mb-2">Players</h2>
+                        <h2 className="font-display font-bold text-3xl text-gray-300 mb-2">
+                            <FormattedMessage defaultMessage="Players" />
+                        </h2>
                     </div>
                     <div>
-                        <h2 className="font-display font-bold text-3xl text-gray-300 mb-2">Servers</h2>
+                        <h2 className="font-display font-bold text-3xl text-gray-300 mb-2">
+                            <FormattedMessage defaultMessage="Servers" />
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -110,5 +119,14 @@ const PeriodSelector = ({ selected, setSelected }) => (
         </div>
     </Listbox>
 );
+
+export const getStaticProps = async ({ locale, defaultLocale }) => {
+    return {
+        props: {
+            titles: await getPageTitles(locale, defaultLocale),
+            intlMessages: await loadI18nMessages({ locale, defaultLocale }),
+        },
+    };
+};
 
 export default Stats;

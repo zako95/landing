@@ -92,7 +92,13 @@ Once you and your friend are following each other, the person who wants to host 
 ### **If UPnP is Enabled**
 
 - Start a Private Match
-<!--- If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`-->
+
+{/*
+
+If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
+
+*/}
+
 - Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
 
 If you can't get it to work even with UPnP enabled then you will have to port forward instead.
@@ -116,7 +122,7 @@ For that read [If UPnP is still disabled or you can't connect despite it being e
 - [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
 - Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
-<!--- If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`-->
+{/*- If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`*/}
 - Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
 
 ## IW5
@@ -136,7 +142,7 @@ Since every router is different we can't make a guide for every router so we rec
 - [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
 - Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
-<!--- If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`-->
+{/*- If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`*/}
 - Your friend should now be able to join by double-clicking your name in the Friends List
 
 ## Additional Notes
