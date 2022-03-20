@@ -20,7 +20,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ./.cache
-          key: translation-cache-${{ hashFiles('**/.cache') }}
+          key: translation-cache
           
       - name: Install
         run: npm ci
