@@ -29,6 +29,9 @@ jobs:
         with:
           path: ./.cache
           key: translation-cache
+          
+      - name: Ensure cache dir
+        run: mkdir -p .cache
 
       - name: Log in to the Container registry
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
@@ -50,5 +53,10 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          outputs: |
+            out
           build-args: |
             translation_key=${{ secrets.NEXT_TRANSLATION_API_KEY }}
+
+      - name: Extract cache dir
+        run: cp -R ./out/app/.cache . && ls -lha ./.cache

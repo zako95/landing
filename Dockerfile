@@ -11,7 +11,8 @@ FROM node:16-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-COPY .cache .cache
+RUN mkdir -p .cache
+RUN echo "hello worl" > .cache/hello
 
 ENV NEXT_TELEMETRY_DISABLED 1
 
@@ -33,6 +34,7 @@ RUN adduser --system --uid 1001 nextjs
 COPY --from=builder /app/next.config.mjs ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/.cache ./.cache
 
 # Automatically leverage output traces to reduce image size 
 # https://nextjs.org/docs/advanced-features/output-file-tracing

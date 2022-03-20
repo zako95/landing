@@ -43,7 +43,7 @@ export async function getStaticProps({ params, locale, defaultLocale }) {
             source: mdxSource,
             path,
             anchors,
-            titles: await getPageTitles(locale),
+            titles: await getPageTitles(locale, defaultLocale),
             intlMessages: await loadI18nMessages({ locale, defaultLocale }),
             autoTranslated,
         },
