@@ -26,6 +26,9 @@
   "3ROQOj": {
     "defaultMessage": "Intro"
   },
+  "3SVI5p": {
+    "defaultMessage": "Warning"
+  },
   "49vo8t": {
     "defaultMessage": "Quick search"
   },
@@ -34,6 +37,9 @@
   },
   "4gZKTP": {
     "defaultMessage": "Plutonium T4 server"
+  },
+  "4j1TGZ": {
+    "defaultMessage": "Tip"
   },
   "4qnBUE": {
     "defaultMessage": "redefined"
@@ -229,6 +235,9 @@
   },
   "qRrHmM": {
     "defaultMessage": "Higher FPS than Steam"
+  },
+  "rBPRfx": {
+    "defaultMessage": "Caution"
   },
   "rWe5nM": {
     "defaultMessage": "Learn how to host your own server"
