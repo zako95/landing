@@ -92,9 +92,13 @@ Once you and your friend are following each other, the person who wants to host 
 ### **If UPnP is Enabled**
 
 - Start a Private Match
+
 {/*
+
 If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
+
 */}
+
 - Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
 
 If you can't get it to work even with UPnP enabled then you will have to port forward instead.
