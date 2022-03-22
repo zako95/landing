@@ -24,7 +24,7 @@ export async function getStaticProps({ params, locale, defaultLocale }) {
         mdxOptions: {
             ...mdxOptions,
             rehypePlugins: autoTranslated
-                ? [[translate, translateOpts], ...mdxOptions.rehypePlugins]
+                ? [...mdxOptions.rehypePlugins, [translate, translateOpts]]
                 : mdxOptions.rehypePlugins,
         },
     });
