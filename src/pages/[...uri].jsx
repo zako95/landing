@@ -30,11 +30,11 @@ export async function getStaticProps({ params, locale, defaultLocale }) {
     });
 
     // mdx basically does all this also, but sadly we can't give mdx a AST tree or something, so we have to parse it ourselves (again...)
-    const tree = await unified().use(remarkParse).use(remarkRehype);
+    const tree = await unified().use(remarkParse).use(remarkRehype).use(rehypeSlug);
     if (autoTranslated) {
         await tree.use(translate, translateOpts);
     }
-    const { value: html } = await tree.use(rehypeSlug).use(rehypeStringify).process(source);
+    const { value: html } = await tree.use(rehypeStringify).process(source);
 
     const anchors = parseAnchorsFromHtml(html);
 
