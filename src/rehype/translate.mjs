@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 import { visit } from 'unist-util-visit';
+import { visitParents } from 'unist-util-visit-parents';
 import { v4 as uuid } from 'uuid';
 import keyFileStorage from 'key-file-storage';
 // plugin that collects all text nodes in a rehype AST tree, and translates them through MS cognitive services
@@ -88,32 +89,35 @@ export const ensureCache = (to) => {
     }
 };
 
-const IGNORED_TAGS = ['code', 'pre'];
+const translate = (opts) => async (tree) => {
+    const { from = 'en', to = 'de', subscriptionKey, location = 'eastus', ignoredTags = ['code', 'pre'] } = opts;
+    const shouldVisitParents = ignoredTags && ignoredTags.length > 0;
+    let nodesToTranslate = [];
 
-const translate =
-    ({ from = 'en', to = 'de', subscriptionKey, location = 'eastus' }) =>
-    async (tree) => {
-        const opts = { from, to, subscriptionKey, location };
-        let nodesToTranslate = [];
+    const transform = (node, ancestors) => {
+        // does this node have an ancestor that we should ignore?
+        if (shouldVisitParents && ancestors.some((ancestor) => ignoredTags.includes(ancestor.tagName))) {
+            return;
+        }
 
-        const transform = (node, i, parent) => {
-            // skip if parent is meant to be taken literally, typically code/pre statements
-            if (parent.type === 'element' && IGNORED_TAGS.includes(parent.tagName)) {
-                return;
-            }
+        // test if text is actually 'word-ish'.
+        if (!/\w+/.test(node.value)) {
+            return;
+        }
 
-            // test if text is actually 'word-ish'.
-            if (!/\w+/.test(node.value)) {
-                return;
-            }
-
-            nodesToTranslate.push(node);
-        };
-
-        ensureCache(to);
-        visit(tree, 'text', transform);
-        nodesToTranslate = getUncachedNodes(nodesToTranslate, opts);
-        await translateNodes(nodesToTranslate, opts);
+        nodesToTranslate.push(node);
     };
+
+    ensureCache(to);
+
+    if (shouldVisitParents) {
+        visitParents(tree, 'text', transform);
+    } else {
+        // use regular visitor because we're not going to check parents
+        visit(tree, 'text', transform);
+    }
+    nodesToTranslate = getUncachedNodes(nodesToTranslate, opts);
+    await translateNodes(nodesToTranslate, opts);
+};
 
 export default translate;
