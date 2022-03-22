@@ -11,6 +11,11 @@ export const nextConfig = {
     },
     experimental: {
         outputStandalone: true,
+
+        // this is to prevent translation API key from getting rate limited
+        // this does mean the non-translated pages build slower, but eh.
+        cpus: 1,
+        workerThreads: false,
     },
 };
 

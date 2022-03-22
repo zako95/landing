@@ -11,12 +11,13 @@ FROM node:16-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+COPY .cache .
 ENV NEXT_TELEMETRY_DISABLED 1
 
 ARG translation_key
 ENV NEXT_TRANSLATION_API_KEY=$translation_key
 
-RUN --mount=type=cache,target=/app/.cache npm run build
+RUN npm run build
 
 # Production image, copy all the files and run next
 FROM node:16-alpine AS runner

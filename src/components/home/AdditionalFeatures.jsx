@@ -12,10 +12,10 @@ const additionalFeatures = [
     <FormattedMessage defaultMessage="Aim Down Sight Sensitivity" />,
     <FormattedMessage defaultMessage="UPNP for custom games" />,
     <>
-        <pre className="inline">cg_fovScale</pre> unlocked
+        <pre className="inline">cg_fovScale</pre> <FormattedMessage defaultMessage="unlocked" />
     </>,
     <>
-        <pre className="inline">com_maxfps</pre> unlocked
+        <pre className="inline">com_maxfps</pre> <FormattedMessage defaultMessage="unlocked" />
     </>,
     <>
         <pre className="inline">clanname</pre> dvar
@@ -25,7 +25,9 @@ const additionalFeatures = [
     </>,
     'Rocket jump',
     <FormattedMessage defaultMessage="Map rotation for ZM servers" />,
-    'IW5: `sl_noTrickshot` dvar',
+    <>
+        IW5: <pre className="inline">sl_noTrickshot</pre> dvar
+    </>,
     'IW5: GSC Support',
     'IW5: AK-74u',
     'IW5: Intervention',

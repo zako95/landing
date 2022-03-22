@@ -3,7 +3,7 @@
         "defaultMessage": "Diese Seite wurde maschinell übersetzt, sie kann einige Ungenauigkeiten enthalten. Du kannst helfen, indem du <link1>eine Übersetzung beisteuerst</link1>, alternativ kannst du <link2>zur englischen Version</link2>."
     },
     "+GgeKe": {
-        "defaultMessage": "Betreiben Sie Ihren eigenen Server auf Ihrer eigenen Hardware. Sogar für Spiele, die vorher keine Unterstützung dafür hatten."
+        "defaultMessage": "Betreiben deine eigenen Server auf deiner eignen Hardware. Sogar für Spiele, die vorher keine Unterstützung dafür hatten."
     },
     "+vxAfu": {
         "defaultMessage": "Verbesserte Sicherheit."
@@ -12,7 +12,7 @@
         "defaultMessage": "Spieler"
     },
     "/tG5fS": {
-        "defaultMessage": "Verschaffen Sie sich einen schnellen Überblick darüber, auf welchen Servern Ihre Freunde spielen - und schließen Sie sich ihnen an!"
+        "defaultMessage": "Sieh auf welchen Servern deine Freunde speilen - und schließe dich ihnen an!"
     },
     "49vo8t": {
         "defaultMessage": "Schnellsuche"
@@ -33,10 +33,10 @@
         "defaultMessage": "Dedizierte Server"
     },
     "6qtRs6": {
-        "defaultMessage": "Erweiterte Clients"
+        "defaultMessage": "Verbesserte clients"
     },
     "77mpfV": {
-        "defaultMessage": "Spielen Sie es, wie Sie möchten."
+        "defaultMessage": "Spiele es, wie du willst."
     },
     "7MDoOM": {
         "defaultMessage": "Sicherheitslücken, die wir in den Basegames selbst(!) gefunden haben, wurden gepatcht."
@@ -105,7 +105,7 @@
         "defaultMessage": "Dokumentation"
     },
     "kBDgI4": {
-        "defaultMessage": "Die Spiele, die du kennst und liebst, neu definiert. {br} Mit mehr Inhalten, Korrekturen und Verbesserungen."
+        "defaultMessage": "Die Spiele, die du kennst und liebst, neu definiert.{br}Mit mehr Inhalten, Korrekturen und Verbesserungen."
     },
     "lyMBin": {
         "defaultMessage": "Zusätzliche Inhalte."
@@ -117,19 +117,19 @@
         "defaultMessage": "Letzte Woche"
     },
     "rWe5nM": {
-        "defaultMessage": "Erfahren Sie, wie Sie Ihren eigenen Server hosten"
+        "defaultMessage": "Erfahren, wie du deinen eigenen Server hostest"
     },
     "uDrH0Q": {
         "defaultMessage": "Die verwendeten Marken sind Eigentum ihrer jeweiligen Inhaber."
     },
     "v79FgD": {
-        "defaultMessage": "Sehen Sie sich die vollständige Liste der Verbesserungen an"
+        "defaultMessage": "Sieh dir die vollständige Liste der Verbesserungen an"
     },
     "xOzQVm": {
         "defaultMessage": "Und vieles, vieles mehr..."
     },
     "/6/sPX": {
-        "defaultMessage": "Dokumentation"
+        "defaultMessage": "Doku"
     },
     "1iEPTM": {
         "defaultMessage": "Allgemein"
@@ -274,5 +274,17 @@
     },
     "rBPRfx": {
         "defaultMessage": "Vorsicht"
+    },
+    "S6jMN/": {
+        "defaultMessage": "Macht den Spielern."
+    },
+    "TM7OHi": {
+        "defaultMessage": "Auf dieser Seite"
+    },
+    "j/e2NU": {
+        "defaultMessage": "unverschlossen"
+    },
+    "l1XTI5": {
+        "defaultMessage": "Folgen Sie uns"
     }
 }

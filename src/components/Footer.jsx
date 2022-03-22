@@ -54,7 +54,9 @@ const Footer = () => {
                     ))}
 
                     <div>
-                        <h1 className="font-display text-xl font-bold mb-4">Follow us</h1>
+                        <h1 className="font-display text-xl font-bold mb-4">
+                            <FormattedMessage defaultMessage="Follow us" />
+                        </h1>
 
                         <div className="space-x-4">
                             <SocialIcon url="https://discord.gg/plutonium" {...socialIconProps} />

@@ -9,7 +9,9 @@ const ModdingSupportSection = ({ codeBlock }) => (
                 <div className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-green-500 mb-3">
                     <FormattedMessage defaultMessage="Modding support" />
                 </div>
-                <h1 className="font-display font-bold text-3xl lg:text-5xl">Power to the players.</h1>
+                <h1 className="font-display font-bold text-3xl lg:text-5xl">
+                    <FormattedMessage defaultMessage="Power to the players." />{' '}
+                </h1>
                 <p className="md:text-xl text-md text-gray-400 leading-relaxed mt-3">
                     <FormattedMessage
                         defaultMessage="GSC scripting is supported in every game we have clients for.{br}Even if the steam version did not."
