@@ -26,9 +26,9 @@ export const fetchTranslations = async (body, { from = 'en', to = 'de', subscrip
         },
         body,
     })
-        .then((res) => {
+        .then(async (res) => {
             if (!res.ok) {
-                throw new Error(`${res.status} ${res.statusText}`);
+                throw new Error(`${res.status} ${res.statusText}: ${await res.text()}`);
             }
             return res;
         })
@@ -94,7 +94,7 @@ const translate = (opts) => async (tree) => {
     const shouldVisitParents = ignoredTags && ignoredTags.length > 0;
     let nodesToTranslate = [];
 
-    const transform = (node, ancestors) => {
+    const visitor = (node, ancestors) => {
         // does this node have an ancestor that we should ignore?
         if (shouldVisitParents && ancestors.some((ancestor) => ignoredTags.includes(ancestor.tagName))) {
             return;
@@ -111,10 +111,10 @@ const translate = (opts) => async (tree) => {
     ensureCache(to);
 
     if (shouldVisitParents) {
-        visitParents(tree, 'text', transform);
+        visitParents(tree, 'text', visitor);
     } else {
         // use regular visitor because we're not going to check parents
-        visit(tree, 'text', transform);
+        visit(tree, 'text', visitor);
     }
     nodesToTranslate = getUncachedNodes(nodesToTranslate, opts);
     await translateNodes(nodesToTranslate, opts);

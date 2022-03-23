@@ -2,9 +2,7 @@ import theme from 'tailwindcss/defaultTheme';
 import Link from 'next/link';
 import StatsPopup from './StatsPopup';
 import { useState, useEffect } from 'react';
-import { FormattedMessage } from 'react-intl';
-
-const formatter = new Intl.NumberFormat('en-US');
+import { FormattedMessage, FormattedNumber } from 'react-intl';
 
 const Hero = ({ stats: initialStats }) => {
     const [stats, setStats] = useState(initialStats);
@@ -35,12 +33,12 @@ const Hero = ({ stats: initialStats }) => {
                         values={{
                             playerCount: (
                                 <strong className="font-bold">
-                                    {formatter.format(Object.values(stats.players).reduce((a, b) => a + b, 0))}
+                                    <FormattedNumber value={Object.values(stats.players).reduce((a, b) => a + b, 0)} />
                                 </strong>
                             ),
                             serverCount: (
                                 <strong className="font-bold">
-                                    {formatter.format(Object.values(stats.servers).reduce((a, b) => a + b, 0))}
+                                    <FormattedNumber value={Object.values(stats.servers).reduce((a, b) => a + b, 0)} />
                                 </strong>
                             ),
                             popupIcon: <StatsPopup stats={stats} />,
@@ -142,6 +140,7 @@ const Hero = ({ stats: initialStats }) => {
                     width: 2.6em;
                     max-height: 1.2em;
                     animation: move-up 8s infinite;
+                    pointer-events: none;
                 }
 
                 @media (min-width: ${theme.screens.md}) {

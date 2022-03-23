@@ -12,21 +12,31 @@ const additionalFeatures = [
     <FormattedMessage defaultMessage="Aim Down Sight Sensitivity" />,
     <FormattedMessage defaultMessage="UPNP for custom games" />,
     <>
-        <pre className="inline">cg_fovScale</pre> <FormattedMessage defaultMessage="unlocked" />
+        <FormattedMessage
+            defaultMessage="{dvar} dvar unlocked"
+            values={{ dvar: <pre className="inline">cg_fovScale</pre> }}
+        />
     </>,
     <>
-        <pre className="inline">com_maxfps</pre> <FormattedMessage defaultMessage="unlocked" />
+        <FormattedMessage
+            defaultMessage="{dvar} dvar unlocked"
+            values={{ dvar: <pre className="inline">com_maxfps</pre> }}
+        />
     </>,
     <>
-        <pre className="inline">clanname</pre> dvar
+        <FormattedMessage defaultMessage="{dvar} dvar" values={{ dvar: <pre className="inline">clanname</pre> }} />
     </>,
     <>
-        <pre className="inline">unlockall</pre>
+        <FormattedMessage defaultMessage="{dvar} dvar" values={{ dvar: <pre className="inline">unlockall</pre> }} />
     </>,
     'Rocket jump',
     <FormattedMessage defaultMessage="Map rotation for ZM servers" />,
     <>
-        IW5: <pre className="inline">sl_noTrickshot</pre> dvar
+        IW5:{' '}
+        <FormattedMessage
+            defaultMessage="{dvar} dvar"
+            values={{ dvar: <pre className="inline">sl_noTrickshot</pre> }}
+        />
     </>,
     'IW5: GSC Support',
     'IW5: AK-74u',
@@ -42,23 +52,34 @@ const additionalFeatures = [
         IW5: <FormattedMessage defaultMessage="Higher FPS than Steam" />
     </>,
     <>
-        T6: <pre className="inline">zombies_minplayers</pre> dvar
+        T6:{' '}
+        <FormattedMessage
+            defaultMessage="{dvar} dvar"
+            values={{ dvar: <pre className="inline">zombies_minplayers</pre> }}
+        />
     </>,
     <>
-        T6: <pre className="inline">sv_allowDof</pre> dvar
+        T6:{' '}
+        <FormattedMessage defaultMessage="{dvar} dvar" values={{ dvar: <pre className="inline">sv_allowDof</pre> }} />
     </>,
     <>
-        T6: <pre className="inline">g_randomSeed</pre> dvar
+        T6:{' '}
+        <FormattedMessage defaultMessage="{dvar} dvar" values={{ dvar: <pre className="inline">g_randomSeed</pre> }} />
     </>,
     'T6: Server side demos',
     <>
-        T6: <pre className="inline">sv_sayName</pre> dvar
+        T6:{' '}
+        <FormattedMessage defaultMessage="{dvar} dvar" values={{ dvar: <pre className="inline">sv_sayName</pre> }} />
     </>,
     <>
         T4: <pre className="inline">sp_minplayers</pre>
     </>,
     <>
-        T4: <FormattedMessage defaultMessage="Unlocked" /> <pre className="inline">cg_fov</pre>
+        T4:{' '}
+        <FormattedMessage
+            defaultMessage="{dvar} dvar unlocked"
+            values={{ dvar: <pre className="inline">cg_fov</pre> }}
+        />
     </>,
     <>
         T4: <FormattedMessage defaultMessage="Mod downloading" />

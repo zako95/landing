@@ -8,6 +8,9 @@
   "/6/sPX": {
     "defaultMessage": "Docs"
   },
+  "/ikNh6": {
+    "defaultMessage": "{dvar} dvar"
+  },
   "/l0DrF": {
     "defaultMessage": "Players"
   },
@@ -40,6 +43,9 @@
   },
   "4j1TGZ": {
     "defaultMessage": "Tip"
+  },
+  "4o5Tzf": {
+    "defaultMessage": "{dvar} dvar unlocked"
   },
   "4qnBUE": {
     "defaultMessage": "redefined"
@@ -212,9 +218,6 @@
   "isGKnz": {
     "defaultMessage": "Documentation"
   },
-  "j/e2NU": {
-    "defaultMessage": "unlocked"
-  },
   "jVND4I": {
     "defaultMessage": "Mod downloading"
   },
@@ -259,9 +262,6 @@
   },
   "uDrH0Q": {
     "defaultMessage": "Trademarks used are owned by their respective owners."
-  },
-  "ufm/ag": {
-    "defaultMessage": "Unlocked"
   },
   "v5sW67": {
     "defaultMessage": "All DLC unlocked"
