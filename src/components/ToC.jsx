@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import { FormattedMessage } from 'react-intl';
 
 const ToC = ({ anchors }) => {
     if (!anchors.length) {
@@ -10,11 +11,12 @@ const ToC = ({ anchors }) => {
             <div className="flex flex-col justify-between overflow-y-auto sticky max-h-(screen-18) pt-2 pb-6 top-24">
                 <div className="mb-8">
                     <h5 className="text-gray-200 uppercase tracking-wide font-semibold mb-3 text-sm lg:text-xs">
-                        On this page
+                        <FormattedMessage defaultMessage="On this page" />
                     </h5>
                     <ul className="overflow-x-hidden font-medium table-of-contents">
-                        {anchors.map(({ text, url, depth }) => (
+                        {anchors.map(({ text, url, depth }, i) => (
                             <li
+                                key={i}
                                 className={classNames({
                                     'ml-2': depth === 3,
                                     'ml-4': depth === 4,
@@ -33,12 +35,6 @@ const ToC = ({ anchors }) => {
                     </ul>
                 </div>
             </div>
-
-            <style jsx>{`
-                .table-of-contents :global(.md-autolink) {
-                    display: none;
-                }
-            `}</style>
         </div>
     );
 };

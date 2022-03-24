@@ -1,22 +1,29 @@
+import { FormattedMessage } from 'react-intl';
+
 export const menuItems = [
     {
-        title: 'Docs',
+        title: <FormattedMessage defaultMessage="Docs" />,
         uri: '/docs',
+        key: 'docs',
     },
     {
-        title: 'Stats',
+        title: <FormattedMessage defaultMessage="Stats" />,
         uri: '/stats',
+        key: 'stats',
     },
     {
-        title: 'Forum',
+        title: <FormattedMessage defaultMessage="Forum" />,
         href: 'https://forum.plutonium.pw/',
+        key: 'forum',
     },
     {
         title: 'Discord',
         href: 'https://discord.gg/plutonium',
+        key: 'discord',
     },
     {
-        title: 'Donate',
+        title: <FormattedMessage defaultMessage="Donate" />,
         href: 'https://forum.plutonium.pw/donate',
+        key: 'donate',
     },
 ];

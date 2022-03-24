@@ -10,7 +10,7 @@
 
 3. Place any mods in that folder.
 
-<!--
+{/*
 
 We support both the vanilla game folder and the Plutonium folder for mod loading.
 
@@ -20,7 +20,7 @@ You can place your mod in either of these places:
 
 * `%localappdata%\Plutonium\storage\t4\mods`  \*Recommended\*
 
--->
+*/}
 
 ---
 
@@ -42,7 +42,7 @@ Next, open your server's start.bat file and edit the line that says `set mod=""`
 
 3. Place any custom maps in that folder.
 
-<!--
+{/*
 
 We support both the vanilla game folder and the Plutonium folder for loading custom multiplayer maps.
 
@@ -52,7 +52,7 @@ You can place your mod in either of these places:
 
 `%localappdata%\Plutonium\storage\t4\usermaps`  \*Recommended\*
 
--->
+*/}
 
 Once the map is in the correct place, edit your server configuration to use it in your map rotation, and if you aren't already running a mod, set one in your start batch file. (Example: `set mod="mods/mp_custommaps"`)
 

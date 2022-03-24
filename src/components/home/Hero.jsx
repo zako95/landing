@@ -2,8 +2,7 @@ import theme from 'tailwindcss/defaultTheme';
 import Link from 'next/link';
 import StatsPopup from './StatsPopup';
 import { useState, useEffect } from 'react';
-
-const formatter = new Intl.NumberFormat('en-US');
+import { FormattedMessage, FormattedNumber } from 'react-intl';
 
 const Hero = ({ stats: initialStats }) => {
     const [stats, setStats] = useState(initialStats);
@@ -24,31 +23,38 @@ const Hero = ({ stats: initialStats }) => {
                     <span className="bg-clip-text bg-gradient-to-r from-game-t4 to-game-t4-darker">WaW</span>
                     <span className="bg-clip-text bg-gradient-to-r from-yellow-500 to-game-t6">BO2</span>
                 </div>{' '}
-                redefined.
+                <FormattedMessage defaultMessage="redefined" />.
             </h1>
 
             <div className="font-body flex flex-col items-center">
                 <p className="text-gray-300 pt-8 text-md md:text-lg">
-                    Join{' '}
-                    <strong className="font-bold">
-                        {formatter.format(Object.values(stats.players).reduce((a, b) => a + b, 0))}
-                    </strong>{' '}
-                    players across{' '}
-                    <strong className="font-bold">
-                        {formatter.format(Object.values(stats.servers).reduce((a, b) => a + b, 0))}
-                    </strong>{' '}
-                    servers <StatsPopup stats={stats} /> playing the games you know and love, right now!
+                    <FormattedMessage
+                        defaultMessage="Join {playerCount} players across {serverCount} servers {popupIcon} playing the games you know and love, right now!"
+                        values={{
+                            playerCount: (
+                                <strong className="font-bold">
+                                    <FormattedNumber value={Object.values(stats.players).reduce((a, b) => a + b, 0)} />
+                                </strong>
+                            ),
+                            serverCount: (
+                                <strong className="font-bold">
+                                    <FormattedNumber value={Object.values(stats.servers).reduce((a, b) => a + b, 0)} />
+                                </strong>
+                            ),
+                            popupIcon: <StatsPopup stats={stats} />,
+                        }}
+                    />
                 </p>
 
                 <div className="pt-5 text-center flex space-x-4">
                     <Link href="/docs/install">
                         <a className="text-sm font-semibold bg-white text-gray-900 py-3 px-4 rounded-lg hover:bg-gray-300 hover:text-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 umami--click--hero-download">
-                            Download
+                            <FormattedMessage defaultMessage="Download" />
                         </a>
                     </Link>
                     <Link href="/docs">
                         <a className="text-sm font-semibold bg-gray-800 text-gray-300 py-3 px-4 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 umami--click--hero-documentation">
-                            Documentation
+                            <FormattedMessage defaultMessage="Documentation" />
                         </a>
                     </Link>
                 </div>
@@ -134,6 +140,7 @@ const Hero = ({ stats: initialStats }) => {
                     width: 2.6em;
                     max-height: 1.2em;
                     animation: move-up 8s infinite;
+                    pointer-events: none;
                 }
 
                 @media (min-width: ${theme.screens.md}) {

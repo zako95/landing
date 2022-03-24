@@ -1,0 +1,290 @@
+{
+  "+GgeKe": {
+    "defaultMessage": "Run your own server, on your own hardware. Even for games that previously had no support for it."
+  },
+  "+vxAfu": {
+    "defaultMessage": "Improved Security."
+  },
+  "/6/sPX": {
+    "defaultMessage": "Docs"
+  },
+  "/ikNh6": {
+    "defaultMessage": "{dvar} dvar"
+  },
+  "/l0DrF": {
+    "defaultMessage": "Players"
+  },
+  "/tG5fS": {
+    "defaultMessage": "Get a quick overview of what servers your friends are playing on - and join them!"
+  },
+  "1iEPTM": {
+    "defaultMessage": "General"
+  },
+  "20Sj6n": {
+    "defaultMessage": "Aim Down Sight Sensitivity"
+  },
+  "2IFGap": {
+    "defaultMessage": "Donate"
+  },
+  "3ROQOj": {
+    "defaultMessage": "Intro"
+  },
+  "3SVI5p": {
+    "defaultMessage": "Warning"
+  },
+  "49vo8t": {
+    "defaultMessage": "Quick search"
+  },
+  "4ILY5M": {
+    "defaultMessage": "All of the games we support include a dedicated server browser."
+  },
+  "4gZKTP": {
+    "defaultMessage": "Plutonium T4 server"
+  },
+  "4j1TGZ": {
+    "defaultMessage": "Tip"
+  },
+  "4o5Tzf": {
+    "defaultMessage": "{dvar} dvar unlocked"
+  },
+  "4qnBUE": {
+    "defaultMessage": "redefined"
+  },
+  "4rLYNK": {
+    "defaultMessage": "Plutonium T4 Client"
+  },
+  "5q3qC0": {
+    "defaultMessage": "Download"
+  },
+  "6UeL2/": {
+    "defaultMessage": "GSC scripting is supported in every game we have clients for.{br}Even if the steam version did not."
+  },
+  "6iQXUX": {
+    "defaultMessage": "Dedicated servers"
+  },
+  "6qtRs6": {
+    "defaultMessage": "Enhanced Clients"
+  },
+  "6slkqp": {
+    "defaultMessage": "Forum"
+  },
+  "77mpfV": {
+    "defaultMessage": "Play it the way you like."
+  },
+  "7MDoOM": {
+    "defaultMessage": "Security vulnerabilities that we have found in the basegames ourselves(!), have been patched."
+  },
+  "984c5R": {
+    "defaultMessage": "Donator Program"
+  },
+  "9RDE2w": {
+    "defaultMessage": "Edit this page"
+  },
+  "9ySmaS": {
+    "defaultMessage": "Plutonium IW5 Client"
+  },
+  "DczuC8": {
+    "defaultMessage": "Our anti-cheat is - to the dismay of many cheaters - really, really good at catching them."
+  },
+  "E35wET": {
+    "defaultMessage": "Plutonium IW5 server"
+  },
+  "F/6VqP": {
+    "defaultMessage": "Server"
+  },
+  "F/Qz9Q": {
+    "defaultMessage": "This mod is not endorsed by or affiliated with the copyright holders of the base game in any form."
+  },
+  "G9paIn": {
+    "defaultMessage": "MW3 client support"
+  },
+  "Hi9LY8": {
+    "defaultMessage": "No matter your favorite play style, mode or clan - there’s probably a server for it!"
+  },
+  "HqRNN8": {
+    "defaultMessage": "Support"
+  },
+  "IDX/v+": {
+    "defaultMessage": "Join {playerCount} players across {serverCount} servers {popupIcon} playing the games you know and love, right now!"
+  },
+  "J5Q1SJ": {
+    "defaultMessage": "Discord Rich Presence"
+  },
+  "JX0502": {
+    "defaultMessage": "Client"
+  },
+  "LMrYR6": {
+    "defaultMessage": "Server Keys"
+  },
+  "Ltxh3c": {
+    "defaultMessage": "See full historical stats"
+  },
+  "LwtywQ": {
+    "defaultMessage": "We've added several additional guns and maps to the games."
+  },
+  "MMJHZw": {
+    "defaultMessage": "T4 modding"
+  },
+  "N+77UG": {
+    "defaultMessage": "IW5 modding"
+  },
+  "N73iH5": {
+    "defaultMessage": "Truly dedicated servers."
+  },
+  "NDDVfU": {
+    "defaultMessage": "A redefined experience."
+  },
+  "PCkbFU": {
+    "defaultMessage": "last 48 hours"
+  },
+  "QOxktD": {
+    "defaultMessage": "Servers"
+  },
+  "QlWCgp": {
+    "defaultMessage": "Custom card text"
+  },
+  "S6jMN/": {
+    "defaultMessage": "Power to the players."
+  },
+  "SjMJeG": {
+    "defaultMessage": "GSC modding"
+  },
+  "TM7OHi": {
+    "defaultMessage": "On this page"
+  },
+  "U86B6w": {
+    "defaultMessage": "Stats"
+  },
+  "UPIP2S": {
+    "defaultMessage": "Plutonium Launcher Support"
+  },
+  "UQSrcT": {
+    "defaultMessage": "last 24 hours"
+  },
+  "VGDUVr": {
+    "defaultMessage": "Plutonium Anti-Cheat."
+  },
+  "WpO2ZA": {
+    "defaultMessage": "Theater/Demo System"
+  },
+  "WusMvg": {
+    "defaultMessage": "Find out how to create your own mod"
+  },
+  "ZB/xew": {
+    "defaultMessage": "Controller support has been added to every game."
+  },
+  "ZXp0z1": {
+    "defaultMessage": "Features"
+  },
+  "aAKhqY": {
+    "defaultMessage": "Map rotation for ZM servers"
+  },
+  "ahC+Dp": {
+    "defaultMessage": "Read full feature list"
+  },
+  "biSGAG": {
+    "defaultMessage": "BO2, MW3, WaW redefined."
+  },
+  "bwW4UI": {
+    "defaultMessage": "Modding"
+  },
+  "ciFFgG": {
+    "defaultMessage": "Plutonium T6 server"
+  },
+  "d3+wCM": {
+    "defaultMessage": "Servers online"
+  },
+  "dAzgDD": {
+    "defaultMessage": "Aim Assist"
+  },
+  "dOVsWt": {
+    "defaultMessage": "MW3 mods"
+  },
+  "efbpqI": {
+    "defaultMessage": "This page was machine translated, it may contain some inaccuracies. You can help by <link1>contributing a translation</link1>, or you can alternatively switch to <link2>the English version</link2>."
+  },
+  "eo+q6r": {
+    "defaultMessage": "last 12 hours"
+  },
+  "g10cYq": {
+    "defaultMessage": "Built-in friend list."
+  },
+  "hNtztD": {
+    "defaultMessage": "Modding support"
+  },
+  "i/myT6": {
+    "defaultMessage": "Players online"
+  },
+  "isGKnz": {
+    "defaultMessage": "Documentation"
+  },
+  "jVND4I": {
+    "defaultMessage": "Mod downloading"
+  },
+  "jW1VqX": {
+    "defaultMessage": "Forum Avatars as in-game icon"
+  },
+  "jtsrnp": {
+    "defaultMessage": "WaW client support"
+  },
+  "kBDgI4": {
+    "defaultMessage": "The games you know and love, redefined.{br}With more content, fixes, and improvements."
+  },
+  "kd/dH5": {
+    "defaultMessage": "Plutonium T6 Client"
+  },
+  "l1XTI5": {
+    "defaultMessage": "Follow us"
+  },
+  "lsB3uV": {
+    "defaultMessage": "BO2 mods"
+  },
+  "lyMBin": {
+    "defaultMessage": "Additional content."
+  },
+  "pIgpHy": {
+    "defaultMessage": "Controller Support."
+  },
+  "pKZEOC": {
+    "defaultMessage": "last week"
+  },
+  "qRrHmM": {
+    "defaultMessage": "Higher FPS than Steam"
+  },
+  "rBPRfx": {
+    "defaultMessage": "Caution"
+  },
+  "rWe5nM": {
+    "defaultMessage": "Learn how to host your own server"
+  },
+  "rbrahO": {
+    "defaultMessage": "Close"
+  },
+  "uDrH0Q": {
+    "defaultMessage": "Trademarks used are owned by their respective owners."
+  },
+  "v5sW67": {
+    "defaultMessage": "All DLC unlocked"
+  },
+  "v79FgD": {
+    "defaultMessage": "See the full list of improvements"
+  },
+  "vTasx9": {
+    "defaultMessage": "BO2 client support"
+  },
+  "wUaVhC": {
+    "defaultMessage": "Top Forum Categories"
+  },
+  "xOzQVm": {
+    "defaultMessage": "And much, much more..."
+  },
+  "zCmaA6": {
+    "defaultMessage": "UPNP for custom games"
+  },
+  "zPLbMW": {
+    "defaultMessage": "Ultra Wide Monitor Support"
+  },
+  "zmxq+z": {
+    "defaultMessage": "WaW mods"
+  }
+}

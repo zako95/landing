@@ -22,9 +22,9 @@ You need to tell Plutonium where these files are located on your computer, once 
 
 ## How to find your game folder location through Plutonium
 
-<!--
+{/*
 NOTE: This does not actually work, so this needs to be looked at again. ^CH.
--->
+*/}
 
 1\. Open the launcher  
 2\. Select the game you are looking for.  

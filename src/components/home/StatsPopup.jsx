@@ -6,8 +6,7 @@ import GameT6Icon from '../icons/game-t6.svg';
 import GameT4Icon from '../icons/game-t4.svg';
 import ArrowRight from '../icons/arrow-right.svg';
 import Link from 'next/link';
-
-const formatter = new Intl.NumberFormat('en-US');
+import { FormattedMessage, FormattedNumber } from 'react-intl';
 
 const iconMap = {
     t6: GameT6Icon,
@@ -22,7 +21,7 @@ const getGameBGColor = (game) => {
         case 't6':
             return 'bg-orange-200';
         case 't4':
-            return 'bg-red-200';
+            return 'bg-blue-100';
     }
 };
 
@@ -48,7 +47,7 @@ const StatsPopup = ({ stats }) => (
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 translate-y-1"
                 >
-                    <Popover.Panel className="absolute z-10 w-screen max-w-full md:max-w-sm px-4 mt-1 transform -translate-x-1/2 left-1/2 lg:px-0 text-left">
+                    <Popover.Panel className="absolute z-10 w-screen max-w-full md:max-w-md px-4 mt-1 transform -translate-x-1/2 left-1/2 lg:px-0 text-left">
                         <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                             <div className="relative grid gap-8 bg-gray-800 p-7">
                                 {Object.keys(iconMap).map((game) => {
@@ -67,18 +66,18 @@ const StatsPopup = ({ stats }) => (
                                             </div>
                                             <div className="ml-4 md:ml-6 flex-2">
                                                 <p className="text-xs font-medium text-gray-400 uppercase tracking-wide font-semibold">
-                                                    Players online
+                                                    <FormattedMessage defaultMessage="Players online" />
                                                 </p>
                                                 <p className="text-xl md:text-4xl text-monospaced text-gray-200 font-monospaced">
-                                                    {formatter.format(players)}
+                                                    <FormattedNumber value={players} />
                                                 </p>
                                             </div>
                                             <div className="ml-4 md:ml-6 flex-2">
                                                 <p className="text-xs font-medium text-gray-400 uppercase tracking-wide font-semibold">
-                                                    Servers online
+                                                    <FormattedMessage defaultMessage="Servers online" />
                                                 </p>
                                                 <p className="text-xl md:text-4xl text-monospaced text-gray-200 font-monospaced">
-                                                    {formatter.format(servers)}
+                                                    <FormattedNumber value={servers} />
                                                 </p>
                                             </div>
                                         </div>
@@ -89,7 +88,7 @@ const StatsPopup = ({ stats }) => (
                                 <Link href="/stats">
                                     <a className="flow-root px-2 py-2 rounded-md">
                                         <span className="block text-sm text-gray-100 hover:underline">
-                                            See full historical stats
+                                            <FormattedMessage defaultMessage="See full historical stats" />
                                             <ArrowRight className="h-4 w-4 inline ml-2" />
                                         </span>
                                     </a>
