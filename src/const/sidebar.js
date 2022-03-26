@@ -104,7 +104,6 @@ export const sections = [
                     /*
                     '/docs/server/platform/what-is-platform',
                     '/docs/server/platform/navigating-around',
-                    '/docs/server/platform/custom-emblem',
                     '/docs/server/platform/subscription',
                     */
                     '/docs/server/platform/server-keys',
