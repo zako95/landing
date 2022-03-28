@@ -104,7 +104,6 @@ export const sections = [
                     /*
                     '/docs/server/platform/what-is-platform',
                     '/docs/server/platform/navigating-around',
-                    '/docs/server/platform/custom-emblem',
                     '/docs/server/platform/subscription',
                     */
                     '/docs/server/platform/server-keys',
@@ -140,16 +139,6 @@ export const sections = [
     {
         title: <FormattedMessage defaultMessage="Client" />,
         children: [
-            /*{
-                title: 'Plutonium Menu / Overlay (Game-UI)',
-                children: [
-                    '/docs/client/index',
-                    '/docs/client/settings',
-                    '/docs/client/game-folders',
-                    '/docs/client/finding-a-game',
-                    '/docs/client/serverlist',
-                ],
-            },*/
             {
                 title: <FormattedMessage defaultMessage="Plutonium T6 Client" />,
                 children: ['/docs/client/t6/loading-and-compiling-gsc', '/docs/client/t6/theater-mode'],

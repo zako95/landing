@@ -27,14 +27,14 @@ const DocsLayout = ({ children, path, anchors, autoTranslated }) => {
             basename(path, extname(path)) +
             `.${locale}` +
             extname(path),
-        [path]
+        [path, locale]
     );
     return (
         <>
             {autoTranslated && (
                 <div className="bg-blue-400 text-black px-4">
                     <div className="container mx-auto py-3 flex items-center">
-                        <TranslateIcon className="h-5 w-5 md:h-6 md:w-6  min-w-max inline mr-3 text-gray-900" />
+                        <TranslateIcon className="h-5 w-5 md:h-6 md:w-6 flex-shrink inline mr-3 text-gray-900" />
                         <div>
                             <p className="text-sm font-serif m-0">
                                 <FormattedMessage

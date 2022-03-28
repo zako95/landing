@@ -18,8 +18,8 @@ const Footer = () => {
         <footer className="bg-white text-gray-800">
             <div className="container mx-auto">
                 <div className="py-10 px-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-                    {sections.map((section) => (
-                        <div key={section.title}>
+                    {sections.map((section, i) => (
+                        <div key={i}>
                             <h1 className="font-display text-xl font-bold mb-4">{section.title}</h1>
 
                             {section.children.map(({ uri, title, url }, childIndex) => {
