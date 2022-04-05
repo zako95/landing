@@ -174,7 +174,7 @@ Vous pouvez surveiller la progression en cliquant sur le bouton `TÉLÉCHARGEMEN
 ### Installation des DLC (MW3)
 
 Cette section expliquera comment télécharger et installer le DLC anglais pour avoir toutes les cartes
-Note : ces DLC ne fonctionneront que sur une version anglaise du jeu. 
+Note : ces DLC ne fonctionneront que sur une version anglaise du jeu.
 Vous pouvez les télécharger en utilisant le lien MEGA ou le fichier torrent.  
 **Vous n’avez pas besoin de télécharger les deux, choisissez l’option qui vous convient le mieux.**
 
@@ -276,7 +276,7 @@ Cette section explique comment télécharger une copie de WAW. Ignorez cette sec
 
 <Alert variant="warning">
 
-Le torrenting de fichiers protégés par le droit d’auteur peut ne pas être légal dans votre pays, même si vous possédez déjà une licence valide! 
+Le torrenting de fichiers protégés par le droit d’auteur peut ne pas être légal dans votre pays, même si vous possédez déjà une licence valide!
 Nous ne sommes pas responsables des problèmes juridiques et vous recommandons d'acheter le jeu ou d'utiliser un VPN lors du téléchargement d'un torrent.
 
 </Alert>

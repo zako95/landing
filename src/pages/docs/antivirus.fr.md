@@ -1,7 +1,5 @@
 # Pourquoi mon antivirus dit-il que Plutonium est un virus ?
 
-## Pourquoi mon antivirus dit-il que Plutonium est un virus ?
-
 Plutonium est ce qu’on appelle un faux positif (votre antivirus pense que Plutonium est un virus, alors qu’en réalité il n'en est pas un.) Les développeurs derrière ce projet travaillent dur sur ce projet depuis des années. Ils ne risqueraient pas toute leur crédibilité en compromettant votre PC avec des logiciels malveillants.
 
 ## Pourquoi cela arrive-t-il?

@@ -1,7 +1,5 @@
 # Why is my antivirus saying Plutonium is a virus?
 
-## **Why is my antivirus saying Plutonium is a virus?**
-
 Plutonium is what's known as a false positive (your antivirus thinks Plutonium is a virus, when in reality Plutonium is 100% clean.)
 The devs behind this project have been working on this project for years and tons of hard work has gone into this. They wouldn't risk all their credibility by compromising your PC with malware.
 
