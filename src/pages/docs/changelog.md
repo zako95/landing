@@ -2,6 +2,13 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2794-r2905
+* T6
+  * Added Streamer Mode which hides IP Addresses from the screen.
+  ![Streamer Mode Image](/images/docs/changelog/49d1334d-ec26-47c1-935b-4a8a781cff9c.png)
+* T4
+  * Added Streamer Mode which hides IP Addresses from the screen.
+
 ## r2748-r2794
 
 * IW5
