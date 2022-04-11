@@ -4,11 +4,11 @@
 
 Plutonium T6 has released a new update that makes custom games identical to the original game. This means you can invite players with ease.
 
-<Details title="Inviting Players"> 
+<Details title="Inviting Players">
 ![inviting players](/images/docs/custom-games/t6-inviting-as-host.gif)
 </Details>
 
-<Details title="Joining Players"> 
+<Details title="Joining Players">
 ![joining sesh](/images/docs/custom-games/t6-joining-sesh.gif)
 </Details>
 

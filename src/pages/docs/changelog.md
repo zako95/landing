@@ -2,6 +2,10 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2905-r3042
+* T6
+  * Lobbies are now supported for private match, and the game now uses the original game networking code so more people should be able to host private matches. For more information, please see [this documentation page](/docs/custom-games)
+
 ## r2794-r2905
 * T6
   * Added Streamer Mode which hides IP Addresses from the screen.
