@@ -1,5 +1,19 @@
 # Custom Games / Playing with friends
 
+<Alert variant="tip">
+
+Plutonium T6 has released a new update that makes custom games identical to the original game. This means you can invite players with ease.
+
+<Details title="Inviting Players">
+![inviting players](/images/docs/custom-games/t6-inviting-as-host.gif)
+</Details>
+
+<Details title="Joining Players">
+![joining sesh](/images/docs/custom-games/t6-joining-sesh.gif)
+</Details>
+
+</Alert>
+
 This guide will teach you how to play with friends over the internet in a custom games match.
 Hosting isn't complicated but involves several networking concept that you need to understand before diving in so please make sure to take your time to read this guide to understand the concepts involved in hosting.
 
