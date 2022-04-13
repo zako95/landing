@@ -161,12 +161,6 @@ export const sections = [
                     '/docs/client/t4/perfect-borderless-window',
                 ],
             },
-            {
-                title: <FormattedMessage defaultMessage="Plutonium T5 Client" />,
-                children: [
-                    '/docs/client/t5/loading-mods',
-                ],
-            },
         ],
     },
 ];
