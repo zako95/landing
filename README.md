@@ -36,7 +36,7 @@ npm run dev
 
 - After any new `<FormattedMessage ... />` statements are added, run `npm run i18n:extract`
 - To auto translate these new messages, run `npm run i18n:translate-missing`. Ensure a MS cognitive services key is set up as `NEXT_TRANSLATION_API_KEY` in `.env`
-- Finally, run `npm run i18n:compile`, or restart the development server (`npm run dev`) 
+- Finally, run `npm run i18n:compile`, or restart the development server (`npm run dev`)
 
 ## Working on the docs
 
