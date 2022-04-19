@@ -20,7 +20,7 @@ Build with:
 
 ```bash
 # Get the latest code
-git clone https://github.com/plutoniumpw/landing.git
+git clone https://github.com/plutoniummod/landing.git
 
 # Change into the newly cloned directory
 cd landing
@@ -67,7 +67,7 @@ Several components exist outside of the normal markdown syntax for situations wh
   variant="warning" // ... or info, tip, danger.
 >
 
-The docs are a work in progress. Feel free to contribute on [GitHub](https://github.com/plutoniumpw/site/).
+The docs are a work in progress. Feel free to contribute on [GitHub](https://github.com/plutoniummod/site/).
 
 </Alert>
 ```
