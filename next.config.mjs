@@ -34,6 +34,16 @@ export const nextConfig = {
                     }
                 ],
             },
+            {
+                source: '/:all*(json)',
+                locale: false,
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'max-age=31536000, public, stale-while-revalidate',
+                    }
+                ],
+            },
         ]
     },
     async redirects() {
